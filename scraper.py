@@ -67,6 +67,7 @@ def reveal_answer():
 
         # Busy Loop :/ -  Waiting for page load
         while btn1 is None:
+            driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
             btn1 = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
 
         btn1.click()
