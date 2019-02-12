@@ -40,7 +40,7 @@ def fetch_puzzle():
     }
 
     # Writing data in JSON format to the file with date name in 'data' folder or project dir
-    filename = 'data/' + str(date) + '.json'
+    filename = 'data/' + str(date).replace(" ", "") + '.json'
     w_data = json.dumps(data)
 
     with open(filename, 'w') as outfile:
@@ -62,10 +62,13 @@ def reveal_answer():
         # ESC for passing modal
         driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
 
-        time.sleep(2)
-
         # Reveal
         btn1 = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
+
+        # Busy Loop :/ -  Waiting for page load
+        while btn1 is None:
+            btn1 = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
+
         btn1.click()
         btn1.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2].click()
 
