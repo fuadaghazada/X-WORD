@@ -1,137 +1,144 @@
 {
-    "date": "Tuesday February 12, 2019",
+    "date": "Thursday February 7, 2019",
     "puzzle": [
         [
-            null,
             [
                 "1",
-                "B"
+                "M"
             ],
             [
                 "2",
-                "Y"
+                "A"
             ],
             [
                 "3",
-                "O"
+                "S"
             ],
             [
                 "4",
-                "B"
-            ]
-        ],
-        [
-            null,
+                "T"
+            ],
             [
                 "5",
-                "Y"
-            ],
-            [
-                "O"
-            ],
-            [
-                "Y"
-            ],
-            [
-                "O"
+                "S"
             ]
         ],
         [
             [
                 "6",
-                "M"
+                "A"
+            ],
+            [
+                "G"
             ],
             [
                 "A"
             ],
             [
-                "U"
+                "I"
             ],
             [
-                "V"
-            ],
-            [
-                "E"
+                "N"
             ]
         ],
         [
             [
                 "7",
-                "R"
-            ],
-            [
                 "I"
             ],
             [
-                "V"
+                "L"
+            ],
+            [
+                "L"
+            ],
+            [
+                "B"
             ],
             [
                 "E"
-            ],
-            [
-                "R"
             ]
         ],
         [
             [
                 "8",
-                "T"
+                "M"
             ],
             [
-                "R"
+                "O"
+            ],
+            [
+                "V"
+            ],
+            [
+                "I"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "9",
+                "S"
+            ],
+            [
+                "W"
             ],
             [
                 "E"
             ],
             [
-                "Y"
+                "A"
             ],
-            null
+            [
+                "R"
+            ]
         ]
     ],
     "clues": {
         "across": [
             {
                 "number": "1",
-                "clue": "[Guests must provide their drinks]"
-            },
-            {
-                "number": "5",
-                "clue": "Toy on a string"
+                "clue": "Tail poles on sailboats"
             },
             {
                 "number": "6",
-                "clue": "Shade of pale purple"
+                "clue": "\"You can say that ___!\""
             },
             {
                 "number": "7",
-                "clue": "The Pennsylvania/New Jersey or Kentucky/Indiana border, for example"
+                "clue": "\"Would you look at that!\""
             },
             {
                 "number": "8",
-                "clue": "Basketball three-pointer, slangily"
+                "clue": "Typically date night activity"
+            },
+            {
+                "number": "9",
+                "clue": "Trigger a bleep"
             }
         ],
         "down": [
             {
                 "number": "1",
-                "clue": "How some FedEx packages travel"
+                "clue": "Seriously injures"
             },
             {
                 "number": "2",
-                "clue": "\"___ Got a Friend in Me\""
+                "clue": "Lit up"
             },
             {
                 "number": "3",
-                "clue": "Cry of dismay"
+                "clue": "Healing ointment"
             },
             {
                 "number": "4",
-                "clue": "Dutch settler of South Africa in the 18th-19th centuries"
+                "clue": "Bone in the lower leg"
             },
             {
-                "number": "6",
-                "clue": "Mohawked actor in \"Rocky III\""
+                "number": "5",
+                "clue": "Patented facial expression of Draco Malfoy"
             }
         ]
     }

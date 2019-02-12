@@ -1,15 +1,15 @@
 {
-    "date": "Tuesday February 12, 2019",
+    "date": "Friday February 8, 2019",
     "puzzle": [
         [
             null,
             [
                 "1",
-                "B"
+                "C"
             ],
             [
                 "2",
-                "Y"
+                "H"
             ],
             [
                 "3",
@@ -17,121 +17,125 @@
             ],
             [
                 "4",
-                "B"
+                "W"
             ]
         ],
         [
-            null,
             [
                 "5",
-                "Y"
+                "P"
             ],
             [
                 "O"
             ],
             [
-                "Y"
+                "O"
             ],
             [
-                "O"
+                "C"
+            ],
+            [
+                "H"
             ]
         ],
         [
             [
                 "6",
-                "M"
-            ],
-            [
                 "A"
             ],
             [
                 "U"
             ],
             [
-                "V"
+                "N"
             ],
             [
-                "E"
+                "T"
+            ],
+            [
+                "Y"
             ]
         ],
         [
             [
                 "7",
+                "D"
+            ],
+            [
                 "R"
-            ],
-            [
-                "I"
-            ],
-            [
-                "V"
             ],
             [
                 "E"
             ],
             [
-                "R"
+                "A"
+            ],
+            [
+                "M"
             ]
         ],
         [
             [
                 "8",
+                "S"
+            ],
+            [
                 "T"
-            ],
-            [
-                "R"
-            ],
-            [
-                "E"
             ],
             [
                 "Y"
             ],
-            null
+            [
+                "L"
+            ],
+            [
+                "E"
+            ]
         ]
     ],
     "clues": {
         "across": [
             {
                 "number": "1",
-                "clue": "[Guests must provide their drinks]"
+                "clue": "Tear into some food, with \"down\""
             },
             {
                 "number": "5",
-                "clue": "Toy on a string"
+                "clue": "Doggy"
             },
             {
                 "number": "6",
-                "clue": "Shade of pale purple"
+                "clue": "Nickname for mom's sister"
             },
             {
                 "number": "7",
-                "clue": "The Pennsylvania/New Jersey or Kentucky/Indiana border, for example"
+                "clue": "Free movie starring yourself, essentially"
             },
             {
                 "number": "8",
-                "clue": "Basketball three-pointer, slangily"
+                "clue": "Art Deco, for New York's Chrysler Building"
             }
         ],
         "down": [
             {
                 "number": "1",
-                "clue": "How some FedEx packages travel"
+                "clue": "Workspace for a king ... or a Sacramento King"
             },
             {
                 "number": "2",
-                "clue": "\"___ Got a Friend in Me\""
+                "clue": "Sweet additive to a cup of tea"
             },
             {
                 "number": "3",
-                "clue": "Cry of dismay"
+                "clue": "In base 8"
             },
             {
                 "number": "4",
-                "clue": "Dutch settler of South Africa in the 18th-19th centuries"
+                "clue": "Self-pitying question"
             },
             {
-                "number": "6",
-                "clue": "Mohawked actor in \"Rocky III\""
+                "number": "5",
+                "clue": "Adds exaggerated information to, as a résumé"
             }
         ]
     }

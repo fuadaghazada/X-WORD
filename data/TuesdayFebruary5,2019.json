@@ -1,76 +1,74 @@
 {
-    "date": "Tuesday February 12, 2019",
+    "date": "Tuesday February 5, 2019",
     "puzzle": [
         [
             null,
             [
                 "1",
-                "B"
+                "S"
             ],
             [
                 "2",
-                "Y"
+                "A"
             ],
             [
                 "3",
-                "O"
+                "L"
             ],
             [
                 "4",
-                "B"
+                "T"
             ]
         ],
         [
             null,
             [
                 "5",
-                "Y"
+                "P"
             ],
             [
-                "O"
+                "L"
             ],
             [
-                "Y"
+                "E"
             ],
             [
-                "O"
+                "A"
             ]
         ],
         [
             [
                 "6",
-                "M"
-            ],
-            [
-                "A"
-            ],
-            [
-                "U"
-            ],
-            [
-                "V"
-            ],
-            [
-                "E"
-            ]
-        ],
-        [
-            [
-                "7",
-                "R"
+                "F"
             ],
             [
                 "I"
             ],
             [
-                "V"
+                "L"
             ],
             [
                 "E"
             ],
             [
-                "R"
+                "D"
             ]
+        ],
+        [
+            [
+                "7",
+                "A"
+            ],
+            [
+                "C"
+            ],
+            [
+                "I"
+            ],
+            [
+                "D"
+            ],
+            null
         ],
         [
             [
@@ -78,13 +76,13 @@
                 "T"
             ],
             [
-                "R"
-            ],
-            [
                 "E"
             ],
             [
-                "Y"
+                "N"
+            ],
+            [
+                "S"
             ],
             null
         ]
@@ -93,45 +91,45 @@
         "across": [
             {
                 "number": "1",
-                "clue": "[Guests must provide their drinks]"
+                "clue": "What cheese and soy sauce add to a dish"
             },
             {
                 "number": "5",
-                "clue": "Toy on a string"
+                "clue": "Emotional request"
             },
             {
                 "number": "6",
-                "clue": "Shade of pale purple"
+                "clue": "Sent in, as one's taxes"
             },
             {
                 "number": "7",
-                "clue": "The Pennsylvania/New Jersey or Kentucky/Indiana border, for example"
+                "clue": "What lemon and vinegar add to a dish"
             },
             {
                 "number": "8",
-                "clue": "Basketball three-pointer, slangily"
+                "clue": "The \"place\" for \"1\" in 2019"
             }
         ],
         "down": [
             {
                 "number": "1",
-                "clue": "How some FedEx packages travel"
+                "clue": "What chili and ginger add to a dish"
             },
             {
                 "number": "2",
-                "clue": "\"___ Got a Friend in Me\""
+                "clue": "Max bet for a poker player"
             },
             {
                 "number": "3",
-                "clue": "Cry of dismay"
+                "clue": "English city near Manchester"
             },
             {
                 "number": "4",
-                "clue": "Dutch settler of South Africa in the 18th-19th centuries"
+                "clue": "Slightest bit"
             },
             {
                 "number": "6",
-                "clue": "Mohawked actor in \"Rocky III\""
+                "clue": "What olive oil and butter add to a dish"
             }
         ]
     }

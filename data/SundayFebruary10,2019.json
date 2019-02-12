@@ -1,91 +1,89 @@
 {
-    "date": "Tuesday February 12, 2019",
+    "date": "Sunday February 10, 2019",
     "puzzle": [
         [
             null,
+            null,
             [
                 "1",
-                "B"
+                "H"
             ],
             [
                 "2",
-                "Y"
+                "U"
             ],
             [
                 "3",
-                "O"
-            ],
-            [
-                "4",
-                "B"
+                "G"
             ]
         ],
         [
-            null,
+            [
+                "4",
+                "T"
+            ],
             [
                 "5",
-                "Y"
+                "H"
             ],
             [
-                "O"
+                "E"
             ],
             [
-                "Y"
+                "T"
             ],
             [
-                "O"
+                "A"
             ]
         ],
         [
             [
                 "6",
-                "M"
-            ],
-            [
-                "A"
+                "R"
             ],
             [
                 "U"
             ],
             [
-                "V"
+                "R"
             ],
             [
-                "E"
+                "A"
+            ],
+            [
+                "L"
             ]
         ],
         [
             [
                 "7",
-                "R"
+                "A"
             ],
             [
-                "I"
+                "L"
             ],
             [
-                "V"
+                "O"
             ],
             [
-                "E"
+                "H"
             ],
             [
-                "R"
+                "A"
             ]
         ],
         [
             [
                 "8",
-                "T"
+                "P"
             ],
             [
-                "R"
+                "U"
             ],
             [
-                "E"
+                "N"
             ],
-            [
-                "Y"
-            ],
+            null,
             null
         ]
     ],
@@ -93,45 +91,45 @@
         "across": [
             {
                 "number": "1",
-                "clue": "[Guests must provide their drinks]"
+                "clue": "Warm embrace"
             },
             {
-                "number": "5",
-                "clue": "Toy on a string"
+                "number": "4",
+                "clue": "Symbol for an angle in trigonometry"
             },
             {
                 "number": "6",
-                "clue": "Shade of pale purple"
+                "clue": "Opposite of citified"
             },
             {
                 "number": "7",
-                "clue": "The Pennsylvania/New Jersey or Kentucky/Indiana border, for example"
+                "clue": "Hawaiian greeting"
             },
             {
                 "number": "8",
-                "clue": "Basketball three-pointer, slangily"
+                "clue": "Either of the (real) bar names \"Wish You Were Beer\" or \"Pour Judgment\""
             }
         ],
         "down": [
             {
                 "number": "1",
-                "clue": "How some FedEx packages travel"
+                "clue": "Bird that hunts in shallow water"
             },
             {
                 "number": "2",
-                "clue": "\"___ Got a Friend in Me\""
+                "clue": "Where Mitt Romney is senator"
             },
             {
                 "number": "3",
-                "clue": "Cry of dismay"
+                "clue": "Black-tie party, maybe"
             },
             {
                 "number": "4",
-                "clue": "Dutch settler of South Africa in the 18th-19th centuries"
+                "clue": "Prevent from escaping"
             },
             {
-                "number": "6",
-                "clue": "Mohawked actor in \"Rocky III\""
+                "number": "5",
+                "clue": "\"The Handmaid's Tale\" airer"
             }
         ]
     }

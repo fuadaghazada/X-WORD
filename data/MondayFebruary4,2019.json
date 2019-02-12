@@ -1,137 +1,142 @@
 {
-    "date": "Tuesday February 12, 2019",
+    "date": "Monday February 4, 2019",
     "puzzle": [
         [
-            null,
             [
                 "1",
-                "B"
+                "Q"
             ],
             [
                 "2",
-                "Y"
+                "A"
             ],
             [
                 "3",
-                "O"
+                "N"
             ],
             [
                 "4",
-                "B"
-            ]
-        ],
-        [
-            null,
+                "D"
+            ],
             [
                 "5",
-                "Y"
-            ],
-            [
-                "O"
-            ],
-            [
-                "Y"
-            ],
-            [
-                "O"
+                "A"
             ]
         ],
         [
             [
                 "6",
-                "M"
+                "U"
             ],
             [
-                "A"
+                "T"
             ],
             [
                 "U"
             ],
             [
-                "V"
+                "R"
             ],
             [
-                "E"
+                "N"
             ]
         ],
         [
             [
                 "7",
-                "R"
-            ],
-            [
                 "I"
             ],
             [
-                "V"
+                "R"
+            ],
+            [
+                "K"
             ],
             [
                 "E"
             ],
             [
-                "R"
+                "D"
             ]
         ],
         [
             [
                 "8",
-                "T"
+                "P"
             ],
             [
-                "R"
+                "I"
             ],
             [
                 "E"
             ],
             [
-                "Y"
+                "C"
             ],
-            null
+            [
+                "E"
+            ]
+        ],
+        [
+            null,
+            [
+                "9",
+                "A"
+            ],
+            [
+                "S"
+            ],
+            [
+                "K"
+            ],
+            [
+                "S"
+            ]
         ]
     ],
     "clues": {
         "across": [
             {
                 "number": "1",
-                "clue": "[Guests must provide their drinks]"
-            },
-            {
-                "number": "5",
-                "clue": "Toy on a string"
+                "clue": "Post-lecture session, for short"
             },
             {
                 "number": "6",
-                "clue": "Shade of pale purple"
+                "clue": "Maneuver needed after missing a GPS direction"
             },
             {
                 "number": "7",
-                "clue": "The Pennsylvania/New Jersey or Kentucky/Indiana border, for example"
+                "clue": "Annoyed"
             },
             {
                 "number": "8",
-                "clue": "Basketball three-pointer, slangily"
+                "clue": "Breast, thigh or wing"
+            },
+            {
+                "number": "9",
+                "clue": "Inquires"
             }
         ],
         "down": [
             {
                 "number": "1",
-                "clue": "How some FedEx packages travel"
+                "clue": "Witty one-liner"
             },
             {
                 "number": "2",
-                "clue": "\"___ Got a Friend in Me\""
+                "clue": "Heart chambers"
             },
             {
                 "number": "3",
-                "clue": "Cry of dismay"
+                "clue": "Weapons at the heart of a disputed U.S.-Russia treaty"
             },
             {
                 "number": "4",
-                "clue": "Dutch settler of South Africa in the 18th-19th centuries"
+                "clue": "Rubbish"
             },
             {
-                "number": "6",
-                "clue": "Mohawked actor in \"Rocky III\""
+                "number": "5",
+                "clue": "Range that's home to the 22,831-foot Mount Aconcagua"
             }
         ]
     }
