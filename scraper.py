@@ -62,16 +62,23 @@ def reveal_answer():
         # ESC for passing modal
         driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
 
-        # Reveal
-        btn1 = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
+        # 'Reveal'
+        reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
 
         # Busy Loop :/ -  Waiting for page load
-        while btn1 is None:
+        while reveal_btn is None:
             driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
-            btn1 = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
+            reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
 
-        btn1.click()
-        btn1.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2].click()
+        reveal_btn.click()
+
+        # 'Puzzle'
+        puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2]
+
+        while puzzle_btn is None:
+            puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2]
+
+        puzzle_btn.click()
 
         # CONGRATULATIONS!!!
         driver.find_element_by_css_selector('html').send_keys(u'\ue007')

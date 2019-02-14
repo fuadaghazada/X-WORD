@@ -76,11 +76,11 @@ def render_clues(clues):
 
     for clue in clues['across']:
         clue = clue['number'] + '. ' +  clue['clue']
-        tk.Label(across_pane, text = clue, font = font).pack()
+        tk.Label(across_pane, text = clue, font = font, wraplength = 300).pack()
 
     for clue in clues['down']:
         clue = clue['number'] + '. ' +  clue['clue']
-        tk.Label(down_pane, text = clue, font = font).pack()
+        tk.Label(down_pane, text = clue, font = font, wraplength = 300).pack()
 
 
 '''
