@@ -1,1 +1,135 @@
-{"date": "Wednesday February 13, 2019", "puzzle": [[null, null, ["1", "S"], ["2", "U"], ["3", "N"]], [null, ["4", "S"], ["U"], ["N"], ["Y"]], [["5", "A"], ["N"], ["N"], ["I"], ["E"]], [["6", "P"], ["I"], ["N"], ["O"], ["T"]], [["7", "S"], ["P"], ["I"], ["N"], null]], "clues": {"across": [{"number": "1", "clue": "Center of a solar system"}, {"number": "4", "clue": "College system with campuses in Buffalo and Binghamton"}, {"number": "5", "clue": "Hit musical with the song \"It's the Hard-Knock Life\""}, {"number": "6", "clue": "Wine grape variety"}, {"number": "7", "clue": "Do some post-debate political commentary"}], "down": [{"number": "1", "clue": "Islam's largest branch"}, {"number": "2", "clue": "One side of the Civil War"}, {"number": "3", "clue": "Russian refusal"}, {"number": "4", "clue": "Cut with scissors"}, {"number": "5", "clue": "College-level courses for H.S. students"}]}}
+{
+    "date": "Wednesday February 13, 2019",
+    "puzzle": [
+        [
+            null,
+            null,
+            [
+                "1",
+                "S"
+            ],
+            [
+                "2",
+                "U"
+            ],
+            [
+                "3",
+                "N"
+            ]
+        ],
+        [
+            null,
+            [
+                "4",
+                "S"
+            ],
+            [
+                "U"
+            ],
+            [
+                "N"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "5",
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "N"
+            ],
+            [
+                "I"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "6",
+                "P"
+            ],
+            [
+                "I"
+            ],
+            [
+                "N"
+            ],
+            [
+                "O"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "7",
+                "S"
+            ],
+            [
+                "P"
+            ],
+            [
+                "I"
+            ],
+            [
+                "N"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Center of a solar system"
+            },
+            {
+                "number": "4",
+                "clue": "College system with campuses in Buffalo and Binghamton"
+            },
+            {
+                "number": "5",
+                "clue": "Hit musical with the song \"It's the Hard-Knock Life\""
+            },
+            {
+                "number": "6",
+                "clue": "Wine grape variety"
+            },
+            {
+                "number": "7",
+                "clue": "Do some post-debate political commentary"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Islam's largest branch"
+            },
+            {
+                "number": "2",
+                "clue": "One side of the Civil War"
+            },
+            {
+                "number": "3",
+                "clue": "Russian refusal"
+            },
+            {
+                "number": "4",
+                "clue": "Cut with scissors"
+            },
+            {
+                "number": "5",
+                "clue": "College-level courses for H.S. students"
+            }
+        ]
+    }
+}
