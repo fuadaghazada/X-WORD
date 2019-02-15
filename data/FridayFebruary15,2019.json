@@ -1,26 +1,27 @@
 {
-    "date": "Thursday February 14, 2019",
+    "date": "Friday February 15, 2019",
     "puzzle": [
         [
+            null,
             [
                 "1",
-                "F"
-            ],
-            [
-                "2",
-                "L"
-            ],
-            [
-                "3",
                 "A"
             ],
             [
-                "4",
-                "P"
+                "2",
+                "C"
             ],
-            null
+            [
+                "3",
+                "H"
+            ],
+            [
+                "4",
+                "E"
+            ]
         ],
         [
+            null,
             [
                 "5",
                 "R"
@@ -29,108 +30,106 @@
                 "O"
             ],
             [
-                "S"
+                "A"
+            ],
+            [
+                "D"
+            ]
+        ],
+        [
+            [
+                "6",
+                "H"
             ],
             [
                 "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "7",
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "T"
+            ],
+            [
+                "S"
             ],
             null
         ],
         [
             [
-                "6",
-                "A"
-            ],
-            [
-                "R"
-            ],
-            [
-                "T"
-            ],
-            [
-                "S"
-            ],
-            [
-                "7",
-                "Y"
-            ]
-        ],
-        [
-            null,
-            [
                 "8",
-                "D"
+                "M"
             ],
             [
                 "A"
             ],
             [
-                "T"
-            ],
-            [
-                "E"
-            ]
-        ],
-        [
-            null,
-            [
-                "9",
-                "E"
-            ],
-            [
-                "R"
-            ],
-            [
-                "O"
-            ],
-            [
                 "S"
-            ]
+            ],
+            [
+                "H"
+            ],
+            null
         ]
     ],
     "clues": {
         "across": [
             {
                 "number": "1",
-                "clue": "Envelope part that's sealed"
+                "clue": "Feel a marathon the next day"
             },
             {
                 "number": "5",
-                "clue": "Valentine's Day flower"
+                "clue": "B????way is a major one in New York City"
             },
             {
                 "number": "6",
-                "clue": "Hipsterish"
+                "clue": "T?? ???eries carry blood from it"
+            },
+            {
+                "number": "7",
+                "clue": "Tiny hill inhabit????"
             },
             {
                 "number": "8",
-                "clue": "Valentine's Day event"
-            },
-            {
-                "number": "9",
-                "clue": "Love god whose name is aptly an anagram of 5-Across"
+                "clue": "Mixture used to make whiskey"
             }
         ],
         "down": [
             {
                 "number": "1",
-                "clue": "Lobster ___ diavolo (Italian dish)"
+                "clue": "Building that may host concerts and N.B.A. games"
             },
             {
                 "number": "2",
-                "clue": "Grammy-winning singer whose real name is Ella Marija Lani Yelich-O'Connor"
+                "clue": "Things checked at nice restaurants"
             },
             {
                 "number": "3",
-                "clue": "\"___ Is Born\" (2018 Best Picture nominee)"
+                "clue": "Severe"
             },
             {
                 "number": "4",
-                "clue": "Green sauce"
+                "clue": "Summer hrs. in Philly"
             },
             {
-                "number": "7",
-                "clue": "Hoped-for answer to \"Will you be my Valentine?\""
+                "number": "6",
+                "clue": "Meat typically found in a Denver omelet"
             }
         ]
     }
