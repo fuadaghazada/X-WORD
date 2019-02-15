@@ -40,7 +40,7 @@ def fetch_puzzle():
     }
 
     # Writing data in JSON format to the file with date name in 'data' folder or project dir
-    filename = 'data/' + str(date).replace(" ", "") + '.json'
+    filename = '../data/' + str(date).replace(" ", "") + '.json'
     w_data = json.dumps(data)
 
     with open(filename, 'w') as outfile:
@@ -63,21 +63,23 @@ def reveal_answer():
         driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
 
         # 'Reveal'
-        reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
+        reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")
 
         # Busy Loop :/ -  Waiting for page load
         while reveal_btn is None:
             driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
             reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
 
+        reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
         reveal_btn.click()
 
         # 'Puzzle'
-        puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2]
+        puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")
 
         while puzzle_btn is None:
             puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2]
 
+        puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2]
         puzzle_btn.click()
 
         # CONGRATULATIONS!!!
