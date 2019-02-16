@@ -1,3 +1,4 @@
+import os
 import sys
 import math
 import time
@@ -5,6 +6,10 @@ import json
 
 import bs4
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 
@@ -40,7 +45,11 @@ def fetch_puzzle():
     }
 
     # Writing data in JSON format to the file with date name in 'data' folder or project dir
-    filename = '../data/' + str(date).replace(" ", "") + '.json'
+    filename = os.getcwd() + '/data/' + str(date).replace(" ", "") + '.json'
+
+    if '/src' in filename:
+        filename = filename.replace("/src", '')
+
     w_data = json.dumps(data)
 
     with open(filename, 'w') as outfile:
@@ -54,6 +63,7 @@ def fetch_puzzle():
 '''
 def reveal_answer():
 
+    timeout = 5
     try:
         # Opening browser
         driver = webdriver.Chrome()
@@ -62,25 +72,22 @@ def reveal_answer():
         # ESC for passing modal
         driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
 
-        # 'Reveal'
-        reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")
+        try:
+            # Waiting for toolbar fully loaded
+            toolbar = EC.presence_of_element_located((By.CSS_SELECTOR, ".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br"))
+            WebDriverWait(driver, timeout).until(toolbar)
 
-        # Busy Loop :/ -  Waiting for page load
-        while reveal_btn is None:
-            driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
+            # 'Reveal'
             reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
+            reveal_btn.click()
 
-        reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
-        reveal_btn.click()
-
-        # 'Puzzle'
-        puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")
-
-        while puzzle_btn is None:
+            # 'Puzzle'
             puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2]
+            puzzle_btn.click()
 
-        puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2]
-        puzzle_btn.click()
+        except TimeoutException:
+            print("TIMEOUT")
+            sys.exit()
 
         # CONGRATULATIONS!!!
         driver.find_element_by_css_selector('html').send_keys(u'\ue007')
