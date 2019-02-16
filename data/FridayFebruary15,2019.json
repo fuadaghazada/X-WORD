@@ -1,1 +1,136 @@
-{"date": "Friday February 15, 2019", "puzzle": [[null, ["1", "A"], ["2", "C"], ["3", "H"], ["4", "E"]], [null, ["5", "R"], ["O"], ["A"], ["D"]], [["6", "H"], ["E"], ["A"], ["R"], ["T"]], [["7", "A"], ["N"], ["T"], ["S"], null], [["8", "M"], ["A"], ["S"], ["H"], null]], "clues": {"across": [{"number": "1", "clue": "Feel a marathon the next day"}, {"number": "5", "clue": "B????way is a major one in New York City"}, {"number": "6", "clue": "T?? ???eries carry blood from it"}, {"number": "7", "clue": "Tiny hill inhabit????"}, {"number": "8", "clue": "Mixture used to make whiskey"}], "down": [{"number": "1", "clue": "Building that may host concerts and N.B.A. games"}, {"number": "2", "clue": "Things checked at nice restaurants"}, {"number": "3", "clue": "Severe"}, {"number": "4", "clue": "Summer hrs. in Philly"}, {"number": "6", "clue": "Meat typically found in a Denver omelet"}]}}
+{
+    "date": "Friday February 15, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "A"
+            ],
+            [
+                "2",
+                "C"
+            ],
+            [
+                "3",
+                "H"
+            ],
+            [
+                "4",
+                "E"
+            ]
+        ],
+        [
+            null,
+            [
+                "5",
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "A"
+            ],
+            [
+                "D"
+            ]
+        ],
+        [
+            [
+                "6",
+                "H"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "7",
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "T"
+            ],
+            [
+                "S"
+            ],
+            null
+        ],
+        [
+            [
+                "8",
+                "M"
+            ],
+            [
+                "A"
+            ],
+            [
+                "S"
+            ],
+            [
+                "H"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Feel a marathon the next day"
+            },
+            {
+                "number": "5",
+                "clue": "B????way is a major one in New York City"
+            },
+            {
+                "number": "6",
+                "clue": "T?? ???eries carry blood from it"
+            },
+            {
+                "number": "7",
+                "clue": "Tiny hill inhabit????"
+            },
+            {
+                "number": "8",
+                "clue": "Mixture used to make whiskey"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Building that may host concerts and N.B.A. games"
+            },
+            {
+                "number": "2",
+                "clue": "Things checked at nice restaurants"
+            },
+            {
+                "number": "3",
+                "clue": "Severe"
+            },
+            {
+                "number": "4",
+                "clue": "Summer hrs. in Philly"
+            },
+            {
+                "number": "6",
+                "clue": "Meat typically found in a Denver omelet"
+            }
+        ]
+    }
+}
