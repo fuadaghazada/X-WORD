@@ -1,0 +1,141 @@
+{
+    "date": "Sunday February 17, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "W"
+            ],
+            [
+                "2",
+                "H"
+            ],
+            [
+                "3",
+                "I"
+            ],
+            [
+                "4",
+                "T"
+            ],
+            [
+                "5",
+                "E"
+            ]
+        ],
+        [
+            [
+                "6",
+                "H"
+            ],
+            [
+                "O"
+            ],
+            [
+                "C"
+            ],
+            [
+                "U"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "7",
+                "I"
+            ],
+            [
+                "P"
+            ],
+            [
+                "A"
+            ],
+            [
+                "D"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "8",
+                "G"
+            ],
+            [
+                "E"
+            ],
+            [
+                "N"
+            ],
+            [
+                "O"
+            ],
+            [
+                "A"
+            ]
+        ],
+        [
+            null,
+            null,
+            [
+                "9",
+                "T"
+            ],
+            [
+                "R"
+            ],
+            [
+                "Y"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Like milk and flour"
+            },
+            {
+                "number": "6",
+                "clue": "___ pocus"
+            },
+            {
+                "number": "7",
+                "clue": "Apple tablets"
+            },
+            {
+                "number": "8",
+                "clue": "Italian city known for its salami"
+            },
+            {
+                "number": "9",
+                "clue": "Make an attempt"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "President John Tyler or Zachary Taylor, politically"
+            },
+            {
+                "number": "2",
+                "clue": "Slogan for Obama's 2008 campaign"
+            },
+            {
+                "number": "3",
+                "clue": "\"Sorry, just too busy\""
+            },
+            {
+                "number": "4",
+                "clue": "English architectural style with gable roofs and decorative brick"
+            },
+            {
+                "number": "5",
+                "clue": "English class assignment"
+            }
+        ]
+    }
+}
