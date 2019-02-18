@@ -1,8 +1,12 @@
 import sys
 import json
 
-from scraper import fetch_puzzle
-from gui import render
+from scraper import PuzzleScraper
+from gui import GUI
+from log_generator import LogGenerator
+
+# Log generator
+l_gen = LogGenerator()
 
 # Loading data
 data = None
@@ -15,9 +19,11 @@ if len(sys.argv) == 2:
         print('ERROR: ', e)
         sys.exit()
 elif len(sys.argv) == 1:
-    data = fetch_puzzle()
+    p_scrp = PuzzleScraper(l_gen)
+    data = p_scrp.fetch_puzzle()
 else:
     sys.exit()
 
 # GUI with data
-render(data)
+gui = GUI(l_gen)
+gui.render(data)

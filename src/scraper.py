@@ -12,204 +12,240 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-
-# NYTimes Crossword URL
-URL = 'https://www.nytimes.com/crosswords/game/mini'
-
 '''
-    Fetching the puzzle
+    Puzzle Scraper
 '''
-def fetch_puzzle():
-    # Sending request to the URL
-    req = reveal_answer()
+class PuzzleScraper:
 
-    if req is None:
-        return None
+    # NYTimes Crossword URL
+    URL = 'https://www.nytimes.com/crosswords/game/mini'
 
-    # Scraper
-    soup = bs4.BeautifulSoup(req, 'html.parser')
+    '''
+        Constructor
+    '''
+    def __init__(self, log_gen):
+        # Log generator obj
+        self.log_gen = log_gen
 
-    date = soup.find('div', attrs={'class' : 'PuzzleDetails-date--1HNzj'}).text
-    puzzle = soup.find('g', attrs={'data-group' : 'cells'})
-    clues = soup.find('section', attrs={'class' : 'Layout-clueLists--10_Xl'})
+    '''
+        Fetching the puzzle
+    '''
+    def fetch_puzzle(self):
+        # Sending request to the URL
+        req = self.reveal_answer()
 
-    # Getting clues and solution
-    clues = fetch_clues(clues)
-    puzzle = fetch_cells(puzzle)
+        if req is None:
+            return None
 
-    # Data for return
-    data = {
-        'date' : date,
-        'puzzle' : puzzle,
-        'clues' : clues
-    }
+        # Scraper
+        soup = bs4.BeautifulSoup(req, 'html.parser')
 
-    # Writing data in JSON format to the file with date name in 'data' folder or project dir
-    filename = os.getcwd() + '/data/' + str(date).replace(" ", "") + '.json'
+        date = soup.find('div', attrs={'class' : 'PuzzleDetails-date--1HNzj'}).text
+        puzzle = soup.find('g', attrs={'data-group' : 'cells'})
+        clues = soup.find('section', attrs={'class' : 'Layout-clueLists--10_Xl'})
 
-    if '/src' in filename:
-        filename = filename.replace("/src", '')
+        # Getting clues and solution
+        clues = self.fetch_clues(clues)
+        puzzle = self.fetch_cells(puzzle)
 
-    w_data = json.dumps(data)
+        # Data for return
+        data = {
+            'date' : date,
+            'puzzle' : puzzle,
+            'clues' : clues
+        }
 
-    with open(filename, 'w') as outfile:
-        outfile.write(w_data)
+        # Writing data in JSON format to the file with date name in 'data' folder or project dir
+        filename = os.getcwd() + '/data/' + str(date).replace(" ", "") + '.json'
 
-    return data
+        if '/src' in filename:
+            filename = filename.replace("/src", '')
+
+        w_data = json.dumps(data)
+
+        with open(filename, 'w') as outfile:
+            outfile.write(w_data)
+
+        # LOG
+        self.log_gen.write_to_file('Puzzle data is written to the JSON file')
+
+        return data
 
 
-'''
-    Opening browser -> Revealing answer -> Returning page source
-'''
-def reveal_answer():
+    '''
+        Opening browser -> Revealing answer -> Returning page source
+    '''
+    def reveal_answer(self):
 
-    timeout = 5
-    try:
-        # Opening browser
-        driver = webdriver.Chrome()
-        driver.get(URL)
-
-        # ESC for passing modal
-        driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
-
+        timeout = 5
         try:
-            # Waiting for toolbar fully loaded
-            toolbar = EC.presence_of_element_located((By.CSS_SELECTOR, ".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br"))
-            WebDriverWait(driver, timeout).until(toolbar)
+            # Opening browser
+            driver = webdriver.Chrome()
+            driver.get(self.URL)
 
-            # 'Reveal'
-            reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
-            reveal_btn.click()
+            # LOG
+            self.log_gen.write_to_file('Browser is opened and request is sent to the URL')
 
-            # 'Puzzle'
-            puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2]
-            puzzle_btn.click()
+            try:
+                # Waiting for modal fully loaded
+                modal = EC.presence_of_element_located((By.CLASS_NAME, "ModalBody-body--3PkKz"))
+                WebDriverWait(driver, timeout).until(modal)
 
-        except TimeoutException:
-            print("TIMEOUT")
-            sys.exit()
+                # LOG
+                self.log_gen.write_to_file('Page is loaded')
 
-        # CONGRATULATIONS!!!
-        driver.find_element_by_css_selector('html').send_keys(u'\ue007')
-        driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
+                # CLicking to start btn
+                start_btn = driver.find_element_by_css_selector(".buttons-modalButton--1REsR")
+                start_btn.click()
 
-        # It will be scraped, so will be returned
-        p_source = driver.page_source
+                # Waiting for toolbar fully loaded
+                toolbar = EC.presence_of_element_located((By.CSS_SELECTOR, ".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br"))
+                WebDriverWait(driver, timeout).until(toolbar)
 
-        # Closing browser
-        driver.close()
+                # 'Reveal'
+                reveal_btn = driver.find_element_by_css_selector(".Toolbar-expandedMenu--2s4M4").find_elements_by_css_selector(".Tool-button--39W4J.Tool-tool--Fiz94.Tool-texty--2w4Br")[1]
+                reveal_btn.click()
 
-    except Exception as e:
-        p_source = None
-        raise
+                # 'Puzzle'
+                puzzle_btn = reveal_btn.find_elements_by_css_selector(".HelpMenu-item--1xl0_")[2]
+                puzzle_btn.click()
 
-    return p_source
+                # LOG
+                self.log_gen.write_to_file('Reveal Puzzle is clicked!')
 
+            except TimeoutException:
+                print("TIMEOUT")
+                sys.exit()
 
-'''
-    Fetching the clues
-'''
-def fetch_clues(clues):
-    # None clues: PROBLEM
-    if clues is None:
-        print("ERROR: No clues are found\n")
-        return None
+            # CONGRATULATIONS!!!
+            driver.find_element_by_css_selector('html').send_keys(u'\ue007')
+            driver.find_element_by_css_selector('html').send_keys(u'\ue00c')
 
-    # Across : [0] & Down : [1]
-    divs = clues.findChildren('div', attrs={'class' : 'ClueList-wrapper--3m-kd'})
+            # It will be scraped, so will be returned
+            p_source = driver.page_source
 
-    if len(divs) != 2:
-        return None
+            # Closing browser
+            driver.close()
 
-    # Across
-    across = divs[0].find('ol').find_all('li')
-    across_data = []
-    for li in across:
-        across_data.append({
-            'number' : li.findChildren()[0].text,
-            'clue' : li.findChildren()[1].text
-        })
+            # LOG
+            self.log_gen.write_to_file('Browser is closed and content of the page is returned')
 
-    # Down
-    down = divs[1].find('ol').find_all('li')
-    down_data = []
-    for li in down:
-        down_data.append({
-            'number' : li.findChildren()[0].text,
-            'clue' : li.findChildren()[1].text
-        })
+        except Exception as e:
+            p_source = None
+            raise
 
-    # Returning whole data
-    return {
-        'across' : across_data ,
-        'down' : down_data
-    }
+        return p_source
 
-
-'''
-    Fetching the puzzle cells
-'''
-def fetch_cells(puzzle):
-    # None puzzle: PROBLEM
-    if puzzle is None:
-        print("ERROR: No puzzle is found\n")
-        return None
-
-    cells = puzzle.find_all('g')
-
-    # If no cells: smth wrong
-    if len(cells) == 0:
-        return None
-
-    # 2D array for keeping puzzle geometry
-    dimension = int(math.sqrt(len(cells)))        # in our case it is 5
-    puzzle_data = [[None for x in range(dimension)] for y in range(dimension)]
-
-    i = 0
-    j = 0
-    for cell in cells:
-        if i == dimension:
-            break
-
-        if j == dimension:
-            i += 1
-            j = 0
-
-        # Putting puzzle data into the 2D array
-        puzzle_data[i][j] = process_cell_data(cell)
-        j += 1
-
-    return puzzle_data
-
-
-'''
-    Processing the cell data
-'''
-def process_cell_data(cell):
-
-    components = cell.findChildren()
-    size = len(components)
 
     '''
-        3 Cases:
-            components with size 4:
-                cell has both 'number' and 'letter'
-            components with size 3:
-                cell has only a 'letter'
-            components with size 2 or 1:
-                cell is black (empty)
+        Fetching the clues
     '''
+    def fetch_clues(self, clues):
+        # None clues: PROBLEM
+        if clues is None:
+            print("ERROR: No clues are found\n")
+            return None
 
-    if size == 4:
-        number = components[1].text
-        letter = components[2].text
-        return [number, letter]
-    elif size == 3:
-        letter = components[1].text
-        return [letter]
-    elif size == 2 or size == 1:
-        return None
+        # Across : [0] & Down : [1]
+        divs = clues.findChildren('div', attrs={'class' : 'ClueList-wrapper--3m-kd'})
+
+        if len(divs) != 2:
+            return None
+
+        # Across
+        across = divs[0].find('ol').find_all('li')
+        across_data = []
+        for li in across:
+            across_data.append({
+                'number' : li.findChildren()[0].text,
+                'clue' : li.findChildren()[1].text
+            })
+
+        # LOG
+        self.log_gen.write_to_file('Across clues are parsed from the page content')
+
+        # Down
+        down = divs[1].find('ol').find_all('li')
+        down_data = []
+        for li in down:
+            down_data.append({
+                'number' : li.findChildren()[0].text,
+                'clue' : li.findChildren()[1].text
+            })
+
+        # LOG
+        self.log_gen.write_to_file('Down clues are parsed from the page content')
+
+        # Returning whole data
+        return {
+            'across' : across_data ,
+            'down' : down_data
+        }
 
 
-# ---------------TESTING--------------
-# data = fetch_puzzle()
+    '''
+        Fetching the puzzle cells
+    '''
+    def fetch_cells(self, puzzle):
+        # None puzzle: PROBLEM
+        if puzzle is None:
+            print("ERROR: No puzzle is found\n")
+            return None
+
+        cells = puzzle.find_all('g')
+
+        # If no cells: smth wrong
+        if len(cells) == 0:
+            return None
+
+        # 2D array for keeping puzzle geometry
+        dimension = int(math.sqrt(len(cells)))        # in our case it is 5
+        puzzle_data = [[None for x in range(dimension)] for y in range(dimension)]
+
+        i = 0
+        j = 0
+        for cell in cells:
+            if i == dimension:
+                break
+
+            if j == dimension:
+                i += 1
+                j = 0
+
+            # Putting puzzle data into the 2D array
+            puzzle_data[i][j] = self.process_cell_data(cell)
+            j += 1
+
+        # LOG
+        self.log_gen.write_to_file('Puzzle cells are parsed from the page content')
+
+        return puzzle_data
+
+
+    '''
+        Processing the cell data
+    '''
+    def process_cell_data(self, cell):
+
+        components = cell.findChildren()
+        size = len(components)
+
+        '''
+            3 Cases:
+                components with size 4:
+                    cell has both 'number' and 'letter'
+                components with size 3:
+                    cell has only a 'letter'
+                components with size 2 or 1:
+                    cell is black (empty)
+        '''
+
+        if size == 4:
+            number = components[1].text
+            letter = components[2].text
+            return [number, letter]
+        elif size == 3:
+            letter = components[1].text
+            return [letter]
+        elif size == 2 or size == 1:
+            return None
