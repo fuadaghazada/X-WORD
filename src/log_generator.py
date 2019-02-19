@@ -10,16 +10,18 @@ class LogGenerator:
     '''
         Constructor
     '''
-    def __init__(self):
+    def __init__(self, filename = None):
 
         try:
-            # Writing log to txt format to the file with date name in 'data' folder or project dir
-            filename = os.getcwd() + '/log/' + str(datetime.now()).replace(' ', '+') + '.txt'
+            if filename is None:
+                filename = str(datetime.now()).replace(' ', '+')
+
+            filename = os.getcwd() + '/log/' + filename + '.txt'
 
             if '/src' in filename:
                 filename = filename.replace("/src", '')
-                
-            self.file = open(filename, 'w')
+
+            self.file = open(str(filename), 'w')
 
             self.write_to_file('Log file is generated!')
 
