@@ -18,7 +18,7 @@ class GUI:
     '''
         Renders the title
     '''
-    def render_title(self, date):
+    def __render_title(self, date):
 
         # Panel
         pane = tk.PanedWindow()
@@ -35,7 +35,7 @@ class GUI:
     '''
         Renders the puzzle grid
     '''
-    def render_grid(self, puzzle):
+    def __render_grid(self, puzzle):
 
         # Panel
         pane = tk.PanedWindow()
@@ -74,7 +74,7 @@ class GUI:
     '''
         Renders the clues
     '''
-    def render_clues(self, clues):
+    def __render_clues(self, clues):
 
         # Fonts
         font = 'Inherit 14 normal'
@@ -122,9 +122,9 @@ class GUI:
             print("ERROR: Data is not in proper format!")
             return
 
-        self.render_title(data['date'])
-        self.render_grid(data['puzzle'])
-        self.render_clues(data['clues'])
+        self.__render_title(data['date'])
+        self.__render_grid(data['puzzle'])
+        self.__render_clues(data['clues'])
 
         root.resizable(False, False)
         root.mainloop()

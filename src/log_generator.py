@@ -1,3 +1,4 @@
+import os
 import sys
 from datetime import datetime
 
@@ -12,9 +13,13 @@ class LogGenerator:
     def __init__(self):
 
         try:
+            # Writing log to txt format to the file with date name in 'data' folder or project dir
+            filename = os.getcwd() + '/log/' + str(datetime.now()).replace(' ', '+') + '.txt'
 
-            filename = str(datetime.now()).replace(' ', '+') + ".txt"
-            self.file = open('log/' + filename, 'w')
+            if '/src' in filename:
+                filename = filename.replace("/src", '')
+                
+            self.file = open(filename, 'w')
 
             self.write_to_file('Log file is generated!')
 

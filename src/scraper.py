@@ -32,7 +32,7 @@ class PuzzleScraper:
     '''
     def fetch_puzzle(self):
         # Sending request to the URL
-        req = self.reveal_answer()
+        req = self.__reveal_answer()
 
         if req is None:
             return None
@@ -45,8 +45,8 @@ class PuzzleScraper:
         clues = soup.find('section', attrs={'class' : 'Layout-clueLists--10_Xl'})
 
         # Getting clues and solution
-        clues = self.fetch_clues(clues)
-        puzzle = self.fetch_cells(puzzle)
+        clues = self.__fetch_clues(clues)
+        puzzle = self.__fetch_cells(puzzle)
 
         # Data for return
         data = {
@@ -75,7 +75,7 @@ class PuzzleScraper:
     '''
         Opening browser -> Revealing answer -> Returning page source
     '''
-    def reveal_answer(self):
+    def __reveal_answer(self):
 
         timeout = 5
         try:
@@ -140,7 +140,7 @@ class PuzzleScraper:
     '''
         Fetching the clues
     '''
-    def fetch_clues(self, clues):
+    def __fetch_clues(self, clues):
         # None clues: PROBLEM
         if clues is None:
             print("ERROR: No clues are found\n")
@@ -186,7 +186,7 @@ class PuzzleScraper:
     '''
         Fetching the puzzle cells
     '''
-    def fetch_cells(self, puzzle):
+    def __fetch_cells(self, puzzle):
         # None puzzle: PROBLEM
         if puzzle is None:
             print("ERROR: No puzzle is found\n")
@@ -213,7 +213,7 @@ class PuzzleScraper:
                 j = 0
 
             # Putting puzzle data into the 2D array
-            puzzle_data[i][j] = self.process_cell_data(cell)
+            puzzle_data[i][j] = self.__process_cell_data(cell)
             j += 1
 
         # LOG
@@ -225,7 +225,7 @@ class PuzzleScraper:
     '''
         Processing the cell data
     '''
-    def process_cell_data(self, cell):
+    def __process_cell_data(self, cell):
 
         components = cell.findChildren()
         size = len(components)
