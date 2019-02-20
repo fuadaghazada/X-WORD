@@ -1,0 +1,141 @@
+{
+    "date": "Wednesday February 20, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "H"
+            ],
+            [
+                "2",
+                "E"
+            ],
+            [
+                "3",
+                "R"
+            ],
+            [
+                "4",
+                "E"
+            ],
+            null
+        ],
+        [
+            [
+                "5",
+                "E"
+            ],
+            [
+                "M"
+            ],
+            [
+                "O"
+            ],
+            [
+                "J"
+            ],
+            [
+                "6",
+                "I"
+            ]
+        ],
+        [
+            [
+                "7",
+                "L"
+            ],
+            [
+                "A"
+            ],
+            [
+                "D"
+            ],
+            [
+                "E"
+            ],
+            [
+                "D"
+            ]
+        ],
+        [
+            [
+                "8",
+                "P"
+            ],
+            [
+                "I"
+            ],
+            [
+                "E"
+            ],
+            [
+                "C"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            null,
+            [
+                "9",
+                "L"
+            ],
+            [
+                "O"
+            ],
+            [
+                "T"
+            ],
+            [
+                "S"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "One-word text upon arriving"
+            },
+            {
+                "number": "5",
+                "clue": "Face With Tears of Joy, for one"
+            },
+            {
+                "number": "7",
+                "clue": "Filled with cargo, as a ship"
+            },
+            {
+                "number": "8",
+                "clue": "Part of a jigsaw puzzle"
+            },
+            {
+                "number": "9",
+                "clue": "A ton"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Beatles album with a \"!\" in its name"
+            },
+            {
+                "number": "2",
+                "clue": "Something in an \"Unread\" folder"
+            },
+            {
+                "number": "3",
+                "clue": "Bull-riding event"
+            },
+            {
+                "number": "4",
+                "clue": "Pop out, as a DVD"
+            },
+            {
+                "number": "6",
+                "clue": "\"Beware the ___ of March\""
+            }
+        ]
+    }
+}
