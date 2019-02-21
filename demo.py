@@ -1,6 +1,7 @@
 import re
 import os
 import sys
+import datetime
 import tkinter as tk
 from tkinter import ttk
 
@@ -10,18 +11,20 @@ from tkinter import ttk
 def get_old_puzzles():
     files = os.listdir('data')
 
-    files.sort()
-
-    names = []
+    names = {}
     for file in files:
         name = re.findall('[A-Z][^A-Z]*', file)[1].replace('.json', '')
-        names.append(name)
+        names[str(name)] = file
 
-    return [files, names]
+    # Sorting dates
+    names = sorted(names.items(), key = lambda x: datetime.datetime.strptime(x[0], '%B%d,%Y'))
+
+    return names
 
 
 # GUI for testing demo
 
+# Displays today's puzzle
 def display_todays_puzzle():
 
     try:
@@ -30,17 +33,19 @@ def display_todays_puzzle():
         print(e)
         sys.exit()
 
+# Displays old puzzles
 def display_old_puzzle(filename):
 
     try:
         files = get_old_puzzles()
-        for x in range(0, len(files[0])):
-            if filename in files[1][x]:
-                os.system('python3 src/main.py data/' + files[0][x])
+        for file in files:
+            if file[0] == filename:
+                os.system('python3 src/main.py data/' + file[1])
+
     except Exception as e:
         print(e)
         sys.exit()
-        
+
 
 root = tk.Tk()
 root.title('Welcome')
@@ -64,8 +69,13 @@ right_pane.pack(side = tk.RIGHT, padx = (10, 10), pady = (20, 20))
 # Label
 tk.Label(right_pane, text = "Click to display an old puzzle").pack()
 
+
 # Combobox
-cb = ttk.Combobox(right_pane, values = get_old_puzzles()[1], state = "readonly")
+dates = []
+for date in get_old_puzzles():
+    dates.append(date[0])
+
+cb = ttk.Combobox(right_pane, values = dates, state = "readonly")
 cb.set("Choose an old puzzle")
 cb.pack()
 
