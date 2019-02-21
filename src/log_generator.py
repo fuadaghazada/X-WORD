@@ -14,7 +14,7 @@ class LogGenerator:
 
         try:
             if filename is None:
-                filename = str(datetime.now()).replace(' ', '+')
+                filename = str(datetime.now()).split(' ')[0]
 
             filename = os.getcwd() + '/log/' + filename + '.txt'
 
