@@ -1,0 +1,143 @@
+{
+    "date": "Thursday February 21, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "H"
+            ],
+            [
+                "2",
+                "I"
+            ],
+            [
+                "3",
+                "S"
+            ],
+            [
+                "4",
+                "S"
+            ],
+            null
+        ],
+        [
+            [
+                "5",
+                "U"
+            ],
+            [
+                "N"
+            ],
+            [
+                "C"
+            ],
+            [
+                "U"
+            ],
+            [
+                "6",
+                "T"
+            ]
+        ],
+        [
+            [
+                "7",
+                "S"
+            ],
+            [
+                "L"
+            ],
+            [
+                "I"
+            ],
+            [
+                "C"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "8",
+                "K"
+            ],
+            [
+                "A"
+            ],
+            [
+                "F"
+            ],
+            [
+                "K"
+            ],
+            [
+                "A"
+            ]
+        ],
+        [
+            [
+                "9",
+                "S"
+            ],
+            [
+                "W"
+            ],
+            [
+                "I"
+            ],
+            [
+                "S"
+            ],
+            [
+                "S"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Radiator sound"
+            },
+            {
+                "number": "5",
+                "clue": "Full-length, as a movie"
+            },
+            {
+                "number": "7",
+                "clue": "One-eighth of a pizza"
+            },
+            {
+                "number": "8",
+                "clue": "Novelist whose most famous protagonist transforms into a bug"
+            },
+            {
+                "number": "9",
+                "clue": "Cheese with holes"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Outer coatings of corn"
+            },
+            {
+                "number": "2",
+                "clue": "Either of one's husband's parents, for example"
+            },
+            {
+                "number": "3",
+                "clue": "Genre with time travel and wormholes"
+            },
+            {
+                "number": "4",
+                "clue": "Is no good at all"
+            },
+            {
+                "number": "6",
+                "clue": "Lipton products"
+            }
+        ]
+    }
+}
