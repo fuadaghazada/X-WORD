@@ -1,0 +1,136 @@
+{
+    "date": "Friday February 22, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "O"
+            ],
+            [
+                "2",
+                "M"
+            ],
+            [
+                "3",
+                "I"
+            ],
+            [
+                "4",
+                "T"
+            ]
+        ],
+        [
+            null,
+            [
+                "5",
+                "M"
+            ],
+            [
+                "A"
+            ],
+            [
+                "T"
+            ],
+            [
+                "H"
+            ]
+        ],
+        [
+            [
+                "6",
+                "N"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "C"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "7",
+                "U"
+            ],
+            [
+                "H"
+            ],
+            [
+                "O"
+            ],
+            [
+                "H"
+            ],
+            null
+        ],
+        [
+            [
+                "8",
+                "M"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "Y"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Leave out"
+            },
+            {
+                "number": "5",
+                "clue": "It has its pluses and minuses"
+            },
+            {
+                "number": "6",
+                "clue": "Speaker Pelosi"
+            },
+            {
+                "number": "7",
+                "clue": "\"This doesn't look good!\""
+            },
+            {
+                "number": "8",
+                "clue": "Biblical virgin"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Largest city in Nebraska"
+            },
+            {
+                "number": "2",
+                "clue": "House for an English lord"
+            },
+            {
+                "number": "3",
+                "clue": "Like mosquito bites and woolen sweaters"
+            },
+            {
+                "number": "4",
+                "clue": "\"Love ___ neighbor ...\""
+            },
+            {
+                "number": "6",
+                "clue": "___ Lock (keyboard button)"
+            }
+        ]
+    }
+}
