@@ -1,0 +1,140 @@
+{
+    "date": "Sunday February 24, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "T"
+            ],
+            [
+                "2",
+                "A"
+            ],
+            [
+                "3",
+                "C"
+            ],
+            [
+                "4",
+                "T"
+            ]
+        ],
+        [
+            [
+                "5",
+                "C"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "L"
+            ],
+            [
+                "O"
+            ]
+        ],
+        [
+            [
+                "6",
+                "O"
+            ],
+            [
+                "B"
+            ],
+            [
+                "G"
+            ],
+            [
+                "Y"
+            ],
+            [
+                "N"
+            ]
+        ],
+        [
+            [
+                "7",
+                "M"
+            ],
+            [
+                "O"
+            ],
+            [
+                "O"
+            ],
+            [
+                "D"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "8",
+                "B"
+            ],
+            [
+                "O"
+            ],
+            [
+                "N"
+            ],
+            [
+                "E"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Delicate use of words"
+            },
+            {
+                "number": "5",
+                "clue": "Monte ___ simulation"
+            },
+            {
+                "number": "6",
+                "clue": "M.D. who always delivers?"
+            },
+            {
+                "number": "7",
+                "clue": "Subject to emotional swings"
+            },
+            {
+                "number": "8",
+                "clue": "Dog biscuit shape"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Simply not done in polite society"
+            },
+            {
+                "number": "2",
+                "clue": "Most common noble gas in the atmosphere"
+            },
+            {
+                "number": "3",
+                "clue": "Bonnie's partner in crime"
+            },
+            {
+                "number": "4",
+                "clue": "One of three for Lin-Manuel Miranda"
+            },
+            {
+                "number": "5",
+                "clue": "Toiletry bag item"
+            }
+        ]
+    }
+}
