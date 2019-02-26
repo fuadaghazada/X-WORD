@@ -227,25 +227,25 @@ class PuzzleScraper:
     '''
     def __process_cell_data(self, cell):
 
-        components = cell.findChildren()
+        components = cell.findChildren('text')
         size = len(components)
 
         '''
             3 Cases:
-                components with size 4:
+                components with size 2:
                     cell has both 'number' and 'letter'
-                components with size 3:
+                components with size 1:
                     cell has only a 'letter'
-                components with size 2 or 1:
+                components with size 0:
                     cell is black (empty)
         '''
 
-        if size == 4:
-            number = components[1].text
-            letter = components[2].text
-            return [number, letter]
-        elif size == 3:
+        if size == 2:
+            number = components[0].text
             letter = components[1].text
+            return [number, letter]
+        elif size == 1:
+            letter = components[0].text
             return [letter]
-        elif size == 2 or size == 1:
+        elif size == 0:
             return None

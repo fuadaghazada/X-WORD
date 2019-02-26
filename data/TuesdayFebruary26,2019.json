@@ -1,74 +1,69 @@
 {
-    "date": "Monday February 25, 2019",
+    "date": "Tuesday February 26, 2019",
     "puzzle": [
         [
+            null,
             [
                 "1",
-                "E"
+                "S"
             ],
             [
                 "2",
-                "N"
+                "T"
             ],
             [
                 "3",
-                "J"
+                "E"
             ],
             [
                 "4",
-                "O"
-            ],
+                "P"
+            ]
+        ],
+        [
+            null,
             [
                 "5",
-                "Y"
-            ]
-        ],
-        [
-            [
-                "6",
-                "Q"
-            ],
-            [
-                "U"
-            ],
-            [
-                "E"
-            ],
-            [
-                "U"
-            ],
-            [
-                "E"
-            ]
-        ],
-        [
-            [
-                "7",
-                "U"
-            ],
-            [
-                "B"
-            ],
-            [
-                "E"
-            ],
-            [
-                "R"
-            ],
-            [
-                "S"
-            ]
-        ],
-        [
-            [
-                "8",
-                "A"
+                "H"
             ],
             [
                 "I"
             ],
             [
+                "Y"
+            ],
+            [
+                "A"
+            ]
+        ],
+        [
+            [
+                "6",
+                "H"
+            ],
+            [
+                "O"
+            ],
+            [
+                "M"
+            ],
+            [
+                "E"
+            ],
+            [
                 "R"
+            ]
+        ],
+        [
+            [
+                "7",
+                "R"
+            ],
+            [
+                "U"
+            ],
+            [
+                "E"
             ],
             [
                 "S"
@@ -77,11 +72,11 @@
         ],
         [
             [
-                "9",
-                "L"
+                "8",
+                "C"
             ],
             [
-                "A"
+                "T"
             ],
             [
                 "S"
@@ -94,45 +89,45 @@
         "across": [
             {
                 "number": "1",
-                "clue": "Waiter's word after delivering the food"
+                "clue": "Bit of choreography"
+            },
+            {
+                "number": "5",
+                "clue": "Cheerful greeting"
             },
             {
                 "number": "6",
-                "clue": "Lineup of Netflix shows to watch"
+                "clue": "Author of the \"Odyssey\" and the \"Iliad\""
             },
             {
                 "number": "7",
-                "clue": "Cars ordered from one's phone"
+                "clue": "Regrets"
             },
             {
                 "number": "8",
-                "clue": "Condescending thing to put on"
-            },
-            {
-                "number": "9",
-                "clue": "___ Vegas, Nev."
+                "clue": "Dollar subdivisions: Abbr."
             }
         ],
         "down": [
             {
                 "number": "1",
-                "clue": "Like 82 and 43"
+                "clue": "TALK LIKE THIS!"
             },
             {
                 "number": "2",
-                "clue": "Region of ancient Egypt"
+                "clue": "___ Square (landmark suggested by the groups of circled letters)"
             },
             {
                 "number": "3",
-                "clue": "Heckles from the stands"
+                "clue": "Contacts go in them"
             },
             {
                 "number": "4",
-                "clue": "Shared by the two of us"
+                "clue": "2 or 3, for the typical mini-golf hole"
             },
             {
-                "number": "5",
-                "clue": "R.S.V.P. option"
+                "number": "6",
+                "clue": "She lost to D.J.T. in the '16 election"
             }
         ]
     }
