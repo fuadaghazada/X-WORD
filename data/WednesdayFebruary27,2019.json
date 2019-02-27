@@ -1,0 +1,145 @@
+{
+    "date": "Wednesday February 27, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "G"
+            ],
+            [
+                "2",
+                "R"
+            ],
+            [
+                "3",
+                "A"
+            ],
+            [
+                "4",
+                "I"
+            ],
+            [
+                "5",
+                "N"
+            ]
+        ],
+        [
+            [
+                "6",
+                "L"
+            ],
+            [
+                "A"
+            ],
+            [
+                "S"
+            ],
+            [
+                "S"
+            ],
+            [
+                "I"
+            ]
+        ],
+        [
+            [
+                "7",
+                "A"
+            ],
+            [
+                "I"
+            ],
+            [
+                "P"
+            ],
+            [
+                "A"
+            ],
+            [
+                "C"
+            ]
+        ],
+        [
+            [
+                "8",
+                "S"
+            ],
+            [
+                "N"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "K"
+            ]
+        ],
+        [
+            [
+                "9",
+                "S"
+            ],
+            [
+                "Y"
+            ],
+            [
+                "N"
+            ],
+            [
+                "C"
+            ],
+            [
+                "S"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Wood pattern"
+            },
+            {
+                "number": "6",
+                "clue": "Mango ___ (yogurt drink)"
+            },
+            {
+                "number": "7",
+                "clue": "Major lobbying grp. that Benjamin Netanyahu will address in late March"
+            },
+            {
+                "number": "8",
+                "clue": "Tiptoe around"
+            },
+            {
+                "number": "9",
+                "clue": "Matches up, as smartphone and laptop files"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Something that's half-full for an optimist"
+            },
+            {
+                "number": "2",
+                "clue": "Like much Seattle weather"
+            },
+            {
+                "number": "3",
+                "clue": "Tree whose colonies make up the largest organisms on Earth"
+            },
+            {
+                "number": "4",
+                "clue": "Science fiction author Asimov"
+            },
+            {
+                "number": "5",
+                "clue": "Small shaving cuts"
+            }
+        ]
+    }
+}
