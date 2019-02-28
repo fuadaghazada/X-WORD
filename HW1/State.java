@@ -1,18 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package aihw1;
+
+/**
+ *
+ * @author cagatay.sel-ug
+ */
 import java.util.ArrayList;
 
-public class State(){
+public class State{
 	
-	public static Final int LEFT_JUG_CAP = 7;	
-	public static Final int RIGHT_JUG_CAP = 5;	
+	public static final int LEFT_JUG_CAP = 7;	
+	public static final int RIGHT_JUG_CAP = 5;	
 
 
 	private int leftJugWater;
 	private int rightJugWater;
+        private ArrayList<State> nextStates;
 	
 	public State(int leftJugWater,int rightJugWater){
 	
 		this.leftJugWater = leftJugWater;
 		this.rightJugWater = rightJugWater;	
+                nextStates = new ArrayList<State>();
 		
 	}
 	
@@ -48,7 +61,7 @@ public class State(){
 	*/
 	public State pourLeftToRight(){
 		
-		totalWater = leftJugWater + rightJugWater;
+		int totalWater = leftJugWater + rightJugWater;
 		int leftJugWater = -1;
 		int rightJugWater = -1;
 		
@@ -70,32 +83,90 @@ public class State(){
 	*/
 	public State pourRightToLeft(){
 		
-		totalWater = leftJugWater + rightJugWater;
+		int totalWater = leftJugWater + rightJugWater;
 		
 		//Pour all water from left to right and it does not exceed
 		if(totalWater<LEFT_JUG_CAP){
 			leftJugWater = totalWater;
 			rightJugWater = 0;
-		}else if(totalWater>LEFT_JUG_CAP_JUG_CAP){
+		}else if(totalWater>LEFT_JUG_CAP){
 			leftJugWater = LEFT_JUG_CAP;
 			rightJugWater = totalWater-leftJugWater;
-		}		
+		}
+                State newState = new State(leftJugWater,rightJugWater);
+		return newState;
 	}
 	
 	/**
 	*This method generates possible states by applying the 6 operations defines above
 	*/
-	public ArrayList<State> generateNextStates(){
+	public void generateNextStates(ArrayList<State> visitedStates){
 		
-		ArrayList<State> nextStates = new ArrayList<State>();
-		nextStates.add(fillLeftJug);
-		nextStates.add(fillRightJug);
-		nextStates.add(emptyLeftJug);
-		nextStates.add(emptyRightJug);
-		nextStates.add(pourLeftToRight);
-		nextStates.add(pourRightToLeft);	
-		return nextStates;
+		
+		State newState = fillLeftJug();
+                if(!visitedStates.contains(newState)){
+                    this.nextStates.add(newState);
+                    visitedStates.add(newState);
+                }
+                
+		newState = fillRightJug();
+                if(!visitedStates.contains(newState)){
+                    this.nextStates.add(newState);
+                    visitedStates.add(newState);
+                }
+                
+		newState = emptyLeftJug();
+                if(!visitedStates.contains(newState)){
+                    this.nextStates.add(newState);
+                    visitedStates.add(newState);
+                }
+                
+		newState = emptyRightJug();
+                if(!visitedStates.contains(newState)){
+                    this.nextStates.add(newState);
+                    visitedStates.add(newState);
+                }
+                
+		newState = pourLeftToRight();
+                if(!visitedStates.contains(newState)){
+                    this.nextStates.add(newState);
+                    visitedStates.add(newState);
+                }
+                
+		newState = pourRightToLeft();	
+                if(!visitedStates.contains(newState)){
+                    this.nextStates.add(newState);
+                    visitedStates.add(newState);
+                }		
 	}
+        
+        @Override
+        public String toString(){
+            
+            String str =  "Left jug water: "+ this.leftJugWater + " Right Jug Water: "+ this.rightJugWater+ "\n";
+            str +="------Next States-----";
+            for(int i=0;i<nextStates.size();i++){
+                State cur = nextStates.get(i);
+                str += "Left jug water: "+cur.leftJugWater+
+                        " Right jug water: " + cur.rightJugWater + "\n";
+            }                   
+            return str;
+            
+        }
+        
+        
+        
+        
+        @Override
+        public boolean equals(Object o){
+            
+            State right = (State) o;
+            
+            if(right.leftJugWater == this.leftJugWater && right.rightJugWater == this.rightJugWater){
+                return true;
+            }
+            return false;
+        }
 	
 	
 }
