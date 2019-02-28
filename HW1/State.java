@@ -75,6 +75,7 @@ public class State{
 		}	
 		State newState = new State(leftJugWater,rightJugWater);
 		return newState;
+               
 		
 	}
 	
@@ -125,6 +126,7 @@ public class State{
                 if(!visitedStates.contains(newState)){
                     this.nextStates.add(newState);
                     visitedStates.add(newState);
+                    
                 }
                 
 		newState = pourLeftToRight();
@@ -144,7 +146,7 @@ public class State{
         public String toString(){
             
             String str =  "Left jug water: "+ this.leftJugWater + " Right Jug Water: "+ this.rightJugWater+ "\n";
-            str +="------Next States-----";
+            str +="------Next States-----"+"\n";
             for(int i=0;i<nextStates.size();i++){
                 State cur = nextStates.get(i);
                 str += "Left jug water: "+cur.leftJugWater+
@@ -154,6 +156,9 @@ public class State{
             
         }
         
+        public ArrayList<State> getNextStates(){
+            return nextStates;
+        }
         
         
         
