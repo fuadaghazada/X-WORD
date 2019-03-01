@@ -1,67 +1,64 @@
 {
-    "date": "Thursday February 28, 2019",
+    "date": "Friday March 1, 2019",
     "puzzle": [
         [
+            null,
             [
                 "1",
-                "E"
+                "L"
             ],
             [
                 "2",
-                "D"
+                "A"
             ],
             [
                 "3",
-                "G"
+                "S"
             ],
             [
                 "4",
-                "Y"
-            ],
-            null
+                "T"
+            ]
         ],
         [
             [
                 "5",
-                "R"
-            ],
-            [
-                "O"
-            ],
-            [
-                "M"
-            ],
-            [
-                "A"
-            ],
-            null
-        ],
-        [
-            [
-                "6",
-                "G"
+                "J"
             ],
             [
                 "U"
             ],
             [
+                "I"
+            ],
+            [
+                "C"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "6",
                 "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "D"
             ],
             [
                 "R"
             ],
             [
-                "7",
-                "D"
+                "E"
             ]
         ],
         [
-            null,
             [
-                "8",
-                "S"
-            ],
-            [
+                "7",
                 "I"
             ],
             [
@@ -69,68 +66,74 @@
             ],
             [
                 "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "S"
             ]
         ],
         [
-            null,
             [
-                "9",
-                "E"
+                "8",
+                "L"
             ],
             [
-                "L"
+                "I"
             ],
             [
                 "S"
             ],
             [
-                "E"
-            ]
+                "P"
+            ],
+            null
         ]
     ],
     "clues": {
         "across": [
             {
                 "number": "1",
-                "clue": "Avant-garde"
+                "clue": "Worst in the league"
             },
             {
                 "number": "5",
-                "clue": "Movie for which Alfonso Cuarón recently won the Best Director Oscar"
+                "clue": "Battery life"
             },
             {
                 "number": "6",
-                "clue": "Keep safe"
+                "clue": "___ 3000, one half of rap's OutKast"
+            },
+            {
+                "number": "7",
+                "clue": "What cartoon light bulbs represent"
             },
             {
                 "number": "8",
-                "clue": "One of five for a pentagon"
-            },
-            {
-                "number": "9",
-                "clue": "\"If all ___ fails ...\""
+                "clue": "Talk like Daffy Duck"
             }
         ],
         "down": [
             {
                 "number": "1",
-                "clue": "Unit of work in physics"
+                "clue": "Monday, in French"
             },
             {
                 "number": "2",
-                "clue": "Cover in water"
+                "clue": "White House assistants"
             },
             {
                 "number": "3",
-                "clue": "Tech service whose logo is a red-and-white envelope"
+                "clue": "Throw in the trash"
             },
             {
                 "number": "4",
-                "clue": "Football statistic"
+                "clue": "Bagful for a golfer"
             },
             {
-                "number": "7",
-                "clue": "Letter after cee"
+                "number": "5",
+                "clue": "Square between Connecticut Avenue and St. Charles Place on a Monopoly board"
             }
         ]
     }
