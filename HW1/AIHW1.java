@@ -1,3 +1,17 @@
+/*
+* CS461 - Artificial Intelligence HW1
+* Group Members: Çağatay Sel, Utku Mert Topçuoğlu, Fuad Aghazada,Can Özgürel, Kaan Kıranbay
+*
+* Part a)
+* Any water combination in big and small jug is a state. Instead of big and small, left and right jug terms were used in this program.
+* Initial state is (0,0) state where both jugs are empty. Goal states for first question
+are (x,1) or (1,x) where x is any amount of water. Goal states for second question are (3,x) and (x,3).
+* There are 6 operators. These are fill left jug,fill right jug, empty left jug, empty right jug,pour left to right
+and pour right to left.
+* 6 operators create at most 6 new next state so branching factor is at most 6. However, some operations create same or visited states. Therefore, nodes 
+have different branching factors.
+*/
+
 package aihw1;
 
 import java.util.ArrayList;
