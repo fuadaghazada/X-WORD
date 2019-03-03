@@ -1,0 +1,139 @@
+{
+    "date": "Sunday March 3, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "G"
+            ],
+            [
+                "2",
+                "R"
+            ],
+            [
+                "3",
+                "I"
+            ],
+            [
+                "4",
+                "F"
+            ],
+            [
+                "5",
+                "T"
+            ]
+        ],
+        [
+            [
+                "6",
+                "E"
+            ],
+            [
+                "U"
+            ],
+            [
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "7",
+                "E"
+            ],
+            [
+                "B"
+            ],
+            [
+                "O"
+            ],
+            [
+                "O"
+            ],
+            [
+                "K"
+            ]
+        ],
+        [
+            [
+                "8",
+                "K"
+            ],
+            [
+                "I"
+            ],
+            [
+                "N"
+            ],
+            [
+                "D"
+            ],
+            null
+        ],
+        [
+            [
+                "9",
+                "S"
+            ],
+            [
+                "O"
+            ],
+            [
+                "Y"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Make money through conning"
+            },
+            {
+                "number": "6",
+                "clue": "Currency worth a little more than dollars"
+            },
+            {
+                "number": "7",
+                "clue": "Download for a Kindle"
+            },
+            {
+                "number": "8",
+                "clue": "Warmhearted"
+            },
+            {
+                "number": "9",
+                "clue": "Ingredient in a veggie burger"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Nerds"
+            },
+            {
+                "number": "2",
+                "clue": "Florida senator Marco"
+            },
+            {
+                "number": "3",
+                "clue": "The fact that Nintendo of America's new C.E.O. is named Doug Bowser, e.g."
+            },
+            {
+                "number": "4",
+                "clue": "___ Network, \"Chopped\" airer"
+            },
+            {
+                "number": "5",
+                "clue": "Reprimanding sound"
+            }
+        ]
+    }
+}
