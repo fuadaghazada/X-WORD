@@ -8,28 +8,27 @@
 are (x,1) or (1,x) where x is any amount of water. Goal states for second question are (3,x) and (x,3).
 * There are 6 operators. These are fill left jug,fill right jug, empty left jug, empty right jug,pour left to right
 and pour right to left.
-* 6 operators create at most 6 new next state so branching factor is at most 6. However, some operations create same or visited states. Therefore, nodes 
+* 6 operators create at most 6 new next state so branching factor is at most 6. However, some operations create same or visited states. Therefore, nodes
 have different branching factors.
 */
 
-package aihw1;
 
 import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
 /**
- *
- * @author cagatay.sel-ug
- */
+*
+* @author cagatay.sel-ug
+*/
 public class AIHW1 {
 
     public static int GOAL_LITER_1 = 1;
     public static int GOAL_LITER_3 = 3;
 
     /**
-     * @param args the command line arguments
-     */
+    * @param args the command line arguments
+    */
     public static void main(String[] args) {
 
         System.out.println("-----------QUESTION 1-------------------");
@@ -38,8 +37,8 @@ public class AIHW1 {
         System.out.println("Right jug water capacity: "+State.RIGHT_JUG_CAP);
         System.out.println();
         depthFirstSolve(GOAL_LITER_1);
-        
-        
+
+
         System.out.println("-----------QUESTION 2-------------------");
         System.out.println("Goal: Reach "+GOAL_LITER_3 + " liter in a jug");
         System.out.println("Left jug water capacity: "+State.LEFT_JUG_CAP);
@@ -88,12 +87,12 @@ public class AIHW1 {
     }
 
     /**
-     * This method uses depth first search algorithm to find goal liter.
-     * @param cur current state
-     * @param goalLiter goal
-     * @param visitedStates list of visited states
-     * @return null or goal state
-     */
+    * This method uses depth first search algorithm to find goal liter.
+    * @param cur current state
+    * @param goalLiter goal
+    * @param visitedStates list of visited states
+    * @return null or goal state
+    */
     public static State depthFirstSearch(State cur, int goalLiter, ArrayList<State> visitedStates) {
 
         if (cur.isGoalState(goalLiter)) {
@@ -114,12 +113,12 @@ public class AIHW1 {
     }
 
     /**
-     * This method uses breadth first search to solve jug problem.
-     *
-     * @param initial Initial state
-     * @param goalLitre Goal liter that is searched
-     * @return goal state or null
-     */
+    * This method uses breadth first search to solve jug problem.
+    *
+    * @param initial Initial state
+    * @param goalLitre Goal liter that is searched
+    * @return goal state or null
+    */
     public static State breadthFirstSearch(State initial, int goalLiter) {
 
         Queue<State> queue = new LinkedList<>();
@@ -136,7 +135,7 @@ public class AIHW1 {
             if (cur.isGoalState(goalLiter)) {
                 /* Printing visited nodes for debugging */
                 /*System.out.println("---Visited State----");
-                 System.out.println(cur);*/
+                System.out.println(cur);*/
                 return cur;
             }
 
