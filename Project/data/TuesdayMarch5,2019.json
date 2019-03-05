@@ -1,136 +1,139 @@
 {
-    "date": "Monday March 4, 2019",
+    "date": "Tuesday March 5, 2019",
     "puzzle": [
         [
             null,
-            null,
             [
                 "1",
-                "L"
+                "K"
             ],
             [
                 "2",
-                "A"
+                "C"
             ],
             [
                 "3",
-                "P"
-            ]
-        ],
-        [
-            null,
+                "U"
+            ],
             [
                 "4",
-                "F"
-            ],
-            [
-                "I"
-            ],
-            [
-                "R"
-            ],
-            [
-                "E"
+                "P"
             ]
         ],
         [
             [
                 "5",
-                "W"
+                "J"
             ],
             [
-                "A"
+                "O"
             ],
             [
-                "T"
-            ],
-            [
-                "E"
-            ],
-            [
-                "R"
-            ]
-        ],
-        [
-            [
-                "6",
-                "E"
-            ],
-            [
-                "V"
-            ],
-            [
-                "E"
+                "H"
             ],
             [
                 "N"
             ],
             [
-                "T"
+                "S"
             ]
         ],
         [
             [
-                "7",
-                "E"
-            ],
-            [
-                "A"
+                "6",
+                "U"
             ],
             [
                 "R"
             ],
             [
-                "T"
+                "A"
             ],
             [
-                "H"
+                "L"
+            ],
+            [
+                "S"
             ]
+        ],
+        [
+            [
+                "7",
+                "M"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            [
+                "I"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "8",
+                "P"
+            ],
+            [
+                "A"
+            ],
+            [
+                "S"
+            ],
+            [
+                "T"
+            ],
+            null
         ]
     ],
     "clues": {
         "across": [
             {
                 "number": "1",
-                "clue": "Drink like a cat"
-            },
-            {
-                "number": "4",
-                "clue": "One of the four ancient elements"
+                "clue": "Pod for an instant coffee machine"
             },
             {
                 "number": "5",
-                "clue": "One of the four ancient elements"
+                "clue": "Long ___ (underwear)"
             },
             {
                 "number": "6",
-                "clue": "Facebook calendar listing"
+                "clue": "Mountain range that divides Europe and Asia"
             },
             {
                 "number": "7",
-                "clue": "One of the four ancient elements"
+                "clue": "What some college scholarships are based on"
+            },
+            {
+                "number": "8",
+                "clue": "Time machine's destination"
             }
         ],
         "down": [
             {
                 "number": "1",
-                "clue": "Soda bottle size"
+                "clue": "Peninsula where Kim is the most common surname"
             },
             {
                 "number": "2",
-                "clue": "\"There ___ enough hours in the day\""
+                "clue": "Lightly burns"
             },
             {
                 "number": "3",
-                "clue": "Major Australian city on the Indian Ocean"
+                "clue": "Not yet aflame"
             },
             {
                 "number": "4",
-                "clue": "Kind of bean mentioned by Hannibal Lecter"
+                "clue": "\"Hey you!\""
             },
             {
                 "number": "5",
-                "clue": "Tiny"
+                "clue": "Capture in checkers"
             }
         ]
     }
