@@ -1,0 +1,141 @@
+{
+    "date": "Wednesday March 6, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "V"
+            ],
+            [
+                "2",
+                "O"
+            ],
+            [
+                "3",
+                "I"
+            ],
+            [
+                "4",
+                "L"
+            ],
+            [
+                "5",
+                "A"
+            ]
+        ],
+        [
+            [
+                "6",
+                "E"
+            ],
+            [
+                "R"
+            ],
+            [
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "R"
+            ]
+        ],
+        [
+            [
+                "7",
+                "S"
+            ],
+            [
+                "N"
+            ],
+            [
+                "O"
+            ],
+            [
+                "R"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "8",
+                "P"
+            ],
+            [
+                "O"
+            ],
+            [
+                "N"
+            ],
+            [
+                "D"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "9",
+                "A"
+            ],
+            [
+                "T"
+            ],
+            [
+                "S"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "\"And there you have it!\""
+            },
+            {
+                "number": "6",
+                "clue": "Unwelcome message for a coder"
+            },
+            {
+                "number": "7",
+                "clue": "Laugh through one's nose"
+            },
+            {
+                "number": "8",
+                "clue": "Small lakes"
+            },
+            {
+                "number": "9",
+                "clue": "Symbols used to call people out on Twitter, for short"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Big name in scooters"
+            },
+            {
+                "number": "2",
+                "clue": "\"Ready ___, here I come!\""
+            },
+            {
+                "number": "3",
+                "clue": "Smooths (out)"
+            },
+            {
+                "number": "4",
+                "clue": "One \"leaping\" in \"The Twelve Days of Christmas\""
+            },
+            {
+                "number": "5",
+                "clue": "Newspaper section that employs various critics"
+            }
+        ]
+    }
+}
