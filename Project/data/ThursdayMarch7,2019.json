@@ -1,0 +1,140 @@
+{
+    "date": "Thursday March 7, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "R"
+            ],
+            [
+                "2",
+                "B"
+            ],
+            [
+                "3",
+                "G"
+            ],
+            null
+        ],
+        [
+            [
+                "4",
+                "R"
+            ],
+            [
+                "U"
+            ],
+            [
+                "R"
+            ],
+            [
+                "A"
+            ],
+            [
+                "5",
+                "L"
+            ]
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "M"
+            ],
+            [
+                "A"
+            ],
+            [
+                "Z"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "7",
+                "M"
+            ],
+            [
+                "O"
+            ],
+            [
+                "V"
+            ],
+            [
+                "E"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "8",
+                "P"
+            ],
+            [
+                "R"
+            ],
+            [
+                "E"
+            ],
+            [
+                "S"
+            ],
+            [
+                "S"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "\"Notorious\" nickname on the Supreme Court"
+            },
+            {
+                "number": "4",
+                "clue": "Like 97% of U.S. land, but only 19.3% of its population"
+            },
+            {
+                "number": "6",
+                "clue": "Flabbergast"
+            },
+            {
+                "number": "7",
+                "clue": "Things to bust on the dance floor"
+            },
+            {
+                "number": "8",
+                "clue": "Juice-extracting machine"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Something passed along through whispers"
+            },
+            {
+                "number": "2",
+                "clue": "2012 Pixar film with a female protagonist"
+            },
+            {
+                "number": "3",
+                "clue": "Stares"
+            },
+            {
+                "number": "4",
+                "clue": "Feature of a multistory parking garage"
+            },
+            {
+                "number": "5",
+                "clue": "\"Do ___\" (advice to the overly eager)"
+            }
+        ]
+    }
+}
