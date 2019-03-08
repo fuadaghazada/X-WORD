@@ -97,8 +97,3 @@ def move(puzzle, dir):
         puzzle_cp[x_i][x_j - 1], puzzle_cp[x_i][x_j] = puzzle_cp[x_i][x_j], puzzle_cp[x_i][x_j - 1]
 
     return puzzle_cp
-
-
-# state1 = [['1'], ['2', '5', '8'], ['X', '6', '3'], ['4', '7', '9']]
-# state2 = [['1'], ['X', '5', '8'], ['2', '6', '3'], ['4', '7', '9']]
-# print(move_statement(state1, state2))

@@ -1,6 +1,7 @@
 from state import print_solution_path
 from beam_search import beam_search
 from puzzle import generate
+from write_to_file import write_to_csv, write_to_txt
 
 '''
     Homework 2
@@ -25,14 +26,27 @@ def generate_n_puzzles(n):
 
 
 ###### GENERATING 25 Distinct Puzzles #######
-# puzzles = generate_n_puzzles(25)
+puzzles = generate_n_puzzles(1)
 
-puzzle = generate()
+index = 1
+path = None
 
-# puzzle = [['1'], ['2', '5', '8'], ['X', '6', '3'], ['4', '7', '9']]
+# X and Y values for the puzzle solved with beam width 2 and 3
+data = []
 
-path, num_moves = beam_search(puzzle, 2)
+for puzzle in puzzles:
+    path, num_moves_w2 = beam_search(puzzle, 2)
+    path, num_moves_w3 = beam_search(puzzle, 3)
 
-print_solution_path(path)
+    data.append([index, num_moves_w2, num_moves_w3])
+    index += 1
 
-# path, num_moves = beam_search(puzzle, 3)
+# Write puzzles (initial states) to txt
+write_to_txt(puzzles)
+
+# Writing result into csv file
+write_to_csv(data)
+
+# Print the trace for the last puzzle
+if path:
+    print_solution_path(path)

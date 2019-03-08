@@ -14,6 +14,7 @@ from puzzle import GOAL
 '''
 def beam_search(puzzle, w):
 
+    # Queue with one element
     queue = list()
     queue.append([puzzle])
 
@@ -22,6 +23,7 @@ def beam_search(puzzle, w):
 
         paths = []
 
+        # Next states already in a sorted fashion according to distance to goal
         next_states = generate_next_states(first[-1])
 
         for state in next_states:
@@ -34,7 +36,7 @@ def beam_search(puzzle, w):
                 paths.append(path)
 
         # Adding new pathes to the 'front' of queue
-        for path in paths:
+        for path in paths[:w]:
             queue.append(path)
 
         # Check if goal is found!
@@ -49,4 +51,4 @@ def beam_search(puzzle, w):
         elif len(queue) == 0:
             print("No path is found\n")
 
-    return None;
+    return None, None;
