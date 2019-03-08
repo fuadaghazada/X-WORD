@@ -1,0 +1,140 @@
+{
+    "date": "Friday March 8, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "C"
+            ],
+            [
+                "2",
+                "O"
+            ],
+            [
+                "3",
+                "G"
+            ],
+            null
+        ],
+        [
+            [
+                "4",
+                "O"
+            ],
+            [
+                "H"
+            ],
+            [
+                "B"
+            ],
+            [
+                "O"
+            ],
+            [
+                "5",
+                "Y"
+            ]
+        ],
+        [
+            [
+                "6",
+                "P"
+            ],
+            [
+                "I"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "O"
+            ]
+        ],
+        [
+            [
+                "7",
+                "E"
+            ],
+            [
+                "L"
+            ],
+            [
+                "M"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ]
+        ],
+        [
+            [
+                "8",
+                "C"
+            ],
+            [
+                "L"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "K"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Gear tooth"
+            },
+            {
+                "number": "4",
+                "clue": "\"How exciting!\""
+            },
+            {
+                "number": "6",
+                "clue": "Instrument for Lady Gaga"
+            },
+            {
+                "number": "7",
+                "clue": "Cartoon hunter who says \"Be vewy vewy quiet ...\""
+            },
+            {
+                "number": "8",
+                "clue": "University in Worcester, Mass."
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "\"Be cool!\""
+            },
+            {
+                "number": "2",
+                "clue": "Author of the 2018 best seller \"Becoming\""
+            },
+            {
+                "number": "3",
+                "clue": "One who's completely toast"
+            },
+            {
+                "number": "4",
+                "clue": "Oil cartel founded in 1960"
+            },
+            {
+                "number": "5",
+                "clue": "Center of N.Y.C."
+            }
+        ]
+    }
+}
