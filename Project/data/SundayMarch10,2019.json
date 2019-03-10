@@ -1,0 +1,136 @@
+{
+    "date": "Sunday March 10, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "F"
+            ],
+            [
+                "2",
+                "L"
+            ],
+            [
+                "3",
+                "A"
+            ],
+            [
+                "4",
+                "N"
+            ]
+        ],
+        [
+            null,
+            [
+                "5",
+                "A"
+            ],
+            [
+                "I"
+            ],
+            [
+                "D"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "6",
+                "M"
+            ],
+            [
+                "R"
+            ],
+            [
+                "F"
+            ],
+            [
+                "O"
+            ],
+            [
+                "X"
+            ]
+        ],
+        [
+            [
+                "7",
+                "U"
+            ],
+            [
+                "S"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            null
+        ],
+        [
+            [
+                "8",
+                "D"
+            ],
+            [
+                "I"
+            ],
+            [
+                "R"
+            ],
+            [
+                "E"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Custardy Spanish dessert"
+            },
+            {
+                "number": "5",
+                "clue": "Bryant of the \"S.N.L.\" cast"
+            },
+            {
+                "number": "6",
+                "clue": "\"Fantastic\" title animal for Roald Dahl"
+            },
+            {
+                "number": "7",
+                "clue": "___ privacy, issue for Facebook"
+            },
+            {
+                "number": "8",
+                "clue": "Not looking good"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Language of Iran"
+            },
+            {
+                "number": "2",
+                "clue": "Someone who stays in the same job forever"
+            },
+            {
+                "number": "3",
+                "clue": "Absolutely love"
+            },
+            {
+                "number": "4",
+                "clue": "Greek goddess of the night"
+            },
+            {
+                "number": "6",
+                "clue": "Dirt after rain"
+            }
+        ]
+    }
+}
