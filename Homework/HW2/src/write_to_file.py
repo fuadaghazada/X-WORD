@@ -11,13 +11,19 @@ def write_to_csv(data):
             writer.writerow(row)
 
 '''
-    Writing the puzzles to a text file
+    Writing the puzzles to a text file in a 'pretty format'
 '''
 def write_to_txt(puzzles):
     with open('../data/puzzles.txt', 'w') as writeFile:
+        index = 1
         for puzzle in puzzles:
+            writeFile.write(str(index) + ")\n")
+            writeFile.write('-----\n')
             for i in puzzle:
                 for j in i:
-                    writeFile.write(j + '\t')
-                writeFile.write('\n')
+                    if j is i[0]:
+                        writeFile.write('| ')
+                    writeFile.write(j + ' | ')
+                writeFile.write('\n-------------\n')
             writeFile.write('\n')
+            index += 1

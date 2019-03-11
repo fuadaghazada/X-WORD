@@ -4,7 +4,18 @@ from puzzle import generate
 from write_to_file import write_to_csv, write_to_txt
 
 '''
-    Homework 2
+    CS461 - Artificial Intelligence Homework 2
+
+    Group members:
+        * Fuad Aghazada
+        * Can Özgürel
+        * Çağatay Sel
+        * Utku Mert Topçuoğlu
+        * Kaan Kıranbay
+
+    As heuristic function
+        h2 (sum of Manhattan distances of the tiles from their goal positions)
+        has been used
 
     @authors: fuadaghazada, canozgurel
     @date: 7/3/2019
@@ -26,7 +37,7 @@ def generate_n_puzzles(n):
 
 
 ###### GENERATING 25 Distinct Puzzles #######
-puzzles = generate_n_puzzles(1)
+puzzles = generate_n_puzzles(25)
 
 index = 1
 path = None
@@ -48,5 +59,6 @@ write_to_txt(puzzles)
 write_to_csv(data)
 
 # Print the trace for the last puzzle
+print("\n\n----Solution trace for last puzzle!----\n\n")
 if path:
     print_solution_path(path)

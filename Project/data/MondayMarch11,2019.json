@@ -1,0 +1,136 @@
+{
+    "date": "Monday March 11, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "S"
+            ],
+            [
+                "2",
+                "M"
+            ],
+            [
+                "3",
+                "U"
+            ],
+            [
+                "4",
+                "G"
+            ]
+        ],
+        [
+            null,
+            [
+                "5",
+                "N"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "O"
+            ]
+        ],
+        [
+            [
+                "6",
+                "B"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "D"
+            ],
+            [
+                "B"
+            ]
+        ],
+        [
+            [
+                "7",
+                "U"
+            ],
+            [
+                "P"
+            ],
+            [
+                "D"
+            ],
+            [
+                "O"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "8",
+                "G"
+            ],
+            [
+                "E"
+            ],
+            [
+                "M"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Self-satisfied"
+            },
+            {
+                "number": "5",
+                "clue": "Prefix with technology and second"
+            },
+            {
+                "number": "6",
+                "clue": "Cozier alternative to a motel"
+            },
+            {
+                "number": "7",
+                "clue": "Some prom hairstyles"
+            },
+            {
+                "number": "8",
+                "clue": "Ruby or sapphire"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "He kills Dumbledore near the end of \"Harry Potter and the Half-Blood Prince\""
+            },
+            {
+                "number": "2",
+                "clue": "Coated candy"
+            },
+            {
+                "number": "3",
+                "clue": "Command-Z command"
+            },
+            {
+                "number": "4",
+                "clue": "Tons and tons"
+            },
+            {
+                "number": "6",
+                "clue": "Coder's headache"
+            }
+        ]
+    }
+}

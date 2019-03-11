@@ -1,27 +1,4 @@
-import math
-
 from puzzle import find_index, find_possible_moves, move, GOAL
-
-'''
-    Finding manhattan_distance for a given puzzle
-'''
-def manhattan_distance(puzzle):
-    distance = 0
-
-    for i in range(0, len(puzzle)):
-        for j in range(0, len(puzzle[i])):
-            value = puzzle[i][j]
-
-            if value is 'X':
-                continue
-
-            m, n = find_index(GOAL, value)
-
-            distance += math.fabs(i - m)
-            distance += math.fabs(j - n)
-
-    return distance
-
 
 '''
     Generating next states for the given state of puzzle
@@ -35,17 +12,9 @@ def generate_next_states(puzzle):
 
     for m in moves:
         state = move(puzzle, m)
-        m_dist = manhattan_distance(state)
-        next_states.append({'state' : state, 'distance': m_dist})
+        next_states.append(state)
 
-    # Sorting the list according to distance
-    next_states = sorted(next_states, key = lambda k: k['distance'])
-
-    temp = []
-    for state in next_states:
-        temp.append(state['state'])
-
-    return temp
+    return next_states
 
 
 '''
@@ -79,10 +48,14 @@ def move_statement(state1, state2):
     Printing the puzzle state in a pretty format
 '''
 def print_state(state):
-    for i in range(len(state)):
-        for j in range(len(state[i])):
-            print(state[i][j], end = '\t')
-        print('\n')
+    print('-----')
+    for i in state:
+        for j in i:
+            if j is i[0]:
+                print('| ', end='')
+            print(j + ' | ', end='')
+        print('\n-------------')
+    print('\n')
 
 
 '''
