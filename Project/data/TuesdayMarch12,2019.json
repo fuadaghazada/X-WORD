@@ -1,0 +1,141 @@
+{
+    "date": "Tuesday March 12, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "B"
+            ],
+            [
+                "2",
+                "A"
+            ],
+            [
+                "3",
+                "N"
+            ],
+            [
+                "4",
+                "K"
+            ],
+            [
+                "5",
+                "S"
+            ]
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "V"
+            ],
+            [
+                "I"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ]
+        ],
+        [
+            [
+                "7",
+                "C"
+            ],
+            [
+                "O"
+            ],
+            [
+                "N"
+            ],
+            [
+                "G"
+            ],
+            [
+                "O"
+            ]
+        ],
+        [
+            [
+                "8",
+                "H"
+            ],
+            [
+                "I"
+            ],
+            [
+                "J"
+            ],
+            [
+                "A"
+            ],
+            [
+                "B"
+            ]
+        ],
+        [
+            null,
+            [
+                "9",
+                "D"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Bailout recipients during the 2008 financial crisis"
+            },
+            {
+                "number": "6",
+                "clue": "Bird-related"
+            },
+            {
+                "number": "7",
+                "clue": "Democratic Republic of the ___"
+            },
+            {
+                "number": "8",
+                "clue": "Religious headscarf"
+            },
+            {
+                "number": "9",
+                "clue": "Brown who wrote \"The Da Vinci Code\""
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Beethoven called him \"the immortal god of harmony\""
+            },
+            {
+                "number": "2",
+                "clue": "Stay away from"
+            },
+            {
+                "number": "3",
+                "clue": "Skilled assassin"
+            },
+            {
+                "number": "4",
+                "clue": "Supreme Court justice appointed between Sotomayor and Gorsuch"
+            },
+            {
+                "number": "5",
+                "clue": "Condescending sort"
+            }
+        ]
+    }
+}
