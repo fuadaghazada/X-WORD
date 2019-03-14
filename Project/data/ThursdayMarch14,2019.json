@@ -1,0 +1,145 @@
+{
+    "date": "Thursday March 14, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "S"
+            ],
+            [
+                "2",
+                "T"
+            ],
+            [
+                "3",
+                "R"
+            ],
+            [
+                "4",
+                "A"
+            ],
+            [
+                "5",
+                "W"
+            ]
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "U"
+            ],
+            [
+                "S"
+            ],
+            [
+                "H"
+            ]
+        ],
+        [
+            [
+                "7",
+                "G"
+            ],
+            [
+                "U"
+            ],
+            [
+                "N"
+            ],
+            [
+                "K"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "8",
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "N"
+            ],
+            [
+                "U"
+            ],
+            [
+                "M"
+            ]
+        ],
+        [
+            [
+                "9",
+                "S"
+            ],
+            [
+                "K"
+            ],
+            [
+                "Y"
+            ],
+            [
+                "P"
+            ],
+            [
+                "E"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Single-use plastic item that's increasingly the subject of bans"
+            },
+            {
+                "number": "6",
+                "clue": "In ___ (pressed for time)"
+            },
+            {
+                "number": "7",
+                "clue": "Covered in crud"
+            },
+            {
+                "number": "8",
+                "clue": "Per ___ (yearly)"
+            },
+            {
+                "number": "9",
+                "clue": "Video chat option"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Epic stories"
+            },
+            {
+                "number": "2",
+                "clue": "Part of an elephant or tree"
+            },
+            {
+                "number": "3",
+                "clue": "Like a cold sufferer's nose"
+            },
+            {
+                "number": "4",
+                "clue": "Invite to one's penthouse suite, for instance"
+            },
+            {
+                "number": "5",
+                "clue": "Self-pitying question"
+            }
+        ]
+    }
+}

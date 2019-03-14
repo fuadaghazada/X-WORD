@@ -1,0 +1,136 @@
+{
+    "date": "Wednesday March 13, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "J"
+            ],
+            [
+                "2",
+                "A"
+            ],
+            [
+                "3",
+                "R"
+            ],
+            null
+        ],
+        [
+            [
+                "4",
+                "P"
+            ],
+            [
+                "U"
+            ],
+            [
+                "S"
+            ],
+            [
+                "H"
+            ],
+            [
+                "5",
+                "Y"
+            ]
+        ],
+        [
+            [
+                "6",
+                "J"
+            ],
+            [
+                "U"
+            ],
+            [
+                "L"
+            ],
+            [
+                "I"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "7",
+                "S"
+            ],
+            [
+                "L"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            null,
+            [
+                "8",
+                "S"
+            ],
+            [
+                "N"
+            ],
+            [
+                "O"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Pickle holder"
+            },
+            {
+                "number": "4",
+                "clue": "Annoyingly self-assertive"
+            },
+            {
+                "number": "6",
+                "clue": "Andrews who starred in the original \"Mary Poppins\""
+            },
+            {
+                "number": "7",
+                "clue": "Tilt to one side"
+            },
+            {
+                "number": "8",
+                "clue": "___ Balls (Hostess snack food)"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Popular vaping devices"
+            },
+            {
+                "number": "2",
+                "clue": "Lion in \"The Lion, the Witch and the Wardrobe\""
+            },
+            {
+                "number": "3",
+                "clue": "Horned African mammal"
+            },
+            {
+                "number": "4",
+                "clue": "Jammies"
+            },
+            {
+                "number": "5",
+                "clue": "Up to this point"
+            }
+        ]
+    }
+}
