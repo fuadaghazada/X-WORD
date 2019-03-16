@@ -1,0 +1,140 @@
+{
+    "date": "Friday March 15, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "N"
+            ],
+            [
+                "2",
+                "A"
+            ],
+            [
+                "3",
+                "S"
+            ],
+            [
+                "4",
+                "A"
+            ]
+        ],
+        [
+            [
+                "5",
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "W"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ]
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "L"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "M"
+            ]
+        ],
+        [
+            [
+                "7",
+                "W"
+            ],
+            [
+                "I"
+            ],
+            [
+                "K"
+            ],
+            [
+                "I"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "8",
+                "R"
+            ],
+            [
+                "E"
+            ],
+            [
+                "E"
+            ],
+            [
+                "F"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "\"Houston, we've had a problem here\" org."
+            },
+            {
+                "number": "5",
+                "clue": "Competitor in a regatta"
+            },
+            {
+                "number": "6",
+                "clue": "Sound from a smoke detector"
+            },
+            {
+                "number": "7",
+                "clue": "User-edited encyclopedia pages"
+            },
+            {
+                "number": "8",
+                "clue": "Coral ridge"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "\"I kid you not!\""
+            },
+            {
+                "number": "2",
+                "clue": "Up and out of bed"
+            },
+            {
+                "number": "3",
+                "clue": "What the \"sans\" of Comic Sans refers to"
+            },
+            {
+                "number": "4",
+                "clue": "The right to keep them is spelled out in the Second Amendment"
+            },
+            {
+                "number": "5",
+                "clue": "Sound from a cartoon dinosaur"
+            }
+        ]
+    }
+}
