@@ -1,0 +1,136 @@
+{
+    "date": "Sunday March 17, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "E"
+            ],
+            [
+                "2",
+                "B"
+            ],
+            [
+                "3",
+                "B"
+            ],
+            null
+        ],
+        [
+            [
+                "4",
+                "F"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "E"
+            ],
+            [
+                "5",
+                "S"
+            ]
+        ],
+        [
+            [
+                "6",
+                "E"
+            ],
+            [
+                "V"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "7",
+                "Y"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            null,
+            [
+                "8",
+                "S"
+            ],
+            [
+                "K"
+            ],
+            [
+                "Y"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Flow back"
+            },
+            {
+                "number": "4",
+                "clue": "They increase during surge pricing on a rideshare app"
+            },
+            {
+                "number": "6",
+                "clue": "___ now and then"
+            },
+            {
+                "number": "7",
+                "clue": "Things measured by tree rings"
+            },
+            {
+                "number": "8",
+                "clue": "View out of an airplane window"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Overhanging parts of roofs"
+            },
+            {
+                "number": "2",
+                "clue": "Start of a billiards game"
+            },
+            {
+                "number": "3",
+                "clue": "Smoothie ingredient"
+            },
+            {
+                "number": "4",
+                "clue": "Tina of \"30 Rock\""
+            },
+            {
+                "number": "5",
+                "clue": "The \"S\" in iOS: Abbr."
+            }
+        ]
+    }
+}
