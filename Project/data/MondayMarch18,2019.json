@@ -1,0 +1,137 @@
+{
+    "date": "Monday March 18, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "A"
+            ],
+            [
+                "2",
+                "B"
+            ],
+            [
+                "3",
+                "C"
+            ],
+            null,
+            null
+        ],
+        [
+            [
+                "4",
+                "Z"
+            ],
+            [
+                "E"
+            ],
+            [
+                "L"
+            ],
+            [
+                "5",
+                "D"
+            ],
+            [
+                "6",
+                "A"
+            ]
+        ],
+        [
+            [
+                "7",
+                "U"
+            ],
+            [
+                "T"
+            ],
+            [
+                "U"
+            ],
+            [
+                "R"
+            ],
+            [
+                "N"
+            ]
+        ],
+        [
+            [
+                "8",
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "B"
+            ],
+            [
+                "I"
+            ],
+            [
+                "N"
+            ]
+        ],
+        [
+            null,
+            null,
+            [
+                "9",
+                "S"
+            ],
+            [
+                "P"
+            ],
+            [
+                "A"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Network owned by Disney"
+            },
+            {
+                "number": "4",
+                "clue": "\"The Legend of ___\" (video game franchise)"
+            },
+            {
+                "number": "7",
+                "clue": "Driver's 180°"
+            },
+            {
+                "number": "8",
+                "clue": "Bird that's a harbinger of spring"
+            },
+            {
+                "number": "9",
+                "clue": "Offerer of a seaweed wrap or cucumber facial"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "France's Côte d'___"
+            },
+            {
+                "number": "2",
+                "clue": "2020 presidential hopeful O'Rourke"
+            },
+            {
+                "number": "3",
+                "clue": "♣ ♣ ♣"
+            },
+            {
+                "number": "5",
+                "clue": "Coffee brewing choice"
+            },
+            {
+                "number": "6",
+                "clue": "Palindromic woman's name"
+            }
+        ]
+    }
+}

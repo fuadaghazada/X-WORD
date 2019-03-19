@@ -1,0 +1,137 @@
+{
+    "date": "Tuesday March 19, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "E"
+            ],
+            [
+                "2",
+                "G"
+            ],
+            [
+                "3",
+                "G"
+            ],
+            null,
+            null
+        ],
+        [
+            [
+                "4",
+                "B"
+            ],
+            [
+                "Y"
+            ],
+            [
+                "L"
+            ],
+            [
+                "5",
+                "A"
+            ],
+            [
+                "6",
+                "W"
+            ]
+        ],
+        [
+            [
+                "7",
+                "B"
+            ],
+            [
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "N"
+            ],
+            [
+                "X"
+            ]
+        ],
+        [
+            [
+                "8",
+                "S"
+            ],
+            [
+                "O"
+            ],
+            [
+                "O"
+            ],
+            [
+                "T"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            null,
+            null,
+            [
+                "9",
+                "M"
+            ],
+            [
+                "I"
+            ],
+            [
+                "Z"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "Something that's gone bad if it floats when placed in a bowl of water"
+            },
+            {
+                "number": "4",
+                "clue": "Corporate regulation"
+            },
+            {
+                "number": "7",
+                "clue": "Part of Alexandria Ocasio-Cortez's district, with \"the\""
+            },
+            {
+                "number": "8",
+                "clue": "Like the inside of a chimney"
+            },
+            {
+                "number": "9",
+                "clue": "Broadway's \"Les ___\""
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Recedes"
+            },
+            {
+                "number": "2",
+                "clue": "Greek sandwich"
+            },
+            {
+                "number": "3",
+                "clue": "Doom and ___"
+            },
+            {
+                "number": "5",
+                "clue": "Prefix with vaxxer"
+            },
+            {
+                "number": "6",
+                "clue": "Detroit-area TV station whose name is an alphabet string"
+            }
+        ]
+    }
+}

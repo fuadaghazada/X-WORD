@@ -68,6 +68,7 @@ class PuzzleScraper:
 
         # LOG
         self.log_gen.write_to_file('Puzzle data is written to the JSON file')
+        print('Puzzle data is written to the JSON file')
 
         return data
 
@@ -81,10 +82,14 @@ class PuzzleScraper:
         try:
             # Opening browser
             driver = webdriver.Chrome()
-            driver.get(self.URL)
 
             # LOG
             self.log_gen.write_to_file('Browser is opened and request is sent to the URL')
+            self.log_gen.write_to_file('Page is loading')
+            print('Browser is opened and request is sent to the URL')
+            print('Page is loading')
+
+            driver.get(self.URL)
 
             try:
                 # Waiting for modal fully loaded
@@ -93,6 +98,7 @@ class PuzzleScraper:
 
                 # LOG
                 self.log_gen.write_to_file('Page is loaded')
+                print('Page is loaded')
 
                 # CLicking to start btn
                 start_btn = driver.find_element_by_css_selector(".buttons-modalButton--1REsR")
@@ -112,6 +118,7 @@ class PuzzleScraper:
 
                 # LOG
                 self.log_gen.write_to_file('Reveal Puzzle is clicked!')
+                print('Reveal Puzzle is clicked!')
 
             except TimeoutException:
                 print("TIMEOUT")
@@ -129,6 +136,7 @@ class PuzzleScraper:
 
             # LOG
             self.log_gen.write_to_file('Browser is closed and content of the page is returned')
+            print('Browser is closed and content of the page is returned')
 
         except Exception as e:
             p_source = None
@@ -163,6 +171,7 @@ class PuzzleScraper:
 
         # LOG
         self.log_gen.write_to_file('Across clues are parsed from the page content')
+        print('Across clues are parsed from the page content')
 
         # Down
         down = divs[1].find('ol').find_all('li')
@@ -175,6 +184,7 @@ class PuzzleScraper:
 
         # LOG
         self.log_gen.write_to_file('Down clues are parsed from the page content')
+        print('Down clues are parsed from the page content')
 
         # Returning whole data
         return {
@@ -218,6 +228,7 @@ class PuzzleScraper:
 
         # LOG
         self.log_gen.write_to_file('Puzzle cells are parsed from the page content')
+        print('Puzzle cells are parsed from the page content')
 
         return puzzle_data
 
