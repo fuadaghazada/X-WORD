@@ -11,7 +11,9 @@ GOAL = [['X'],
     Generating random puzzle
 '''
 def generate():
-    no_steps = random.randint(25, 30)
+    no_steps = random.randint(20, 25)
+
+    print("%s times shuffled" % no_steps)
 
     puzzle = copy.deepcopy(GOAL)
 

@@ -13,6 +13,8 @@ GOAL = [['X'],
 def generate():
     no_steps = random.randint(15, 20)
 
+    print("%s times shuffled" % no_steps)
+
     puzzle = copy.deepcopy(GOAL)
 
     # Moving empty slot random number of times

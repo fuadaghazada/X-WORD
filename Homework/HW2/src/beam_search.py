@@ -35,7 +35,7 @@ def beam_search(puzzle, w):
             if state not in path:
                 path = list(path)
                 path.append(state)
-                paths.append({'path': path, 'h_value': manhattan_distance(path[-1])})
+                paths.append({'path': path, 'h_value': len(path) + manhattan_distance(path[-1])})
 
         # Sorting according to heuristic value of path
         paths = sorted(paths, key = lambda k: k['h_value'])
