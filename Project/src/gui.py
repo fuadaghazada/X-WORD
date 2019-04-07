@@ -14,6 +14,8 @@ class GUI:
         # Log generator obj
         self.log_gen = log_gen
 
+        self.__root = None
+
     '''
         Renders the title
     '''
@@ -38,13 +40,21 @@ class GUI:
     def __render_grid(self, puzzle):
 
         # Panel
-        pane = tk.PanedWindow()
-        pane.pack(fill = tk.X, expand = 1, side = tk.LEFT, padx = (10, 10), pady = (20, 20))
+        canvas = tk.Canvas(self.__root, width = 505, height = 505)
+        canvas.pack(fill = tk.BOTH, side = tk.LEFT)
+
+        # Gap from left edge of screen
+        GAP = 5
+        tmp = (int(canvas['width']) - GAP * 2)
 
         # Dimension of the puzzle
         dimension = len(puzzle)
 
-        font = 'Inherit 18 bold'
+        letter_font = ('Arial', str(tmp // 11))
+        number_font = ('Arial', str(tmp // 20))
+
+        # Width of the cell
+        w = tmp / dimension
 
         for i in range(dimension):
             for j in range(dimension):
@@ -59,13 +69,12 @@ class GUI:
                     letter = '\n' + str(puzzle[i][j][len(puzzle[i][j]) - 1])
 
                     if len(puzzle[i][j]) == 2:
-                        number = '[' + str(puzzle[i][j][0]) + ']'
+                        number = str(puzzle[i][j][0])
 
-                # Label dimensions
-                height = 10 - dimension
-                width = height * 2
-
-                tk.Label(pane, text = number + letter, font = font, bg = bg, width = width, height = height, relief = tk.RIDGE).grid(row = i, column = j)
+                # Grid components
+                canvas.create_rectangle(j * w + GAP, i * w + GAP, j * w + w + GAP, i * w + w + GAP, fill = bg, outline = 'gray', width = 1.5)
+                canvas.create_text(j * w + w / 2 + GAP, i * w + w / 3 + GAP, text = letter, width = 100, font = letter_font, fill = "#2860d8")
+                canvas.create_text(j * w + 15 + GAP, i * w + 25 + GAP, text = number, width = 100, font = number_font)
 
         # LOG
         self.log_gen.write_to_file('Grids are rendered')
@@ -88,20 +97,20 @@ class GUI:
         # Across Pane & its title
         across_pane = tk.PanedWindow()
         across_pane.pack(fill = tk.X, side = tk.TOP, padx = (20, 20), pady = (20, 20))
-        tk.Label(across_pane, text = 'ACROSS', font = font_b).pack()
+        tk.Label(across_pane, text = 'ACROSS', font = font_b, anchor='w').pack(fill = tk.BOTH)
 
         # Down Pane & its title
         down_pane = tk.PanedWindow()
         down_pane.pack(fill = tk.X, padx = (20, 20), pady = (20, 20))
-        tk.Label(down_pane, text = 'DOWN', font = font_b).pack()
+        tk.Label(down_pane, text = 'DOWN', font = font_b, anchor='w').pack(fill = tk.BOTH)
 
         for clue in clues['across']:
             clue = clue['number'] + '. ' +  clue['clue']
-            tk.Label(across_pane, text = clue, font = font, wraplength = 300).pack()
+            tk.Label(across_pane, text = clue, font = font, wraplength = 600, anchor='w').pack(fill = tk.BOTH)
 
         for clue in clues['down']:
             clue = clue['number'] + '. ' +  clue['clue']
-            tk.Label(down_pane, text = clue, font = font, wraplength = 300).pack()
+            tk.Label(down_pane, text = clue, font = font, wraplength = 600, anchor='w').pack(fill = tk.BOTH)
 
         # LOG
         self.log_gen.write_to_file('Clues are rendered')
@@ -114,8 +123,9 @@ class GUI:
     def render(self, data):
 
         # ROOT
-        root = tk.Tk()
-        root.title('NY Times Crossword')
+        self.__root = tk.Tk()
+        self.__root.title('NY Times Crossword')
+        # self.__root.geometry('1000x1000')
 
         # LOG
         self.log_gen.write_to_file('Window is constructed')
@@ -131,5 +141,5 @@ class GUI:
 
         print("---------------------------")
 
-        root.resizable(False, False)
-        root.mainloop()
+        self.__root.resizable(False, False)
+        self.__root.mainloop()

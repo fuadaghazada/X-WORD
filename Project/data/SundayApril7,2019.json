@@ -1,0 +1,136 @@
+{
+    "date": "Sunday April 7, 2019",
+    "puzzle": [
+        [
+            null,
+            null,
+            [
+                "1",
+                "B"
+            ],
+            [
+                "2",
+                "E"
+            ],
+            [
+                "3",
+                "T"
+            ]
+        ],
+        [
+            [
+                "4",
+                "H"
+            ],
+            [
+                "5",
+                "I"
+            ],
+            [
+                "R"
+            ],
+            [
+                "E"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "6",
+                "G"
+            ],
+            [
+                "O"
+            ],
+            [
+                "A"
+            ],
+            [
+                "L"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "7",
+                "T"
+            ],
+            [
+                "W"
+            ],
+            [
+                "I"
+            ],
+            [
+                "S"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "8",
+                "V"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "number": "1",
+                "clue": "What someone with pocket aces is likely to do"
+            },
+            {
+                "number": "4",
+                "clue": "New person on staff"
+            },
+            {
+                "number": "6",
+                "clue": "Things on a bucket list"
+            },
+            {
+                "number": "7",
+                "clue": "Surprise ending"
+            },
+            {
+                "number": "8",
+                "clue": "Airport shuttle vehicle"
+            }
+        ],
+        "down": [
+            {
+                "number": "1",
+                "clue": "Command center for the nervous system"
+            },
+            {
+                "number": "2",
+                "clue": "Creatures whose name is \"5733\" upside-down"
+            },
+            {
+                "number": "3",
+                "clue": "Word repeated into a microphone"
+            },
+            {
+                "number": "4",
+                "clue": "\"Property Brothers\" channel"
+            },
+            {
+                "number": "5",
+                "clue": "Where much early presidential campaigning is done"
+            }
+        ]
+    }
+}

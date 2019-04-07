@@ -11,7 +11,7 @@ GOAL = [['X'],
     Generating random puzzle
 '''
 def generate():
-    no_steps = random.randint(20, 25)
+    no_steps = random.randint(20, 2522)
 
     print("%s times shuffled" % no_steps)
 

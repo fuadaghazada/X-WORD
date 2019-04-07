@@ -19,9 +19,9 @@ puzzle = generate()
 #     # print_solution_path(path)
 
 
-puzzle = generate()
+# puzzle = generate()
 
-# puzzle = [['1'], ['2', '5', '8'], ['X', '6', '3'], ['4', '7', '9']]
+puzzle = [['1'], ['4', '3', 'X'], ['7', '2', '6'], ['8', '5', '9']]
 
 from search import BBS, A_star_search
 
@@ -30,5 +30,5 @@ path, moves = A_star_search(puzzle)
 
 # print(path)
 
-# if path:
-#     print_solution_path(path)
+if path:
+    print_solution_path(path)
