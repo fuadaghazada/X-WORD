@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "What cheese and soy sauce add to a dish"
+                "clue": "What cheese and soy sauce add to a dish",
+                "answer": "SALT",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Emotional request"
+                "clue": "Emotional request",
+                "answer": "PLEA",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Sent in, as one's taxes"
+                "clue": "Sent in, as one's taxes",
+                "answer": "FILED",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "What lemon and vinegar add to a dish"
+                "clue": "What lemon and vinegar add to a dish",
+                "answer": "ACID",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "The \"place\" for \"1\" in 2019"
+                "clue": "The \"place\" for \"1\" in 2019",
+                "answer": "TENS",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "What chili and ginger add to a dish"
+                "clue": "What chili and ginger add to a dish",
+                "answer": "SPICE",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Max bet for a poker player"
+                "clue": "Max bet for a poker player",
+                "answer": "ALLIN",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "English city near Manchester"
+                "clue": "English city near Manchester",
+                "answer": "LEEDS",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Slightest bit"
+                "clue": "Slightest bit",
+                "answer": "TAD",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "What olive oil and butter add to a dish"
+                "clue": "What olive oil and butter add to a dish",
+                "answer": "FAT",
+                "number": "6"
             }
         ]
     }

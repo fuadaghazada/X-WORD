@@ -94,46 +94,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Gear tooth"
+                "clue": "Gear tooth",
+                "answer": "COG",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "\"How exciting!\""
+                "clue": "\"How exciting!\"",
+                "answer": "OHBOY",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Instrument for Lady Gaga"
+                "clue": "Instrument for Lady Gaga",
+                "answer": "PIANO",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Cartoon hunter who says \"Be vewy vewy quiet ...\""
+                "clue": "Cartoon hunter who says \"Be vewy vewy quiet ...\"",
+                "answer": "ELMER",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "University in Worcester, Mass."
+                "clue": "University in Worcester, Mass.",
+                "answer": "CLARK",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "\"Be cool!\""
+                "clue": "\"Be cool!\"",
+                "answer": "CHILL",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Author of the 2018 best seller \"Becoming\""
+                "clue": "Author of the 2018 best seller \"Becoming\"",
+                "answer": "OBAMA",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "One who's completely toast"
+                "clue": "One who's completely toast",
+                "answer": "GONER",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Oil cartel founded in 1960"
+                "clue": "Oil cartel founded in 1960",
+                "answer": "OPEC",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Center of N.Y.C."
+                "clue": "Center of N.Y.C.",
+                "answer": "YORK",
+                "number": "5"
             }
         ]
     }

@@ -88,46 +88,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Bit of choreography"
+                "clue": "Bit of choreography",
+                "answer": "STEP",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Cheerful greeting"
+                "clue": "Cheerful greeting",
+                "answer": "HIYA",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Author of the \"Odyssey\" and the \"Iliad\""
+                "clue": "Author of the \"Odyssey\" and the \"Iliad\"",
+                "answer": "HOMER",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Regrets"
+                "clue": "Regrets",
+                "answer": "RUES",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Dollar subdivisions: Abbr."
+                "clue": "Dollar subdivisions: Abbr.",
+                "answer": "CTS",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "TALK LIKE THIS!"
+                "clue": "TALK LIKE THIS!",
+                "answer": "SHOUT",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "___ Square (landmark suggested by the groups of circled letters)"
+                "clue": "___ Square (landmark suggested by the groups of circled letters)",
+                "answer": "TIMES",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Contacts go in them"
+                "clue": "Contacts go in them",
+                "answer": "EYES",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "2 or 3, for the typical mini-golf hole"
+                "clue": "2 or 3, for the typical mini-golf hole",
+                "answer": "PAR",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "She lost to D.J.T. in the '16 election"
+                "clue": "She lost to D.J.T. in the '16 election",
+                "answer": "HRC",
+                "number": "6"
             }
         ]
     }

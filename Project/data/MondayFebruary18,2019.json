@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "___ of steel"
+                "clue": "___ of steel",
+                "answer": "ABS",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "Steely ___"
+                "clue": "Steely ___",
+                "answer": "DAN",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Incursion into enemy territory"
+                "clue": "Incursion into enemy territory",
+                "answer": "FORAY",
+                "number": "5"
             },
             {
-                "number": "7",
-                "clue": "Completely out of money"
+                "clue": "Completely out of money",
+                "answer": "BROKE",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Closer to the center"
+                "clue": "Closer to the center",
+                "answer": "INNER",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Decorate"
+                "clue": "Decorate",
+                "answer": "ADORN",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Titan of industry"
+                "clue": "Titan of industry",
+                "answer": "BARON",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Creature devouring its own tail in the religious symbol ouroboros"
+                "clue": "Creature devouring its own tail in the religious symbol ouroboros",
+                "answer": "SNAKE",
+                "number": "3"
             },
             {
-                "number": "5",
-                "clue": "Grp. with a Most Wanted list"
+                "clue": "Grp. with a Most Wanted list",
+                "answer": "FBI",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Gen ___ (millennial)"
+                "clue": "Gen ___ (millennial)",
+                "answer": "YER",
+                "number": "6"
             }
         ]
     }

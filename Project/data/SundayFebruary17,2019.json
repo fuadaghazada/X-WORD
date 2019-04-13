@@ -95,46 +95,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Like milk and flour"
+                "clue": "Like milk and flour",
+                "answer": "WHITE",
+                "number": "1"
             },
             {
-                "number": "6",
-                "clue": "___ pocus"
+                "clue": "___ pocus",
+                "answer": "HOCUS",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Apple tablets"
+                "clue": "Apple tablets",
+                "answer": "IPADS",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Italian city known for its salami"
+                "clue": "Italian city known for its salami",
+                "answer": "GENOA",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Make an attempt"
+                "clue": "Make an attempt",
+                "answer": "TRY",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "President John Tyler or Zachary Taylor, politically"
+                "clue": "President John Tyler or Zachary Taylor, politically",
+                "answer": "WHIG",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Slogan for Obama's 2008 campaign"
+                "clue": "Slogan for Obama's 2008 campaign",
+                "answer": "HOPE",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "\"Sorry, just too busy\""
+                "clue": "\"Sorry, just too busy\"",
+                "answer": "ICANT",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "English architectural style with gable roofs and decorative brick"
+                "clue": "English architectural style with gable roofs and decorative brick",
+                "answer": "TUDOR",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "English class assignment"
+                "clue": "English class assignment",
+                "answer": "ESSAY",
+                "number": "5"
             }
         ]
     }

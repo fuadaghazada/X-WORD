@@ -91,46 +91,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Network owned by Disney"
+                "clue": "Network owned by Disney",
+                "answer": "ABC",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "\"The Legend of ___\" (video game franchise)"
+                "clue": "\"The Legend of ___\" (video game franchise)",
+                "answer": "ZELDA",
+                "number": "4"
             },
             {
-                "number": "7",
-                "clue": "Driver's 180°"
+                "clue": "Driver's 180°",
+                "answer": "UTURN",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Bird that's a harbinger of spring"
+                "clue": "Bird that's a harbinger of spring",
+                "answer": "ROBIN",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Offerer of a seaweed wrap or cucumber facial"
+                "clue": "Offerer of a seaweed wrap or cucumber facial",
+                "answer": "SPA",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "France's Côte d'___"
+                "clue": "France's Côte d'___",
+                "answer": "AZUR",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "2020 presidential hopeful O'Rourke"
+                "clue": "2020 presidential hopeful O'Rourke",
+                "answer": "BETO",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "♣ ♣ ♣"
+                "clue": "♣ ♣ ♣",
+                "answer": "CLUBS",
+                "number": "3"
             },
             {
-                "number": "5",
-                "clue": "Coffee brewing choice"
+                "clue": "Coffee brewing choice",
+                "answer": "DRIP",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Palindromic woman's name"
+                "clue": "Palindromic woman's name",
+                "answer": "ANNA",
+                "number": "6"
             }
         ]
     }

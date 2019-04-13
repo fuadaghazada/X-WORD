@@ -152,62 +152,76 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Wife and, weirdly, sister of Zeus"
+                "clue": "Wife and, weirdly, sister of Zeus",
+                "answer": "HERA",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Person who's unlikely to give a donation"
+                "clue": "Person who's unlikely to give a donation",
+                "answer": "MISER",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Lion or tiger, but not bear"
+                "clue": "Lion or tiger, but not bear",
+                "answer": "BIGCAT",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Pair on a chessboard"
+                "clue": "Pair on a chessboard",
+                "answer": "BISHOPS",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Opposite of exits"
+                "clue": "Opposite of exits",
+                "answer": "ENTERS",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Secret Service worker"
+                "clue": "Secret Service worker",
+                "answer": "AGENT",
+                "number": "9"
             },
             {
-                "number": "10",
-                "clue": "Title on \"Game of Thrones\""
+                "clue": "Title on \"Game of Thrones\"",
+                "answer": "LORD",
+                "number": "10"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Upscale"
+                "clue": "Upscale",
+                "answer": "HIGHEND",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Front car in a motorcade"
+                "clue": "Front car in a motorcade",
+                "answer": "ESCORT",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Brings in at harvest time"
+                "clue": "Brings in at harvest time",
+                "answer": "REAPS",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "The \"A\" of a B.A. degree"
+                "clue": "The \"A\" of a B.A. degree",
+                "answer": "ARTS",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "\"___ Rogers' Neighborhood\""
+                "clue": "\"___ Rogers' Neighborhood\"",
+                "answer": "MISTER",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Game with a \"Free Space\" square in the middle"
+                "clue": "Game with a \"Free Space\" square in the middle",
+                "answer": "BINGO",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Bradley ___, two-time N.B.A. All-Star"
+                "clue": "Bradley ___, two-time N.B.A. All-Star",
+                "answer": "BEAL",
+                "number": "7"
             }
         ]
     }

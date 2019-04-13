@@ -94,46 +94,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Vietnamese New Year"
+                "clue": "Vietnamese New Year",
+                "answer": "TET",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "Amazon's voice-controlled assistant"
+                "clue": "Amazon's voice-controlled assistant",
+                "answer": "ALEXA",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "What the I.R.S. collects"
+                "clue": "What the I.R.S. collects",
+                "answer": "TAXES",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Netflix crime drama set in the Missouri mountains"
+                "clue": "Netflix crime drama set in the Missouri mountains",
+                "answer": "OZARK",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Cocktail garnishes from citrus fruit"
+                "clue": "Cocktail garnishes from citrus fruit",
+                "answer": "ZESTS",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "The Lone Star State"
+                "clue": "The Lone Star State",
+                "answer": "TEXAS",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Put forth, as energy"
+                "clue": "Put forth, as energy",
+                "answer": "EXERT",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Items on a to-do list"
+                "clue": "Items on a to-do list",
+                "answer": "TASKS",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Alphabet's range"
+                "clue": "Alphabet's range",
+                "answer": "ATOZ",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Chill around the house"
+                "clue": "Chill around the house",
+                "answer": "LAZE",
+                "number": "5"
             }
         ]
     }

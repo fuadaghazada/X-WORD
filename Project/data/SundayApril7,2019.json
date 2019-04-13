@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "What someone with pocket aces is likely to do"
+                "clue": "What someone with pocket aces is likely to do",
+                "answer": "BET",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "New person on staff"
+                "clue": "New person on staff",
+                "answer": "HIREE",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Things on a bucket list"
+                "clue": "Things on a bucket list",
+                "answer": "GOALS",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Surprise ending"
+                "clue": "Surprise ending",
+                "answer": "TWIST",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Airport shuttle vehicle"
+                "clue": "Airport shuttle vehicle",
+                "answer": "VAN",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Command center for the nervous system"
+                "clue": "Command center for the nervous system",
+                "answer": "BRAIN",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Creatures whose name is \"5733\" upside-down"
+                "clue": "Creatures whose name is \"5733\" upside-down",
+                "answer": "EELS",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Word repeated into a microphone"
+                "clue": "Word repeated into a microphone",
+                "answer": "TEST",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "\"Property Brothers\" channel"
+                "clue": "\"Property Brothers\" channel",
+                "answer": "HGTV",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Where much early presidential campaigning is done"
+                "clue": "Where much early presidential campaigning is done",
+                "answer": "IOWA",
+                "number": "5"
             }
         ]
     }

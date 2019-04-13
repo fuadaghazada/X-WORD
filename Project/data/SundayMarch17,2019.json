@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Flow back"
+                "clue": "Flow back",
+                "answer": "EBB",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "They increase during surge pricing on a rideshare app"
+                "clue": "They increase during surge pricing on a rideshare app",
+                "answer": "FARES",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "___ now and then"
+                "clue": "___ now and then",
+                "answer": "EVERY",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Things measured by tree rings"
+                "clue": "Things measured by tree rings",
+                "answer": "YEARS",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "View out of an airplane window"
+                "clue": "View out of an airplane window",
+                "answer": "SKY",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Overhanging parts of roofs"
+                "clue": "Overhanging parts of roofs",
+                "answer": "EAVES",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Start of a billiards game"
+                "clue": "Start of a billiards game",
+                "answer": "BREAK",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Smoothie ingredient"
+                "clue": "Smoothie ingredient",
+                "answer": "BERRY",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Tina of \"30 Rock\""
+                "clue": "Tina of \"30 Rock\"",
+                "answer": "FEY",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "The \"S\" in iOS: Abbr."
+                "clue": "The \"S\" in iOS: Abbr.",
+                "answer": "SYS",
+                "number": "5"
             }
         ]
     }

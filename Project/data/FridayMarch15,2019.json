@@ -94,46 +94,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "\"Houston, we've had a problem here\" org."
+                "clue": "\"Houston, we've had a problem here\" org.",
+                "answer": "NASA",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Competitor in a regatta"
+                "clue": "Competitor in a regatta",
+                "answer": "ROWER",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Sound from a smoke detector"
+                "clue": "Sound from a smoke detector",
+                "answer": "ALARM",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "User-edited encyclopedia pages"
+                "clue": "User-edited encyclopedia pages",
+                "answer": "WIKIS",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Coral ridge"
+                "clue": "Coral ridge",
+                "answer": "REEF",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "\"I kid you not!\""
+                "clue": "\"I kid you not!\"",
+                "answer": "NOLIE",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Up and out of bed"
+                "clue": "Up and out of bed",
+                "answer": "AWAKE",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "What the \"sans\" of Comic Sans refers to"
+                "clue": "What the \"sans\" of Comic Sans refers to",
+                "answer": "SERIF",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "The right to keep them is spelled out in the Second Amendment"
+                "clue": "The right to keep them is spelled out in the Second Amendment",
+                "answer": "ARMS",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Sound from a cartoon dinosaur"
+                "clue": "Sound from a cartoon dinosaur",
+                "answer": "RAWR",
+                "number": "5"
             }
         ]
     }

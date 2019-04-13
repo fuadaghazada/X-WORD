@@ -1,1 +1,148 @@
-{"date": "Monday March 25, 2019", "puzzle": [[null, ["1", "M"], ["2", "E"], ["3", "A"], ["4", "N"]], [["5", "M"], ["A"], ["R"], ["C"], ["H"]], [["6", "A"], ["P"], ["R"], ["I"], ["L"]], [["7", "C"], ["L"], ["O"], ["D"], null], [["8", "H"], ["E"], ["R"], ["S"], null]], "clues": {"across": [{"number": "1", "clue": "0, for the set [-3, -1, 1, 3]"}, {"number": "5", "clue": "Month for \"Madness\""}, {"number": "6", "clue": "Month for \"Fools\""}, {"number": "7", "clue": "Chunk of dirt"}, {"number": "8", "clue": "\"De ella\" in Spanish, or \"la sua\" in Italian"}], "down": [{"number": "1", "clue": "Tree that turns vibrantly red in the fall"}, {"number": "2", "clue": "Annoying computer message"}, {"number": "3", "clue": "Coffee and lime juice, on the pH scale"}, {"number": "4", "clue": "It has teams in Vegas and Vancouver"}, {"number": "5", "clue": "Supersonic speed unit"}]}}
+{
+    "date": "Monday March 25, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "M"
+            ],
+            [
+                "2",
+                "E"
+            ],
+            [
+                "3",
+                "A"
+            ],
+            [
+                "4",
+                "N"
+            ]
+        ],
+        [
+            [
+                "5",
+                "M"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "C"
+            ],
+            [
+                "H"
+            ]
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "P"
+            ],
+            [
+                "R"
+            ],
+            [
+                "I"
+            ],
+            [
+                "L"
+            ]
+        ],
+        [
+            [
+                "7",
+                "C"
+            ],
+            [
+                "L"
+            ],
+            [
+                "O"
+            ],
+            [
+                "D"
+            ],
+            null
+        ],
+        [
+            [
+                "8",
+                "H"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            [
+                "S"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "0, for the set [-3, -1, 1, 3]",
+                "answer": "MEAN",
+                "number": "1"
+            },
+            {
+                "clue": "Month for \"Madness\"",
+                "answer": "MARCH",
+                "number": "5"
+            },
+            {
+                "clue": "Month for \"Fools\"",
+                "answer": "APRIL",
+                "number": "6"
+            },
+            {
+                "clue": "Chunk of dirt",
+                "answer": "CLOD",
+                "number": "7"
+            },
+            {
+                "clue": "\"De ella\" in Spanish, or \"la sua\" in Italian",
+                "answer": "HERS",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Tree that turns vibrantly red in the fall",
+                "answer": "MAPLE",
+                "number": "1"
+            },
+            {
+                "clue": "Annoying computer message",
+                "answer": "ERROR",
+                "number": "2"
+            },
+            {
+                "clue": "Coffee and lime juice, on the pH scale",
+                "answer": "ACIDS",
+                "number": "3"
+            },
+            {
+                "clue": "It has teams in Vegas and Vancouver",
+                "answer": "NHL",
+                "number": "4"
+            },
+            {
+                "clue": "Supersonic speed unit",
+                "answer": "MACH",
+                "number": "5"
+            }
+        ]
+    }
+}

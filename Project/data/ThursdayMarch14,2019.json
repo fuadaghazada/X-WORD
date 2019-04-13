@@ -99,46 +99,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Single-use plastic item that's increasingly the subject of bans"
+                "clue": "Single-use plastic item that's increasingly the subject of bans",
+                "answer": "STRAW",
+                "number": "1"
             },
             {
-                "number": "6",
-                "clue": "In ___ (pressed for time)"
+                "clue": "In ___ (pressed for time)",
+                "answer": "ARUSH",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Covered in crud"
+                "clue": "Covered in crud",
+                "answer": "GUNKY",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Per ___ (yearly)"
+                "clue": "Per ___ (yearly)",
+                "answer": "ANNUM",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Video chat option"
+                "clue": "Video chat option",
+                "answer": "SKYPE",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Epic stories"
+                "clue": "Epic stories",
+                "answer": "SAGAS",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Part of an elephant or tree"
+                "clue": "Part of an elephant or tree",
+                "answer": "TRUNK",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Like a cold sufferer's nose"
+                "clue": "Like a cold sufferer's nose",
+                "answer": "RUNNY",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Invite to one's penthouse suite, for instance"
+                "clue": "Invite to one's penthouse suite, for instance",
+                "answer": "ASKUP",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Self-pitying question"
+                "clue": "Self-pitying question",
+                "answer": "WHYME",
+                "number": "5"
             }
         ]
     }

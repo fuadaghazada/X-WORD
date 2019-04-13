@@ -94,46 +94,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Delicate use of words"
+                "clue": "Delicate use of words",
+                "answer": "TACT",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Monte ___ simulation"
+                "clue": "Monte ___ simulation",
+                "answer": "CARLO",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "M.D. who always delivers?"
+                "clue": "M.D. who always delivers?",
+                "answer": "OBGYN",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Subject to emotional swings"
+                "clue": "Subject to emotional swings",
+                "answer": "MOODY",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Dog biscuit shape"
+                "clue": "Dog biscuit shape",
+                "answer": "BONE",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Simply not done in polite society"
+                "clue": "Simply not done in polite society",
+                "answer": "TABOO",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Most common noble gas in the atmosphere"
+                "clue": "Most common noble gas in the atmosphere",
+                "answer": "ARGON",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Bonnie's partner in crime"
+                "clue": "Bonnie's partner in crime",
+                "answer": "CLYDE",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "One of three for Lin-Manuel Miranda"
+                "clue": "One of three for Lin-Manuel Miranda",
+                "answer": "TONY",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Toiletry bag item"
+                "clue": "Toiletry bag item",
+                "answer": "COMB",
+                "number": "5"
             }
         ]
     }

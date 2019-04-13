@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Leave out"
+                "clue": "Leave out",
+                "answer": "OMIT",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "It has its pluses and minuses"
+                "clue": "It has its pluses and minuses",
+                "answer": "MATH",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Speaker Pelosi"
+                "clue": "Speaker Pelosi",
+                "answer": "NANCY",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "\"This doesn't look good!\""
+                "clue": "\"This doesn't look good!\"",
+                "answer": "UHOH",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Biblical virgin"
+                "clue": "Biblical virgin",
+                "answer": "MARY",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Largest city in Nebraska"
+                "clue": "Largest city in Nebraska",
+                "answer": "OMAHA",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "House for an English lord"
+                "clue": "House for an English lord",
+                "answer": "MANOR",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Like mosquito bites and woolen sweaters"
+                "clue": "Like mosquito bites and woolen sweaters",
+                "answer": "ITCHY",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "\"Love ___ neighbor ...\""
+                "clue": "\"Love ___ neighbor ...\"",
+                "answer": "THY",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "___ Lock (keyboard button)"
+                "clue": "___ Lock (keyboard button)",
+                "answer": "NUM",
+                "number": "6"
             }
         ]
     }

@@ -97,46 +97,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Post-lecture session, for short"
+                "clue": "Post-lecture session, for short",
+                "answer": "QANDA",
+                "number": "1"
             },
             {
-                "number": "6",
-                "clue": "Maneuver needed after missing a GPS direction"
+                "clue": "Maneuver needed after missing a GPS direction",
+                "answer": "UTURN",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Annoyed"
+                "clue": "Annoyed",
+                "answer": "IRKED",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Breast, thigh or wing"
+                "clue": "Breast, thigh or wing",
+                "answer": "PIECE",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Inquires"
+                "clue": "Inquires",
+                "answer": "ASKS",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Witty one-liner"
+                "clue": "Witty one-liner",
+                "answer": "QUIP",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Heart chambers"
+                "clue": "Heart chambers",
+                "answer": "ATRIA",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Weapons at the heart of a disputed U.S.-Russia treaty"
+                "clue": "Weapons at the heart of a disputed U.S.-Russia treaty",
+                "answer": "NUKES",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Rubbish"
+                "clue": "Rubbish",
+                "answer": "DRECK",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Range that's home to the 22,831-foot Mount Aconcagua"
+                "clue": "Range that's home to the 22,831-foot Mount Aconcagua",
+                "answer": "ANDES",
+                "number": "5"
             }
         ]
     }

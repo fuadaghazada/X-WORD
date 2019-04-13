@@ -12,6 +12,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+from extract_answer import extract_answers_from_clues
+
 '''
     Puzzle Scraper
 '''
@@ -52,7 +54,7 @@ class PuzzleScraper:
         data = {
             'date' : date,
             'puzzle' : puzzle,
-            'clues' : clues
+            'clues' : extract_answers_from_clues({'puzzle': puzzle, 'clues': clues})
         }
 
         # Writing data in JSON format to the file with date name in 'data' folder or project dir

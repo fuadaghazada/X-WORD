@@ -92,46 +92,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "[Guests must provide their drinks]"
+                "clue": "[Guests must provide their drinks]",
+                "answer": "BYOB",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Toy on a string"
+                "clue": "Toy on a string",
+                "answer": "YOYO",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Shade of pale purple"
+                "clue": "Shade of pale purple",
+                "answer": "MAUVE",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "The Pennsylvania/New Jersey or Kentucky/Indiana border, for example"
+                "clue": "The Pennsylvania/New Jersey or Kentucky/Indiana border, for example",
+                "answer": "RIVER",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Basketball three-pointer, slangily"
+                "clue": "Basketball three-pointer, slangily",
+                "answer": "TREY",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "How some FedEx packages travel"
+                "clue": "How some FedEx packages travel",
+                "answer": "BYAIR",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "\"___ Got a Friend in Me\""
+                "clue": "\"___ Got a Friend in Me\"",
+                "answer": "YOUVE",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Cry of dismay"
+                "clue": "Cry of dismay",
+                "answer": "OYVEY",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Dutch settler of South Africa in the 18th-19th centuries"
+                "clue": "Dutch settler of South Africa in the 18th-19th centuries",
+                "answer": "BOER",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Mohawked actor in \"Rocky III\""
+                "clue": "Mohawked actor in \"Rocky III\"",
+                "answer": "MRT",
+                "number": "6"
             }
         ]
     }

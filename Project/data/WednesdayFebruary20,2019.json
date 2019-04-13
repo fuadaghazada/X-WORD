@@ -95,46 +95,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "One-word text upon arriving"
+                "clue": "One-word text upon arriving",
+                "answer": "HERE",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Face With Tears of Joy, for one"
+                "clue": "Face With Tears of Joy, for one",
+                "answer": "EMOJI",
+                "number": "5"
             },
             {
-                "number": "7",
-                "clue": "Filled with cargo, as a ship"
+                "clue": "Filled with cargo, as a ship",
+                "answer": "LADED",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Part of a jigsaw puzzle"
+                "clue": "Part of a jigsaw puzzle",
+                "answer": "PIECE",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "A ton"
+                "clue": "A ton",
+                "answer": "LOTS",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Beatles album with a \"!\" in its name"
+                "clue": "Beatles album with a \"!\" in its name",
+                "answer": "HELP",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Something in an \"Unread\" folder"
+                "clue": "Something in an \"Unread\" folder",
+                "answer": "EMAIL",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Bull-riding event"
+                "clue": "Bull-riding event",
+                "answer": "RODEO",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Pop out, as a DVD"
+                "clue": "Pop out, as a DVD",
+                "answer": "EJECT",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "\"Beware the ___ of March\""
+                "clue": "\"Beware the ___ of March\"",
+                "answer": "IDES",
+                "number": "6"
             }
         ]
     }

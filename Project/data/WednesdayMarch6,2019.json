@@ -95,46 +95,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "\"And there you have it!\""
+                "clue": "\"And there you have it!\"",
+                "answer": "VOILA",
+                "number": "1"
             },
             {
-                "number": "6",
-                "clue": "Unwelcome message for a coder"
+                "clue": "Unwelcome message for a coder",
+                "answer": "ERROR",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Laugh through one's nose"
+                "clue": "Laugh through one's nose",
+                "answer": "SNORT",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Small lakes"
+                "clue": "Small lakes",
+                "answer": "PONDS",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Symbols used to call people out on Twitter, for short"
+                "clue": "Symbols used to call people out on Twitter, for short",
+                "answer": "ATS",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Big name in scooters"
+                "clue": "Big name in scooters",
+                "answer": "VESPA",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "\"Ready ___, here I come!\""
+                "clue": "\"Ready ___, here I come!\"",
+                "answer": "ORNOT",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Smooths (out)"
+                "clue": "Smooths (out)",
+                "answer": "IRONS",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "One \"leaping\" in \"The Twelve Days of Christmas\""
+                "clue": "One \"leaping\" in \"The Twelve Days of Christmas\"",
+                "answer": "LORD",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Newspaper section that employs various critics"
+                "clue": "Newspaper section that employs various critics",
+                "answer": "ARTS",
+                "number": "5"
             }
         ]
     }

@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Self-satisfied"
+                "clue": "Self-satisfied",
+                "answer": "SMUG",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Prefix with technology and second"
+                "clue": "Prefix with technology and second",
+                "answer": "NANO",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Cozier alternative to a motel"
+                "clue": "Cozier alternative to a motel",
+                "answer": "BANDB",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Some prom hairstyles"
+                "clue": "Some prom hairstyles",
+                "answer": "UPDOS",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Ruby or sapphire"
+                "clue": "Ruby or sapphire",
+                "answer": "GEM",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "He kills Dumbledore near the end of \"Harry Potter and the Half-Blood Prince\""
+                "clue": "He kills Dumbledore near the end of \"Harry Potter and the Half-Blood Prince\"",
+                "answer": "SNAPE",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Coated candy"
+                "clue": "Coated candy",
+                "answer": "MANDM",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Command-Z command"
+                "clue": "Command-Z command",
+                "answer": "UNDO",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Tons and tons"
+                "clue": "Tons and tons",
+                "answer": "GOBS",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Coder's headache"
+                "clue": "Coder's headache",
+                "answer": "BUG",
+                "number": "6"
             }
         ]
     }

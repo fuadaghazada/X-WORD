@@ -95,46 +95,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Bailout recipients during the 2008 financial crisis"
+                "clue": "Bailout recipients during the 2008 financial crisis",
+                "answer": "BANKS",
+                "number": "1"
             },
             {
-                "number": "6",
-                "clue": "Bird-related"
+                "clue": "Bird-related",
+                "answer": "AVIAN",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Democratic Republic of the ___"
+                "clue": "Democratic Republic of the ___",
+                "answer": "CONGO",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Religious headscarf"
+                "clue": "Religious headscarf",
+                "answer": "HIJAB",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Brown who wrote \"The Da Vinci Code\""
+                "clue": "Brown who wrote \"The Da Vinci Code\"",
+                "answer": "DAN",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Beethoven called him \"the immortal god of harmony\""
+                "clue": "Beethoven called him \"the immortal god of harmony\"",
+                "answer": "BACH",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Stay away from"
+                "clue": "Stay away from",
+                "answer": "AVOID",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Skilled assassin"
+                "clue": "Skilled assassin",
+                "answer": "NINJA",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Supreme Court justice appointed between Sotomayor and Gorsuch"
+                "clue": "Supreme Court justice appointed between Sotomayor and Gorsuch",
+                "answer": "KAGAN",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Condescending sort"
+                "clue": "Condescending sort",
+                "answer": "SNOB",
+                "number": "5"
             }
         ]
     }

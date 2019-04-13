@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Feel a marathon the next day"
+                "clue": "Feel a marathon the next day",
+                "answer": "ACHE",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "B????way is a major one in New York City"
+                "clue": "B????way is a major one in New York City",
+                "answer": "ROAD",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "T?? ???eries carry blood from it"
+                "clue": "T?? ???eries carry blood from it",
+                "answer": "HEART",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Tiny hill inhabit????"
+                "clue": "Tiny hill inhabit????",
+                "answer": "ANTS",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Mixture used to make whiskey"
+                "clue": "Mixture used to make whiskey",
+                "answer": "MASH",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Building that may host concerts and N.B.A. games"
+                "clue": "Building that may host concerts and N.B.A. games",
+                "answer": "ARENA",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Things checked at nice restaurants"
+                "clue": "Things checked at nice restaurants",
+                "answer": "COATS",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Severe"
+                "clue": "Severe",
+                "answer": "HARSH",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Summer hrs. in Philly"
+                "clue": "Summer hrs. in Philly",
+                "answer": "EDT",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Meat typically found in a Denver omelet"
+                "clue": "Meat typically found in a Denver omelet",
+                "answer": "HAM",
+                "number": "6"
             }
         ]
     }

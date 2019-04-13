@@ -99,46 +99,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Wood pattern"
+                "clue": "Wood pattern",
+                "answer": "GRAIN",
+                "number": "1"
             },
             {
-                "number": "6",
-                "clue": "Mango ___ (yogurt drink)"
+                "clue": "Mango ___ (yogurt drink)",
+                "answer": "LASSI",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Major lobbying grp. that Benjamin Netanyahu will address in late March"
+                "clue": "Major lobbying grp. that Benjamin Netanyahu will address in late March",
+                "answer": "AIPAC",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Tiptoe around"
+                "clue": "Tiptoe around",
+                "answer": "SNEAK",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Matches up, as smartphone and laptop files"
+                "clue": "Matches up, as smartphone and laptop files",
+                "answer": "SYNCS",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Something that's half-full for an optimist"
+                "clue": "Something that's half-full for an optimist",
+                "answer": "GLASS",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Like much Seattle weather"
+                "clue": "Like much Seattle weather",
+                "answer": "RAINY",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Tree whose colonies make up the largest organisms on Earth"
+                "clue": "Tree whose colonies make up the largest organisms on Earth",
+                "answer": "ASPEN",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Science fiction author Asimov"
+                "clue": "Science fiction author Asimov",
+                "answer": "ISAAC",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Small shaving cuts"
+                "clue": "Small shaving cuts",
+                "answer": "NICKS",
+                "number": "5"
             }
         ]
     }

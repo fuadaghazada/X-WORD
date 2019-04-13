@@ -95,46 +95,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Major D.C. donors"
+                "clue": "Major D.C. donors",
+                "answer": "PACS",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Internet initialism when posting an old link"
+                "clue": "Internet initialism when posting an old link",
+                "answer": "ICYMI",
+                "number": "5"
             },
             {
-                "number": "7",
-                "clue": "Potato or yam"
+                "clue": "Potato or yam",
+                "answer": "TUBER",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "The \"turf\" part of \"surf and turf\""
+                "clue": "The \"turf\" part of \"surf and turf\"",
+                "answer": "STEAK",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Makes a mistake"
+                "clue": "Makes a mistake",
+                "answer": "ERRS",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Where deodorant is applied, informally"
+                "clue": "Where deodorant is applied, informally",
+                "answer": "PITS",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Like a 45° angle"
+                "clue": "Like a 45° angle",
+                "answer": "ACUTE",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "___ Monday, shopping holiday after Thanksgiving"
+                "clue": "___ Monday, shopping holiday after Thanksgiving",
+                "answer": "CYBER",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Attack meant to damage one's reputation"
+                "clue": "Attack meant to damage one's reputation",
+                "answer": "SMEAR",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Annoys"
+                "clue": "Annoys",
+                "answer": "IRKS",
+                "number": "6"
             }
         ]
     }

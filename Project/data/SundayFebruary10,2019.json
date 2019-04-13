@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Warm embrace"
+                "clue": "Warm embrace",
+                "answer": "HUG",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "Symbol for an angle in trigonometry"
+                "clue": "Symbol for an angle in trigonometry",
+                "answer": "THETA",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Opposite of citified"
+                "clue": "Opposite of citified",
+                "answer": "RURAL",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Hawaiian greeting"
+                "clue": "Hawaiian greeting",
+                "answer": "ALOHA",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Either of the (real) bar names \"Wish You Were Beer\" or \"Pour Judgment\""
+                "clue": "Either of the (real) bar names \"Wish You Were Beer\" or \"Pour Judgment\"",
+                "answer": "PUN",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Bird that hunts in shallow water"
+                "clue": "Bird that hunts in shallow water",
+                "answer": "HERON",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Where Mitt Romney is senator"
+                "clue": "Where Mitt Romney is senator",
+                "answer": "UTAH",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Black-tie party, maybe"
+                "clue": "Black-tie party, maybe",
+                "answer": "GALA",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Prevent from escaping"
+                "clue": "Prevent from escaping",
+                "answer": "TRAP",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "\"The Handmaid's Tale\" airer"
+                "clue": "\"The Handmaid's Tale\" airer",
+                "answer": "HULU",
+                "number": "5"
             }
         ]
     }

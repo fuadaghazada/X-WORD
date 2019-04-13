@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Custardy Spanish dessert"
+                "clue": "Custardy Spanish dessert",
+                "answer": "FLAN",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Bryant of the \"S.N.L.\" cast"
+                "clue": "Bryant of the \"S.N.L.\" cast",
+                "answer": "AIDY",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "\"Fantastic\" title animal for Roald Dahl"
+                "clue": "\"Fantastic\" title animal for Roald Dahl",
+                "answer": "MRFOX",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "___ privacy, issue for Facebook"
+                "clue": "___ privacy, issue for Facebook",
+                "answer": "USER",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Not looking good"
+                "clue": "Not looking good",
+                "answer": "DIRE",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Language of Iran"
+                "clue": "Language of Iran",
+                "answer": "FARSI",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Someone who stays in the same job forever"
+                "clue": "Someone who stays in the same job forever",
+                "answer": "LIFER",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Absolutely love"
+                "clue": "Absolutely love",
+                "answer": "ADORE",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Greek goddess of the night"
+                "clue": "Greek goddess of the night",
+                "answer": "NYX",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Dirt after rain"
+                "clue": "Dirt after rain",
+                "answer": "MUD",
+                "number": "6"
             }
         ]
     }

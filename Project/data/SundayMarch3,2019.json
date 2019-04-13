@@ -93,46 +93,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Make money through conning"
+                "clue": "Make money through conning",
+                "answer": "GRIFT",
+                "number": "1"
             },
             {
-                "number": "6",
-                "clue": "Currency worth a little more than dollars"
+                "clue": "Currency worth a little more than dollars",
+                "answer": "EUROS",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Download for a Kindle"
+                "clue": "Download for a Kindle",
+                "answer": "EBOOK",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Warmhearted"
+                "clue": "Warmhearted",
+                "answer": "KIND",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Ingredient in a veggie burger"
+                "clue": "Ingredient in a veggie burger",
+                "answer": "SOY",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Nerds"
+                "clue": "Nerds",
+                "answer": "GEEKS",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Florida senator Marco"
+                "clue": "Florida senator Marco",
+                "answer": "RUBIO",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "The fact that Nintendo of America's new C.E.O. is named Doug Bowser, e.g."
+                "clue": "The fact that Nintendo of America's new C.E.O. is named Doug Bowser, e.g.",
+                "answer": "IRONY",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "___ Network, \"Chopped\" airer"
+                "clue": "___ Network, \"Chopped\" airer",
+                "answer": "FOOD",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Reprimanding sound"
+                "clue": "Reprimanding sound",
+                "answer": "TSK",
+                "number": "5"
             }
         ]
     }

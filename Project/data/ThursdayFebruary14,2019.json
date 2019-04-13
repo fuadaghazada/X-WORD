@@ -91,46 +91,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Envelope part that's sealed"
+                "clue": "Envelope part that's sealed",
+                "answer": "FLAP",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Valentine's Day flower"
+                "clue": "Valentine's Day flower",
+                "answer": "ROSE",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Hipsterish"
+                "clue": "Hipsterish",
+                "answer": "ARTSY",
+                "number": "6"
             },
             {
-                "number": "8",
-                "clue": "Valentine's Day event"
+                "clue": "Valentine's Day event",
+                "answer": "DATE",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Love god whose name is aptly an anagram of 5-Across"
+                "clue": "Love god whose name is aptly an anagram of 5-Across",
+                "answer": "EROS",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Lobster ___ diavolo (Italian dish)"
+                "clue": "Lobster ___ diavolo (Italian dish)",
+                "answer": "FRA",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Grammy-winning singer whose real name is Ella Marija Lani Yelich-O'Connor"
+                "clue": "Grammy-winning singer whose real name is Ella Marija Lani Yelich-O'Connor",
+                "answer": "LORDE",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "\"___ Is Born\" (2018 Best Picture nominee)"
+                "clue": "\"___ Is Born\" (2018 Best Picture nominee)",
+                "answer": "ASTAR",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Green sauce"
+                "clue": "Green sauce",
+                "answer": "PESTO",
+                "number": "4"
             },
             {
-                "number": "7",
-                "clue": "Hoped-for answer to \"Will you be my Valentine?\""
+                "clue": "Hoped-for answer to \"Will you be my Valentine?\"",
+                "answer": "YES",
+                "number": "7"
             }
         ]
     }

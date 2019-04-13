@@ -96,46 +96,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Tear into some food, with \"down\""
+                "clue": "Tear into some food, with \"down\"",
+                "answer": "CHOW",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Doggy"
+                "clue": "Doggy",
+                "answer": "POOCH",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Nickname for mom's sister"
+                "clue": "Nickname for mom's sister",
+                "answer": "AUNTY",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Free movie starring yourself, essentially"
+                "clue": "Free movie starring yourself, essentially",
+                "answer": "DREAM",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Art Deco, for New York's Chrysler Building"
+                "clue": "Art Deco, for New York's Chrysler Building",
+                "answer": "STYLE",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Workspace for a king ... or a Sacramento King"
+                "clue": "Workspace for a king ... or a Sacramento King",
+                "answer": "COURT",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Sweet additive to a cup of tea"
+                "clue": "Sweet additive to a cup of tea",
+                "answer": "HONEY",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "In base 8"
+                "clue": "In base 8",
+                "answer": "OCTAL",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Self-pitying question"
+                "clue": "Self-pitying question",
+                "answer": "WHYME",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Adds exaggerated information to, as a résumé"
+                "clue": "Adds exaggerated information to, as a résumé",
+                "answer": "PADS",
+                "number": "5"
             }
         ]
     }

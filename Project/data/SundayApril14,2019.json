@@ -1,145 +1,141 @@
 {
-    "date": "Thursday February 28, 2019",
+    "date": "Sunday April 14, 2019",
     "puzzle": [
         [
             [
                 "1",
-                "E"
+                "H"
             ],
             [
                 "2",
-                "D"
+                "B"
             ],
             [
                 "3",
-                "G"
+                "O"
             ],
-            [
-                "4",
-                "Y"
-            ],
+            null,
             null
         ],
         [
             [
-                "5",
-                "R"
-            ],
-            [
-                "O"
-            ],
-            [
-                "M"
+                "4",
+                "E"
             ],
             [
                 "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "5",
+                "S"
             ],
             null
         ],
         [
             [
                 "6",
+                "N"
+            ],
+            [
+                "I"
+            ],
+            [
                 "G"
             ],
             [
-                "U"
-            ],
-            [
-                "A"
-            ],
-            [
-                "R"
+                "H"
             ],
             [
                 "7",
-                "D"
+                "T"
             ]
         ],
         [
             null,
             [
                 "8",
-                "S"
+                "L"
+            ],
+            [
+                "A"
             ],
             [
                 "I"
             ],
             [
-                "D"
-            ],
-            [
-                "E"
+                "R"
             ]
         ],
         [
             null,
+            null,
             [
                 "9",
-                "E"
+                "N"
             ],
             [
-                "L"
+                "A"
             ],
             [
-                "S"
-            ],
-            [
-                "E"
+                "Y"
             ]
         ]
     ],
     "clues": {
         "across": [
             {
-                "clue": "Avant-garde",
-                "answer": "EDGY",
+                "clue": "\"Game of Thrones\" airer",
+                "answer": "HBO",
                 "number": "1"
             },
             {
-                "clue": "Movie for which Alfonso Cuarón recently won the Best Director Oscar",
-                "answer": "ROMA",
-                "number": "5"
+                "clue": "They pop on planes",
+                "answer": "EARS",
+                "number": "4"
             },
             {
-                "clue": "Keep safe",
-                "answer": "GUARD",
+                "clue": "The ___ King, villain on \"Game of Thrones\"",
+                "answer": "NIGHT",
                 "number": "6"
             },
             {
-                "clue": "One of five for a pentagon",
-                "answer": "SIDE",
+                "clue": "Private den",
+                "answer": "LAIR",
                 "number": "8"
             },
             {
-                "clue": "\"If all ___ fails ...\"",
-                "answer": "ELSE",
+                "clue": "No vote",
+                "answer": "NAY",
                 "number": "9"
             }
         ],
         "down": [
             {
-                "clue": "Unit of work in physics",
-                "answer": "ERG",
+                "clue": "Rooster's mate",
+                "answer": "HEN",
                 "number": "1"
             },
             {
-                "clue": "Cover in water",
-                "answer": "DOUSE",
+                "clue": "Send a last-minute text saying \"I can't make it\"",
+                "answer": "BAIL",
                 "number": "2"
             },
             {
-                "clue": "Tech service whose logo is a red-and-white envelope",
-                "answer": "GMAIL",
+                "clue": "Instrument during the seventh-inning stretch",
+                "answer": "ORGAN",
                 "number": "3"
             },
             {
-                "clue": "Football statistic",
-                "answer": "YARDS",
-                "number": "4"
+                "clue": "Branch of Islam",
+                "answer": "SHIA",
+                "number": "5"
             },
             {
-                "clue": "Letter after cee",
-                "answer": "DEE",
+                "clue": "Make an attempt",
+                "answer": "TRY",
                 "number": "7"
             }
         ]

@@ -99,46 +99,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Tail poles on sailboats"
+                "clue": "Tail poles on sailboats",
+                "answer": "MASTS",
+                "number": "1"
             },
             {
-                "number": "6",
-                "clue": "\"You can say that ___!\""
+                "clue": "\"You can say that ___!\"",
+                "answer": "AGAIN",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "\"Would you look at that!\""
+                "clue": "\"Would you look at that!\"",
+                "answer": "ILLBE",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Typically date night activity"
+                "clue": "Typically date night activity",
+                "answer": "MOVIE",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Trigger a bleep"
+                "clue": "Trigger a bleep",
+                "answer": "SWEAR",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Seriously injures"
+                "clue": "Seriously injures",
+                "answer": "MAIMS",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Lit up"
+                "clue": "Lit up",
+                "answer": "AGLOW",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Healing ointment"
+                "clue": "Healing ointment",
+                "answer": "SALVE",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Bone in the lower leg"
+                "clue": "Bone in the lower leg",
+                "answer": "TIBIA",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Patented facial expression of Draco Malfoy"
+                "clue": "Patented facial expression of Draco Malfoy",
+                "answer": "SNEER",
+                "number": "5"
             }
         ]
     }

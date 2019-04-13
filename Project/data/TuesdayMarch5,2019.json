@@ -94,46 +94,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Pod for an instant coffee machine"
+                "clue": "Pod for an instant coffee machine",
+                "answer": "KCUP",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Long ___ (underwear)"
+                "clue": "Long ___ (underwear)",
+                "answer": "JOHNS",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Mountain range that divides Europe and Asia"
+                "clue": "Mountain range that divides Europe and Asia",
+                "answer": "URALS",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "What some college scholarships are based on"
+                "clue": "What some college scholarships are based on",
+                "answer": "MERIT",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Time machine's destination"
+                "clue": "Time machine's destination",
+                "answer": "PAST",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Peninsula where Kim is the most common surname"
+                "clue": "Peninsula where Kim is the most common surname",
+                "answer": "KOREA",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Lightly burns"
+                "clue": "Lightly burns",
+                "answer": "CHARS",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Not yet aflame"
+                "clue": "Not yet aflame",
+                "answer": "UNLIT",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "\"Hey you!\""
+                "clue": "\"Hey you!\"",
+                "answer": "PSST",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Capture in checkers"
+                "clue": "Capture in checkers",
+                "answer": "JUMP",
+                "number": "5"
             }
         ]
     }

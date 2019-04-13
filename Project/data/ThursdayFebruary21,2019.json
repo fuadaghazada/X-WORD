@@ -97,46 +97,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Radiator sound"
+                "clue": "Radiator sound",
+                "answer": "HISS",
+                "number": "1"
             },
             {
-                "number": "5",
-                "clue": "Full-length, as a movie"
+                "clue": "Full-length, as a movie",
+                "answer": "UNCUT",
+                "number": "5"
             },
             {
-                "number": "7",
-                "clue": "One-eighth of a pizza"
+                "clue": "One-eighth of a pizza",
+                "answer": "SLICE",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Novelist whose most famous protagonist transforms into a bug"
+                "clue": "Novelist whose most famous protagonist transforms into a bug",
+                "answer": "KAFKA",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Cheese with holes"
+                "clue": "Cheese with holes",
+                "answer": "SWISS",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Outer coatings of corn"
+                "clue": "Outer coatings of corn",
+                "answer": "HUSKS",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Either of one's husband's parents, for example"
+                "clue": "Either of one's husband's parents, for example",
+                "answer": "INLAW",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Genre with time travel and wormholes"
+                "clue": "Genre with time travel and wormholes",
+                "answer": "SCIFI",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Is no good at all"
+                "clue": "Is no good at all",
+                "answer": "SUCKS",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Lipton products"
+                "clue": "Lipton products",
+                "answer": "TEAS",
+                "number": "6"
             }
         ]
     }

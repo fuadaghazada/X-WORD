@@ -94,46 +94,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "\"Notorious\" nickname on the Supreme Court"
+                "clue": "\"Notorious\" nickname on the Supreme Court",
+                "answer": "RBG",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "Like 97% of U.S. land, but only 19.3% of its population"
+                "clue": "Like 97% of U.S. land, but only 19.3% of its population",
+                "answer": "RURAL",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Flabbergast"
+                "clue": "Flabbergast",
+                "answer": "AMAZE",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Things to bust on the dance floor"
+                "clue": "Things to bust on the dance floor",
+                "answer": "MOVES",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Juice-extracting machine"
+                "clue": "Juice-extracting machine",
+                "answer": "PRESS",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Something passed along through whispers"
+                "clue": "Something passed along through whispers",
+                "answer": "RUMOR",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "2012 Pixar film with a female protagonist"
+                "clue": "2012 Pixar film with a female protagonist",
+                "answer": "BRAVE",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Stares"
+                "clue": "Stares",
+                "answer": "GAZES",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Feature of a multistory parking garage"
+                "clue": "Feature of a multistory parking garage",
+                "answer": "RAMP",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "\"Do ___\" (advice to the overly eager)"
+                "clue": "\"Do ___\" (advice to the overly eager)",
+                "answer": "LESS",
+                "number": "5"
             }
         ]
     }

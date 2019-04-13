@@ -1,5 +1,5 @@
 {
-    "date": "Friday March 1, 2019",
+    "date": "Thursday April 11, 2019",
     "puzzle": [
         [
             null,
@@ -9,30 +9,30 @@
             ],
             [
                 "2",
-                "A"
+                "U"
             ],
             [
                 "3",
-                "S"
+                "L"
             ],
             [
                 "4",
-                "T"
+                "L"
             ]
         ],
         [
             [
                 "5",
-                "J"
+                "R"
             ],
             [
                 "U"
             ],
             [
-                "I"
+                "P"
             ],
             [
-                "C"
+                "E"
             ],
             [
                 "E"
@@ -41,34 +41,34 @@
         [
             [
                 "6",
+                "O"
+            ],
+            [
+                "C"
+            ],
+            [
+                "E"
+            ],
+            [
                 "A"
             ],
             [
                 "N"
-            ],
-            [
-                "D"
-            ],
-            [
-                "R"
-            ],
-            [
-                "E"
             ]
         ],
         [
             [
                 "7",
+                "L"
+            ],
+            [
                 "I"
             ],
             [
-                "D"
+                "N"
             ],
             [
-                "E"
-            ],
-            [
-                "A"
+                "K"
             ],
             [
                 "S"
@@ -77,16 +77,16 @@
         [
             [
                 "8",
-                "L"
+                "E"
             ],
             [
-                "I"
+                "D"
             ],
             [
-                "S"
+                "D"
             ],
             [
-                "P"
+                "Y"
             ],
             null
         ]
@@ -94,55 +94,55 @@
     "clues": {
         "across": [
             {
-                "clue": "Worst in the league",
-                "answer": "LAST",
+                "clue": "Break in the action",
+                "answer": "LULL",
                 "number": "1"
             },
             {
-                "clue": "Battery life",
-                "answer": "JUICE",
+                "clue": "Monetary unit of India and Pakistan",
+                "answer": "RUPEE",
                 "number": "5"
             },
             {
-                "clue": "___ 3000, one half of rap's OutKast",
-                "answer": "ANDRE",
+                "clue": "Where a hurricane forms",
+                "answer": "OCEAN",
                 "number": "6"
             },
             {
-                "clue": "What cartoon light bulbs represent",
-                "answer": "IDEAS",
+                "clue": "Blue underlined words in an email",
+                "answer": "LINKS",
                 "number": "7"
             },
             {
-                "clue": "Talk like Daffy Duck",
-                "answer": "LISP",
+                "clue": "Swirl of water",
+                "answer": "EDDY",
                 "number": "8"
             }
         ],
         "down": [
             {
-                "clue": "Monday, in French",
-                "answer": "LUNDI",
+                "clue": "Thinking clearly",
+                "answer": "LUCID",
                 "number": "1"
             },
             {
-                "clue": "White House assistants",
-                "answer": "AIDES",
+                "clue": "Flip over",
+                "answer": "UPEND",
                 "number": "2"
             },
             {
-                "clue": "Throw in the trash",
-                "answer": "SCRAP",
+                "clue": "The ___ Cauldron, pub in the Harry Potter books",
+                "answer": "LEAKY",
                 "number": "3"
             },
             {
-                "clue": "Bagful for a golfer",
-                "answer": "TEES",
+                "clue": "Camera's eye",
+                "answer": "LENS",
                 "number": "4"
             },
             {
-                "clue": "Square between Connecticut Avenue and St. Charles Place on a Monopoly board",
-                "answer": "JAIL",
+                "clue": "Something filled by a casting director",
+                "answer": "ROLE",
                 "number": "5"
             }
         ]

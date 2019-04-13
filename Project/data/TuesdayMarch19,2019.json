@@ -91,46 +91,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Something that's gone bad if it floats when placed in a bowl of water"
+                "clue": "Something that's gone bad if it floats when placed in a bowl of water",
+                "answer": "EGG",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "Corporate regulation"
+                "clue": "Corporate regulation",
+                "answer": "BYLAW",
+                "number": "4"
             },
             {
-                "number": "7",
-                "clue": "Part of Alexandria Ocasio-Cortez's district, with \"the\""
+                "clue": "Part of Alexandria Ocasio-Cortez's district, with \"the\"",
+                "answer": "BRONX",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "Like the inside of a chimney"
+                "clue": "Like the inside of a chimney",
+                "answer": "SOOTY",
+                "number": "8"
             },
             {
-                "number": "9",
-                "clue": "Broadway's \"Les ___\""
+                "clue": "Broadway's \"Les ___\"",
+                "answer": "MIZ",
+                "number": "9"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Recedes"
+                "clue": "Recedes",
+                "answer": "EBBS",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Greek sandwich"
+                "clue": "Greek sandwich",
+                "answer": "GYRO",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Doom and ___"
+                "clue": "Doom and ___",
+                "answer": "GLOOM",
+                "number": "3"
             },
             {
-                "number": "5",
-                "clue": "Prefix with vaxxer"
+                "clue": "Prefix with vaxxer",
+                "answer": "ANTI",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Detroit-area TV station whose name is an alphabet string"
+                "clue": "Detroit-area TV station whose name is an alphabet string",
+                "answer": "WXYZ",
+                "number": "6"
             }
         ]
     }

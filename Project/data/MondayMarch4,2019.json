@@ -91,46 +91,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Drink like a cat"
+                "clue": "Drink like a cat",
+                "answer": "LAP",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "One of the four ancient elements"
+                "clue": "One of the four ancient elements",
+                "answer": "FIRE",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "One of the four ancient elements"
+                "clue": "One of the four ancient elements",
+                "answer": "WATER",
+                "number": "5"
             },
             {
-                "number": "6",
-                "clue": "Facebook calendar listing"
+                "clue": "Facebook calendar listing",
+                "answer": "EVENT",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "One of the four ancient elements"
+                "clue": "One of the four ancient elements",
+                "answer": "EARTH",
+                "number": "7"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Soda bottle size"
+                "clue": "Soda bottle size",
+                "answer": "LITER",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "\"There ___ enough hours in the day\""
+                "clue": "\"There ___ enough hours in the day\"",
+                "answer": "ARENT",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Major Australian city on the Indian Ocean"
+                "clue": "Major Australian city on the Indian Ocean",
+                "answer": "PERTH",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Kind of bean mentioned by Hannibal Lecter"
+                "clue": "Kind of bean mentioned by Hannibal Lecter",
+                "answer": "FAVA",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Tiny"
+                "clue": "Tiny",
+                "answer": "WEE",
+                "number": "5"
             }
         ]
     }

@@ -90,46 +90,56 @@
     "clues": {
         "across": [
             {
-                "number": "1",
-                "clue": "Pickle holder"
+                "clue": "Pickle holder",
+                "answer": "JAR",
+                "number": "1"
             },
             {
-                "number": "4",
-                "clue": "Annoyingly self-assertive"
+                "clue": "Annoyingly self-assertive",
+                "answer": "PUSHY",
+                "number": "4"
             },
             {
-                "number": "6",
-                "clue": "Andrews who starred in the original \"Mary Poppins\""
+                "clue": "Andrews who starred in the original \"Mary Poppins\"",
+                "answer": "JULIE",
+                "number": "6"
             },
             {
-                "number": "7",
-                "clue": "Tilt to one side"
+                "clue": "Tilt to one side",
+                "answer": "SLANT",
+                "number": "7"
             },
             {
-                "number": "8",
-                "clue": "___ Balls (Hostess snack food)"
+                "clue": "___ Balls (Hostess snack food)",
+                "answer": "SNO",
+                "number": "8"
             }
         ],
         "down": [
             {
-                "number": "1",
-                "clue": "Popular vaping devices"
+                "clue": "Popular vaping devices",
+                "answer": "JUULS",
+                "number": "1"
             },
             {
-                "number": "2",
-                "clue": "Lion in \"The Lion, the Witch and the Wardrobe\""
+                "clue": "Lion in \"The Lion, the Witch and the Wardrobe\"",
+                "answer": "ASLAN",
+                "number": "2"
             },
             {
-                "number": "3",
-                "clue": "Horned African mammal"
+                "clue": "Horned African mammal",
+                "answer": "RHINO",
+                "number": "3"
             },
             {
-                "number": "4",
-                "clue": "Jammies"
+                "clue": "Jammies",
+                "answer": "PJS",
+                "number": "4"
             },
             {
-                "number": "5",
-                "clue": "Up to this point"
+                "clue": "Up to this point",
+                "answer": "YET",
+                "number": "5"
             }
         ]
     }
