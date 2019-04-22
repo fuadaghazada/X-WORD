@@ -1,0 +1,4 @@
+nltk==3.4.1
+beautifulsoup4==4.7.1
+google==2.0.2
+requests=2.21.0
