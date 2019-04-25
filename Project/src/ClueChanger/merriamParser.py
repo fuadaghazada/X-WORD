@@ -1,9 +1,9 @@
 import urllib.request
 import json
 
-app_key = "5a8472e0-77c3-4e2f-867d-b1fa6f4965b0"
+merriam_app_key = "5a8472e0-77c3-4e2f-867d-b1fa6f4965b0"
 def getWordFromOxford(word):
-                url = "https://dictionaryapi.com/api/v3/references/thesaurus/json/"+word+"?key="+app_key
+                url = "https://dictionaryapi.com/api/v3/references/thesaurus/json/"+word+"?key="+merriam_app_key
                 request = urllib.request.Request(url)
                 response = urllib.request.urlopen(request)
                 content = response.read().decode('utf-8');
@@ -17,25 +17,23 @@ def getWordFromOxford(word):
                 for i in contentJson:
                         meta = i["meta"]                        
                         if(meta["id"] == word):
-                                #print("----meta----")
-                                #print(meta)
+                                #Extracting syns and ants
                                 syns = meta["syns"]
                                 for j in syns:
                                         synsMixed.extend(j)
                                 ants = meta["ants"]
                                 for j in ants:
                                         antsMixed.extend(j)
+                                #Extracting example sentences
+                                definition = i["def"]
+                                sseq = definition[0]["sseq"]                                
+                                dt=sseq[0][0][1]["dt"]                                
+                                example = dt[1][1][0]["t"]
+                                exMixed.append(example)
+                        #Extracting definitions
                         shortDef = i["shortdef"]
                         defsMixed.extend(shortDef)
-                        #print("---Short def-----")
-                        #print(shortDef)
-                        #print("----Def----")
-                        #defs = i["def"]
-                        #print(defs)
-                #print("---Syns---")                
-                #print(synsMixed)
-                #print("---Ants---")
-                #print(antsMixed)
+                #Returning word
                 word = []
                 word.append(synsMixed)
                 word.append(defsMixed)
@@ -44,5 +42,4 @@ def getWordFromOxford(word):
                 return word
 word = getWordFromOxford('above')
 for i in word:
-        print(i)
-
+       print(i)
