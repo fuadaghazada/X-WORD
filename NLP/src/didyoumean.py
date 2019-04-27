@@ -22,9 +22,3 @@ def did_you_mean(query):
     result = result.text if result is not None else None
 
     return result
-
-
-# TEST
-print(did_you_mean('yeterday'))
-
-

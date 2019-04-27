@@ -10,23 +10,21 @@ def getWordFromUrban(word):
     response = urllib.request.urlopen(request)
     content = response.read().decode('utf-8');
     contentJson = json.loads(content)
+
     defsMixed = []
     exMixed = []
     list = contentJson["list"]
     for i in list:
         if(i["word"] == word):
-                definition = i["definition"]
-                defsMixed.append(definition)
-                example = i["example"]
-                exMixed.append(example)
+            definition = i["definition"]
+            defsMixed.append(definition)
+            example = i["example"]
+            exMixed.append(example)
     word = {
+        "word": word,
+        "syn": None,
+        "ant": None,
         "def": defsMixed,
         "examples": exMixed
     }
     return word
-
-
-word = getWordFromUrban('test')
-print(word['def'])
-print(word['examples'])
-

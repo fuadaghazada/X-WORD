@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 
 
 '''
@@ -84,7 +85,7 @@ class GUI:
     '''
         Renders the clues
     '''
-    def __render_clues(self, clues):
+    def __render_clues(self, clues, title):
 
         # Fonts
         font = 'Inherit 14 normal'
@@ -92,16 +93,19 @@ class GUI:
 
         # Wrapper panel
         pane = tk.PanedWindow()
-        pane.pack(fill = tk.X, side = tk.RIGHT)
+        pane.pack(fill = tk.X, side = tk.TOP)
+
+        # Title
+        tk.Label(pane, text = title).pack(fill = tk.BOTH)
 
         # Across Pane & its title
-        across_pane = tk.PanedWindow()
-        across_pane.pack(fill = tk.X, side = tk.TOP, padx = (20, 20), pady = (20, 20))
+        across_pane = tk.PanedWindow(pane)
+        across_pane.pack(fill = tk.X, side = tk.LEFT, padx = (20, 20), pady = (20, 20))
         tk.Label(across_pane, text = 'ACROSS', font = font_b, anchor='w').pack(fill = tk.BOTH)
 
         # Down Pane & its title
-        down_pane = tk.PanedWindow()
-        down_pane.pack(fill = tk.X, padx = (20, 20), pady = (20, 20))
+        down_pane = tk.PanedWindow(pane)
+        down_pane.pack(fill = tk.X, side = tk.TOP, padx = (20, 20), pady = (20, 20))
         tk.Label(down_pane, text = 'DOWN', font = font_b, anchor='w').pack(fill = tk.BOTH)
 
         for clue in clues['across']:
@@ -137,7 +141,8 @@ class GUI:
 
         self.__render_title(data['date'])
         self.__render_grid(data['puzzle'])
-        self.__render_clues(data['clues'])
+        self.__render_clues(data['clues'], 'Original Clues')
+        self.__render_clues(data['clues'], 'Generated Clues')
 
         print("---------------------------")
 

@@ -28,7 +28,13 @@ def search_wordnet(word):
 		definitions.append(syn.definition())
 		examples += syn.examples()
 
+	# Removing the duplicates and the word itself
+	synonyms = list(set(synonyms))
+	if len(synonyms) != 0 and word in synonyms:
+		synonyms.remove(word)
+
 	return {
+		"word": word,
 		"syn": synonyms,
 		"ant": antonyms,
 		"def": definitions,
@@ -37,9 +43,9 @@ def search_wordnet(word):
 
 
 # TEST
-result = search_wordnet("Good")
-print(result['syn'], '\n')
-print(result['ant'], '\n')
-print(result['def'], '\n')
-print(result['examples'], '\n')
+# result = search_wordnet("Good")
+# print(result['syn'], '\n')
+# print(result['ant'], '\n')
+# print(result['def'], '\n')
+# print(result['examples'], '\n')
 

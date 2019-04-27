@@ -24,6 +24,10 @@ elif len(sys.argv) == 1:
 else:
     sys.exit()
 
+
+# TODO: Call clue generator here with data object and
+data['generated_clues'] = data['clues']  # <-- assign here
+
 # GUI with data
 gui = GUI(l_gen)
 gui.render(data)
