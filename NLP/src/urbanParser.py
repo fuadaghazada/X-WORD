@@ -22,8 +22,8 @@ def getWordFromUrban(word):
             exMixed.append(example)
     word = {
         "word": word,
-        "syn": None,
-        "ant": None,
+        "syn": [],
+        "ant": [],
         "def": defsMixed,
         "examples": exMixed
     }

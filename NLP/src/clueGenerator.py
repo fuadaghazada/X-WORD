@@ -8,9 +8,11 @@ from wordnet import search_wordnet
 from merriamParser import getWordFromMerriam
 from urbanParser import getWordFromUrban
 from didyoumean import did_you_mean
+from wikipediaParser import search_wikipedia
 
 # All resources to be searched
-RESOURCES = [{'name': 'Wordnet', 'func': search_wordnet},
+RESOURCES = [{'name': 'Wikipedia', 'func': search_wikipedia},
+			 {'name': 'Wordnet', 'func': search_wordnet},
 			 {'name': 'Merriam', 'func': getWordFromMerriam},
 			 {'name': 'Urban', 'func': getWordFromUrban}]
 
@@ -40,7 +42,7 @@ def changeClue(word, clue, replace_policy):
 		word = did_you_mean_result
 
 	# Getting the stem of the word
-	word = ps.stem(word)
+	# word = ps.stem(word)
 
 	# Replace policy
 	if replace_policy == 0:
@@ -100,4 +102,12 @@ def changeClue(word, clue, replace_policy):
 
 
 # Test
-print(changeClue('cars', 'a conveyance for passengers or freight on a cable railway', 0))
+word = 'cosmo'
+clue = 'Pink vodka cocktail, informally'
+print(changeClue(word, clue, 0))
+print()
+print(changeClue(word, clue, 1))
+print()
+print(changeClue(word, clue, 2))
+print()
+print(changeClue(word, clue, 3))
