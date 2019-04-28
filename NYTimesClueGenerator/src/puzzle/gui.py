@@ -104,15 +104,15 @@ class GUI:
         across_pane.pack(fill = tk.X, side = tk.LEFT, padx = (20, 20), pady = (20, 20))
         tk.Label(across_pane, text = 'ACROSS', font = font_b, anchor='w').pack(fill = tk.BOTH)
 
-        # Down Pane & its title
-        down_pane = tk.PanedWindow(pane)
-        down_pane.pack(fill = tk.X, side = tk.TOP, padx = (20, 20), pady = (20, 20))
-        tk.Label(down_pane, text = 'DOWN', font = font_b, anchor='w').pack(fill = tk.BOTH)
-
         clues_str = ""
         for clue in clues['across']:
             clues_str += clue['number'] + '. ' + clue['clue'] + "\n\n"
         tk.Label(across_pane, text = clues_str, font = font, wraplength = 450, justify=tk.LEFT).pack(fill = tk.BOTH)
+
+        # Down Pane & its title
+        down_pane = tk.PanedWindow(pane)
+        down_pane.pack(fill = tk.X, side = tk.RIGHT, padx = (20, 20), pady = (20, 20))
+        tk.Label(down_pane, text = 'DOWN', font = font_b, anchor='w').pack(fill = tk.BOTH)
 
         clues_str = ""
         for clue in clues['down']:
