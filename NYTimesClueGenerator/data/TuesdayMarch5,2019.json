@@ -1,0 +1,150 @@
+{
+    "date": "Tuesday March 5, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "K"
+            ],
+            [
+                "2",
+                "C"
+            ],
+            [
+                "3",
+                "U"
+            ],
+            [
+                "4",
+                "P"
+            ]
+        ],
+        [
+            [
+                "5",
+                "J"
+            ],
+            [
+                "O"
+            ],
+            [
+                "H"
+            ],
+            [
+                "N"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "6",
+                "U"
+            ],
+            [
+                "R"
+            ],
+            [
+                "A"
+            ],
+            [
+                "L"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "7",
+                "M"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            [
+                "I"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "8",
+                "P"
+            ],
+            [
+                "A"
+            ],
+            [
+                "S"
+            ],
+            [
+                "T"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Pod for an instant coffee machine",
+                "answer": "KCUP",
+                "number": "1"
+            },
+            {
+                "clue": "Long ___ (underwear)",
+                "answer": "JOHNS",
+                "number": "5"
+            },
+            {
+                "clue": "Mountain range that divides Europe and Asia",
+                "answer": "URALS",
+                "number": "6"
+            },
+            {
+                "clue": "What some college scholarships are based on",
+                "answer": "MERIT",
+                "number": "7"
+            },
+            {
+                "clue": "Time machine's destination",
+                "answer": "PAST",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Peninsula where Kim is the most common surname",
+                "answer": "KOREA",
+                "number": "1"
+            },
+            {
+                "clue": "Lightly burns",
+                "answer": "CHARS",
+                "number": "2"
+            },
+            {
+                "clue": "Not yet aflame",
+                "answer": "UNLIT",
+                "number": "3"
+            },
+            {
+                "clue": "\"Hey you!\"",
+                "answer": "PSST",
+                "number": "4"
+            },
+            {
+                "clue": "Capture in checkers",
+                "answer": "JUMP",
+                "number": "5"
+            }
+        ]
+    }
+}

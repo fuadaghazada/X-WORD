@@ -1,0 +1,228 @@
+{
+    "date": "Saturday February 16, 2019",
+    "puzzle": [
+        [
+            null,
+            null,
+            null,
+            [
+                "1",
+                "H"
+            ],
+            [
+                "2",
+                "E"
+            ],
+            [
+                "3",
+                "R"
+            ],
+            [
+                "4",
+                "A"
+            ]
+        ],
+        [
+            null,
+            null,
+            [
+                "5",
+                "M"
+            ],
+            [
+                "I"
+            ],
+            [
+                "S"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ]
+        ],
+        [
+            null,
+            [
+                "6",
+                "B"
+            ],
+            [
+                "I"
+            ],
+            [
+                "G"
+            ],
+            [
+                "C"
+            ],
+            [
+                "A"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "7",
+                "B"
+            ],
+            [
+                "I"
+            ],
+            [
+                "S"
+            ],
+            [
+                "H"
+            ],
+            [
+                "O"
+            ],
+            [
+                "P"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "8",
+                "E"
+            ],
+            [
+                "N"
+            ],
+            [
+                "T"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            [
+                "S"
+            ],
+            null
+        ],
+        [
+            [
+                "9",
+                "A"
+            ],
+            [
+                "G"
+            ],
+            [
+                "E"
+            ],
+            [
+                "N"
+            ],
+            [
+                "T"
+            ],
+            null,
+            null
+        ],
+        [
+            [
+                "10",
+                "L"
+            ],
+            [
+                "O"
+            ],
+            [
+                "R"
+            ],
+            [
+                "D"
+            ],
+            null,
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Wife and, weirdly, sister of Zeus",
+                "answer": "HERA",
+                "number": "1"
+            },
+            {
+                "clue": "Person who's unlikely to give a donation",
+                "answer": "MISER",
+                "number": "5"
+            },
+            {
+                "clue": "Lion or tiger, but not bear",
+                "answer": "BIGCAT",
+                "number": "6"
+            },
+            {
+                "clue": "Pair on a chessboard",
+                "answer": "BISHOPS",
+                "number": "7"
+            },
+            {
+                "clue": "Opposite of exits",
+                "answer": "ENTERS",
+                "number": "8"
+            },
+            {
+                "clue": "Secret Service worker",
+                "answer": "AGENT",
+                "number": "9"
+            },
+            {
+                "clue": "Title on \"Game of Thrones\"",
+                "answer": "LORD",
+                "number": "10"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Upscale",
+                "answer": "HIGHEND",
+                "number": "1"
+            },
+            {
+                "clue": "Front car in a motorcade",
+                "answer": "ESCORT",
+                "number": "2"
+            },
+            {
+                "clue": "Brings in at harvest time",
+                "answer": "REAPS",
+                "number": "3"
+            },
+            {
+                "clue": "The \"A\" of a B.A. degree",
+                "answer": "ARTS",
+                "number": "4"
+            },
+            {
+                "clue": "\"___ Rogers' Neighborhood\"",
+                "answer": "MISTER",
+                "number": "5"
+            },
+            {
+                "clue": "Game with a \"Free Space\" square in the middle",
+                "answer": "BINGO",
+                "number": "6"
+            },
+            {
+                "clue": "Bradley ___, two-time N.B.A. All-Star",
+                "answer": "BEAL",
+                "number": "7"
+            }
+        ]
+    }
+}

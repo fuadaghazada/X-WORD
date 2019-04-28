@@ -1,0 +1,146 @@
+{
+    "date": "Sunday March 10, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "F"
+            ],
+            [
+                "2",
+                "L"
+            ],
+            [
+                "3",
+                "A"
+            ],
+            [
+                "4",
+                "N"
+            ]
+        ],
+        [
+            null,
+            [
+                "5",
+                "A"
+            ],
+            [
+                "I"
+            ],
+            [
+                "D"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "6",
+                "M"
+            ],
+            [
+                "R"
+            ],
+            [
+                "F"
+            ],
+            [
+                "O"
+            ],
+            [
+                "X"
+            ]
+        ],
+        [
+            [
+                "7",
+                "U"
+            ],
+            [
+                "S"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            null
+        ],
+        [
+            [
+                "8",
+                "D"
+            ],
+            [
+                "I"
+            ],
+            [
+                "R"
+            ],
+            [
+                "E"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Custardy Spanish dessert",
+                "answer": "FLAN",
+                "number": "1"
+            },
+            {
+                "clue": "Bryant of the \"S.N.L.\" cast",
+                "answer": "AIDY",
+                "number": "5"
+            },
+            {
+                "clue": "\"Fantastic\" title animal for Roald Dahl",
+                "answer": "MRFOX",
+                "number": "6"
+            },
+            {
+                "clue": "___ privacy, issue for Facebook",
+                "answer": "USER",
+                "number": "7"
+            },
+            {
+                "clue": "Not looking good",
+                "answer": "DIRE",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Language of Iran",
+                "answer": "FARSI",
+                "number": "1"
+            },
+            {
+                "clue": "Someone who stays in the same job forever",
+                "answer": "LIFER",
+                "number": "2"
+            },
+            {
+                "clue": "Absolutely love",
+                "answer": "ADORE",
+                "number": "3"
+            },
+            {
+                "clue": "Greek goddess of the night",
+                "answer": "NYX",
+                "number": "4"
+            },
+            {
+                "clue": "Dirt after rain",
+                "answer": "MUD",
+                "number": "6"
+            }
+        ]
+    }
+}

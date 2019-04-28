@@ -1,0 +1,146 @@
+{
+    "date": "Sunday March 17, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "E"
+            ],
+            [
+                "2",
+                "B"
+            ],
+            [
+                "3",
+                "B"
+            ],
+            null
+        ],
+        [
+            [
+                "4",
+                "F"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "E"
+            ],
+            [
+                "5",
+                "S"
+            ]
+        ],
+        [
+            [
+                "6",
+                "E"
+            ],
+            [
+                "V"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "7",
+                "Y"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            null,
+            [
+                "8",
+                "S"
+            ],
+            [
+                "K"
+            ],
+            [
+                "Y"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Flow back",
+                "answer": "EBB",
+                "number": "1"
+            },
+            {
+                "clue": "They increase during surge pricing on a rideshare app",
+                "answer": "FARES",
+                "number": "4"
+            },
+            {
+                "clue": "___ now and then",
+                "answer": "EVERY",
+                "number": "6"
+            },
+            {
+                "clue": "Things measured by tree rings",
+                "answer": "YEARS",
+                "number": "7"
+            },
+            {
+                "clue": "View out of an airplane window",
+                "answer": "SKY",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Overhanging parts of roofs",
+                "answer": "EAVES",
+                "number": "1"
+            },
+            {
+                "clue": "Start of a billiards game",
+                "answer": "BREAK",
+                "number": "2"
+            },
+            {
+                "clue": "Smoothie ingredient",
+                "answer": "BERRY",
+                "number": "3"
+            },
+            {
+                "clue": "Tina of \"30 Rock\"",
+                "answer": "FEY",
+                "number": "4"
+            },
+            {
+                "clue": "The \"S\" in iOS: Abbr.",
+                "answer": "SYS",
+                "number": "5"
+            }
+        ]
+    }
+}

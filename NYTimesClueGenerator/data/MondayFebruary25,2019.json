@@ -1,0 +1,149 @@
+{
+    "date": "Monday February 25, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "E"
+            ],
+            [
+                "2",
+                "N"
+            ],
+            [
+                "3",
+                "J"
+            ],
+            [
+                "4",
+                "O"
+            ],
+            [
+                "5",
+                "Y"
+            ]
+        ],
+        [
+            [
+                "6",
+                "Q"
+            ],
+            [
+                "U"
+            ],
+            [
+                "E"
+            ],
+            [
+                "U"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "7",
+                "U"
+            ],
+            [
+                "B"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "8",
+                "A"
+            ],
+            [
+                "I"
+            ],
+            [
+                "R"
+            ],
+            [
+                "S"
+            ],
+            null
+        ],
+        [
+            [
+                "9",
+                "L"
+            ],
+            [
+                "A"
+            ],
+            [
+                "S"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Waiter's word after delivering the food",
+                "answer": "ENJOY",
+                "number": "1"
+            },
+            {
+                "clue": "Lineup of Netflix shows to watch",
+                "answer": "QUEUE",
+                "number": "6"
+            },
+            {
+                "clue": "Cars ordered from one's phone",
+                "answer": "UBERS",
+                "number": "7"
+            },
+            {
+                "clue": "Condescending thing to put on",
+                "answer": "AIRS",
+                "number": "8"
+            },
+            {
+                "clue": "___ Vegas, Nev.",
+                "answer": "LAS",
+                "number": "9"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Like 82 and 43",
+                "answer": "EQUAL",
+                "number": "1"
+            },
+            {
+                "clue": "Region of ancient Egypt",
+                "answer": "NUBIA",
+                "number": "2"
+            },
+            {
+                "clue": "Heckles from the stands",
+                "answer": "JEERS",
+                "number": "3"
+            },
+            {
+                "clue": "Shared by the two of us",
+                "answer": "OURS",
+                "number": "4"
+            },
+            {
+                "clue": "R.S.V.P. option",
+                "answer": "YES",
+                "number": "5"
+            }
+        ]
+    }
+}

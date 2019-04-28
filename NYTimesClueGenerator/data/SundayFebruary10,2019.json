@@ -1,0 +1,146 @@
+{
+    "date": "Sunday February 10, 2019",
+    "puzzle": [
+        [
+            null,
+            null,
+            [
+                "1",
+                "H"
+            ],
+            [
+                "2",
+                "U"
+            ],
+            [
+                "3",
+                "G"
+            ]
+        ],
+        [
+            [
+                "4",
+                "T"
+            ],
+            [
+                "5",
+                "H"
+            ],
+            [
+                "E"
+            ],
+            [
+                "T"
+            ],
+            [
+                "A"
+            ]
+        ],
+        [
+            [
+                "6",
+                "R"
+            ],
+            [
+                "U"
+            ],
+            [
+                "R"
+            ],
+            [
+                "A"
+            ],
+            [
+                "L"
+            ]
+        ],
+        [
+            [
+                "7",
+                "A"
+            ],
+            [
+                "L"
+            ],
+            [
+                "O"
+            ],
+            [
+                "H"
+            ],
+            [
+                "A"
+            ]
+        ],
+        [
+            [
+                "8",
+                "P"
+            ],
+            [
+                "U"
+            ],
+            [
+                "N"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Warm embrace",
+                "answer": "HUG",
+                "number": "1"
+            },
+            {
+                "clue": "Symbol for an angle in trigonometry",
+                "answer": "THETA",
+                "number": "4"
+            },
+            {
+                "clue": "Opposite of citified",
+                "answer": "RURAL",
+                "number": "6"
+            },
+            {
+                "clue": "Hawaiian greeting",
+                "answer": "ALOHA",
+                "number": "7"
+            },
+            {
+                "clue": "Either of the (real) bar names \"Wish You Were Beer\" or \"Pour Judgment\"",
+                "answer": "PUN",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Bird that hunts in shallow water",
+                "answer": "HERON",
+                "number": "1"
+            },
+            {
+                "clue": "Where Mitt Romney is senator",
+                "answer": "UTAH",
+                "number": "2"
+            },
+            {
+                "clue": "Black-tie party, maybe",
+                "answer": "GALA",
+                "number": "3"
+            },
+            {
+                "clue": "Prevent from escaping",
+                "answer": "TRAP",
+                "number": "4"
+            },
+            {
+                "clue": "\"The Handmaid's Tale\" airer",
+                "answer": "HULU",
+                "number": "5"
+            }
+        ]
+    }
+}

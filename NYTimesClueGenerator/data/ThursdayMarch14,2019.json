@@ -1,0 +1,155 @@
+{
+    "date": "Thursday March 14, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "S"
+            ],
+            [
+                "2",
+                "T"
+            ],
+            [
+                "3",
+                "R"
+            ],
+            [
+                "4",
+                "A"
+            ],
+            [
+                "5",
+                "W"
+            ]
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "U"
+            ],
+            [
+                "S"
+            ],
+            [
+                "H"
+            ]
+        ],
+        [
+            [
+                "7",
+                "G"
+            ],
+            [
+                "U"
+            ],
+            [
+                "N"
+            ],
+            [
+                "K"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "8",
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "N"
+            ],
+            [
+                "U"
+            ],
+            [
+                "M"
+            ]
+        ],
+        [
+            [
+                "9",
+                "S"
+            ],
+            [
+                "K"
+            ],
+            [
+                "Y"
+            ],
+            [
+                "P"
+            ],
+            [
+                "E"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Single-use plastic item that's increasingly the subject of bans",
+                "answer": "STRAW",
+                "number": "1"
+            },
+            {
+                "clue": "In ___ (pressed for time)",
+                "answer": "ARUSH",
+                "number": "6"
+            },
+            {
+                "clue": "Covered in crud",
+                "answer": "GUNKY",
+                "number": "7"
+            },
+            {
+                "clue": "Per ___ (yearly)",
+                "answer": "ANNUM",
+                "number": "8"
+            },
+            {
+                "clue": "Video chat option",
+                "answer": "SKYPE",
+                "number": "9"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Epic stories",
+                "answer": "SAGAS",
+                "number": "1"
+            },
+            {
+                "clue": "Part of an elephant or tree",
+                "answer": "TRUNK",
+                "number": "2"
+            },
+            {
+                "clue": "Like a cold sufferer's nose",
+                "answer": "RUNNY",
+                "number": "3"
+            },
+            {
+                "clue": "Invite to one's penthouse suite, for instance",
+                "answer": "ASKUP",
+                "number": "4"
+            },
+            {
+                "clue": "Self-pitying question",
+                "answer": "WHYME",
+                "number": "5"
+            }
+        ]
+    }
+}

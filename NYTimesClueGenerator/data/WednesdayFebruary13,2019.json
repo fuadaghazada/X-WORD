@@ -1,0 +1,145 @@
+{
+    "date": "Wednesday February 13, 2019",
+    "puzzle": [
+        [
+            null,
+            null,
+            [
+                "1",
+                "S"
+            ],
+            [
+                "2",
+                "U"
+            ],
+            [
+                "3",
+                "N"
+            ]
+        ],
+        [
+            null,
+            [
+                "4",
+                "S"
+            ],
+            [
+                "U"
+            ],
+            [
+                "N"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "5",
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "N"
+            ],
+            [
+                "I"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "6",
+                "P"
+            ],
+            [
+                "I"
+            ],
+            [
+                "N"
+            ],
+            [
+                "O"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "7",
+                "S"
+            ],
+            [
+                "P"
+            ],
+            [
+                "I"
+            ],
+            [
+                "N"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Center of a solar system",
+                "answer": "SUN",
+                "number": "1"
+            },
+            {
+                "clue": "College system with campuses in Buffalo and Binghamton",
+                "answer": "SUNY",
+                "number": "4"
+            },
+            {
+                "clue": "Hit musical with the song \"It's the Hard-Knock Life\"",
+                "answer": "ANNIE",
+                "number": "5"
+            },
+            {
+                "clue": "Wine grape variety",
+                "answer": "PINOT",
+                "number": "6"
+            },
+            {
+                "clue": "Do some post-debate political commentary",
+                "answer": "SPIN",
+                "number": "7"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Islam's largest branch",
+                "answer": "SUNNI",
+                "number": "1"
+            },
+            {
+                "clue": "One side of the Civil War",
+                "answer": "UNION",
+                "number": "2"
+            },
+            {
+                "clue": "Russian refusal",
+                "answer": "NYET",
+                "number": "3"
+            },
+            {
+                "clue": "Cut with scissors",
+                "answer": "SNIP",
+                "number": "4"
+            },
+            {
+                "clue": "College-level courses for H.S. students",
+                "answer": "APS",
+                "number": "5"
+            }
+        ]
+    }
+}

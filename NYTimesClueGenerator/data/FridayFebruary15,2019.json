@@ -1,0 +1,146 @@
+{
+    "date": "Friday February 15, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "A"
+            ],
+            [
+                "2",
+                "C"
+            ],
+            [
+                "3",
+                "H"
+            ],
+            [
+                "4",
+                "E"
+            ]
+        ],
+        [
+            null,
+            [
+                "5",
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "A"
+            ],
+            [
+                "D"
+            ]
+        ],
+        [
+            [
+                "6",
+                "H"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "7",
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "T"
+            ],
+            [
+                "S"
+            ],
+            null
+        ],
+        [
+            [
+                "8",
+                "M"
+            ],
+            [
+                "A"
+            ],
+            [
+                "S"
+            ],
+            [
+                "H"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Feel a marathon the next day",
+                "answer": "ACHE",
+                "number": "1"
+            },
+            {
+                "clue": "B????way is a major one in New York City",
+                "answer": "ROAD",
+                "number": "5"
+            },
+            {
+                "clue": "T?? ???eries carry blood from it",
+                "answer": "HEART",
+                "number": "6"
+            },
+            {
+                "clue": "Tiny hill inhabit????",
+                "answer": "ANTS",
+                "number": "7"
+            },
+            {
+                "clue": "Mixture used to make whiskey",
+                "answer": "MASH",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Building that may host concerts and N.B.A. games",
+                "answer": "ARENA",
+                "number": "1"
+            },
+            {
+                "clue": "Things checked at nice restaurants",
+                "answer": "COATS",
+                "number": "2"
+            },
+            {
+                "clue": "Severe",
+                "answer": "HARSH",
+                "number": "3"
+            },
+            {
+                "clue": "Summer hrs. in Philly",
+                "answer": "EDT",
+                "number": "4"
+            },
+            {
+                "clue": "Meat typically found in a Denver omelet",
+                "answer": "HAM",
+                "number": "6"
+            }
+        ]
+    }
+}

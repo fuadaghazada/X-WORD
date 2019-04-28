@@ -1,0 +1,151 @@
+{
+    "date": "Wednesday February 20, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "H"
+            ],
+            [
+                "2",
+                "E"
+            ],
+            [
+                "3",
+                "R"
+            ],
+            [
+                "4",
+                "E"
+            ],
+            null
+        ],
+        [
+            [
+                "5",
+                "E"
+            ],
+            [
+                "M"
+            ],
+            [
+                "O"
+            ],
+            [
+                "J"
+            ],
+            [
+                "6",
+                "I"
+            ]
+        ],
+        [
+            [
+                "7",
+                "L"
+            ],
+            [
+                "A"
+            ],
+            [
+                "D"
+            ],
+            [
+                "E"
+            ],
+            [
+                "D"
+            ]
+        ],
+        [
+            [
+                "8",
+                "P"
+            ],
+            [
+                "I"
+            ],
+            [
+                "E"
+            ],
+            [
+                "C"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            null,
+            [
+                "9",
+                "L"
+            ],
+            [
+                "O"
+            ],
+            [
+                "T"
+            ],
+            [
+                "S"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "One-word text upon arriving",
+                "answer": "HERE",
+                "number": "1"
+            },
+            {
+                "clue": "Face With Tears of Joy, for one",
+                "answer": "EMOJI",
+                "number": "5"
+            },
+            {
+                "clue": "Filled with cargo, as a ship",
+                "answer": "LADED",
+                "number": "7"
+            },
+            {
+                "clue": "Part of a jigsaw puzzle",
+                "answer": "PIECE",
+                "number": "8"
+            },
+            {
+                "clue": "A ton",
+                "answer": "LOTS",
+                "number": "9"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Beatles album with a \"!\" in its name",
+                "answer": "HELP",
+                "number": "1"
+            },
+            {
+                "clue": "Something in an \"Unread\" folder",
+                "answer": "EMAIL",
+                "number": "2"
+            },
+            {
+                "clue": "Bull-riding event",
+                "answer": "RODEO",
+                "number": "3"
+            },
+            {
+                "clue": "Pop out, as a DVD",
+                "answer": "EJECT",
+                "number": "4"
+            },
+            {
+                "clue": "\"Beware the ___ of March\"",
+                "answer": "IDES",
+                "number": "6"
+            }
+        ]
+    }
+}

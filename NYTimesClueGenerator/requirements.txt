@@ -1,0 +1,7 @@
+nltk==3.4.1
+beautifulsoup4==4.7.1
+google==2.0.2
+requests=2.21.0
+selenium==3.141.0
+numpy==1.16.2
+wikipedia==1.4.0

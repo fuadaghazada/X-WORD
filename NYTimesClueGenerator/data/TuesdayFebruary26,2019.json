@@ -1,0 +1,144 @@
+{
+    "date": "Tuesday February 26, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "S"
+            ],
+            [
+                "2",
+                "T"
+            ],
+            [
+                "3",
+                "E"
+            ],
+            [
+                "4",
+                "P"
+            ]
+        ],
+        [
+            null,
+            [
+                "5",
+                "H"
+            ],
+            [
+                "I"
+            ],
+            [
+                "Y"
+            ],
+            [
+                "A"
+            ]
+        ],
+        [
+            [
+                "6",
+                "H"
+            ],
+            [
+                "O"
+            ],
+            [
+                "M"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ]
+        ],
+        [
+            [
+                "7",
+                "R"
+            ],
+            [
+                "U"
+            ],
+            [
+                "E"
+            ],
+            [
+                "S"
+            ],
+            null
+        ],
+        [
+            [
+                "8",
+                "C"
+            ],
+            [
+                "T"
+            ],
+            [
+                "S"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Bit of choreography",
+                "answer": "STEP",
+                "number": "1"
+            },
+            {
+                "clue": "Cheerful greeting",
+                "answer": "HIYA",
+                "number": "5"
+            },
+            {
+                "clue": "Author of the \"Odyssey\" and the \"Iliad\"",
+                "answer": "HOMER",
+                "number": "6"
+            },
+            {
+                "clue": "Regrets",
+                "answer": "RUES",
+                "number": "7"
+            },
+            {
+                "clue": "Dollar subdivisions: Abbr.",
+                "answer": "CTS",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "TALK LIKE THIS!",
+                "answer": "SHOUT",
+                "number": "1"
+            },
+            {
+                "clue": "___ Square (landmark suggested by the groups of circled letters)",
+                "answer": "TIMES",
+                "number": "2"
+            },
+            {
+                "clue": "Contacts go in them",
+                "answer": "EYES",
+                "number": "3"
+            },
+            {
+                "clue": "2 or 3, for the typical mini-golf hole",
+                "answer": "PAR",
+                "number": "4"
+            },
+            {
+                "clue": "She lost to D.J.T. in the '16 election",
+                "answer": "HRC",
+                "number": "6"
+            }
+        ]
+    }
+}

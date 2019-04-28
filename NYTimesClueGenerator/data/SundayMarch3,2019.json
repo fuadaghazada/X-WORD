@@ -1,0 +1,149 @@
+{
+    "date": "Sunday March 3, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "G"
+            ],
+            [
+                "2",
+                "R"
+            ],
+            [
+                "3",
+                "I"
+            ],
+            [
+                "4",
+                "F"
+            ],
+            [
+                "5",
+                "T"
+            ]
+        ],
+        [
+            [
+                "6",
+                "E"
+            ],
+            [
+                "U"
+            ],
+            [
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "7",
+                "E"
+            ],
+            [
+                "B"
+            ],
+            [
+                "O"
+            ],
+            [
+                "O"
+            ],
+            [
+                "K"
+            ]
+        ],
+        [
+            [
+                "8",
+                "K"
+            ],
+            [
+                "I"
+            ],
+            [
+                "N"
+            ],
+            [
+                "D"
+            ],
+            null
+        ],
+        [
+            [
+                "9",
+                "S"
+            ],
+            [
+                "O"
+            ],
+            [
+                "Y"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Make money through conning",
+                "answer": "GRIFT",
+                "number": "1"
+            },
+            {
+                "clue": "Currency worth a little more than dollars",
+                "answer": "EUROS",
+                "number": "6"
+            },
+            {
+                "clue": "Download for a Kindle",
+                "answer": "EBOOK",
+                "number": "7"
+            },
+            {
+                "clue": "Warmhearted",
+                "answer": "KIND",
+                "number": "8"
+            },
+            {
+                "clue": "Ingredient in a veggie burger",
+                "answer": "SOY",
+                "number": "9"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Nerds",
+                "answer": "GEEKS",
+                "number": "1"
+            },
+            {
+                "clue": "Florida senator Marco",
+                "answer": "RUBIO",
+                "number": "2"
+            },
+            {
+                "clue": "The fact that Nintendo of America's new C.E.O. is named Doug Bowser, e.g.",
+                "answer": "IRONY",
+                "number": "3"
+            },
+            {
+                "clue": "___ Network, \"Chopped\" airer",
+                "answer": "FOOD",
+                "number": "4"
+            },
+            {
+                "clue": "Reprimanding sound",
+                "answer": "TSK",
+                "number": "5"
+            }
+        ]
+    }
+}

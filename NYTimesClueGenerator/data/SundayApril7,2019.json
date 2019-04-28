@@ -1,0 +1,146 @@
+{
+    "date": "Sunday April 7, 2019",
+    "puzzle": [
+        [
+            null,
+            null,
+            [
+                "1",
+                "B"
+            ],
+            [
+                "2",
+                "E"
+            ],
+            [
+                "3",
+                "T"
+            ]
+        ],
+        [
+            [
+                "4",
+                "H"
+            ],
+            [
+                "5",
+                "I"
+            ],
+            [
+                "R"
+            ],
+            [
+                "E"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "6",
+                "G"
+            ],
+            [
+                "O"
+            ],
+            [
+                "A"
+            ],
+            [
+                "L"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "7",
+                "T"
+            ],
+            [
+                "W"
+            ],
+            [
+                "I"
+            ],
+            [
+                "S"
+            ],
+            [
+                "T"
+            ]
+        ],
+        [
+            [
+                "8",
+                "V"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "What someone with pocket aces is likely to do",
+                "answer": "BET",
+                "number": "1"
+            },
+            {
+                "clue": "New person on staff",
+                "answer": "HIREE",
+                "number": "4"
+            },
+            {
+                "clue": "Things on a bucket list",
+                "answer": "GOALS",
+                "number": "6"
+            },
+            {
+                "clue": "Surprise ending",
+                "answer": "TWIST",
+                "number": "7"
+            },
+            {
+                "clue": "Airport shuttle vehicle",
+                "answer": "VAN",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Command center for the nervous system",
+                "answer": "BRAIN",
+                "number": "1"
+            },
+            {
+                "clue": "Creatures whose name is \"5733\" upside-down",
+                "answer": "EELS",
+                "number": "2"
+            },
+            {
+                "clue": "Word repeated into a microphone",
+                "answer": "TEST",
+                "number": "3"
+            },
+            {
+                "clue": "\"Property Brothers\" channel",
+                "answer": "HGTV",
+                "number": "4"
+            },
+            {
+                "clue": "Where much early presidential campaigning is done",
+                "answer": "IOWA",
+                "number": "5"
+            }
+        ]
+    }
+}

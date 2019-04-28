@@ -1,0 +1,150 @@
+{
+    "date": "Friday March 1, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "L"
+            ],
+            [
+                "2",
+                "A"
+            ],
+            [
+                "3",
+                "S"
+            ],
+            [
+                "4",
+                "T"
+            ]
+        ],
+        [
+            [
+                "5",
+                "J"
+            ],
+            [
+                "U"
+            ],
+            [
+                "I"
+            ],
+            [
+                "C"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "D"
+            ],
+            [
+                "R"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "7",
+                "I"
+            ],
+            [
+                "D"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "8",
+                "L"
+            ],
+            [
+                "I"
+            ],
+            [
+                "S"
+            ],
+            [
+                "P"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Worst in the league",
+                "answer": "LAST",
+                "number": "1"
+            },
+            {
+                "clue": "Battery life",
+                "answer": "JUICE",
+                "number": "5"
+            },
+            {
+                "clue": "___ 3000, one half of rap's OutKast",
+                "answer": "ANDRE",
+                "number": "6"
+            },
+            {
+                "clue": "What cartoon light bulbs represent",
+                "answer": "IDEAS",
+                "number": "7"
+            },
+            {
+                "clue": "Talk like Daffy Duck",
+                "answer": "LISP",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Monday, in French",
+                "answer": "LUNDI",
+                "number": "1"
+            },
+            {
+                "clue": "White House assistants",
+                "answer": "AIDES",
+                "number": "2"
+            },
+            {
+                "clue": "Throw in the trash",
+                "answer": "SCRAP",
+                "number": "3"
+            },
+            {
+                "clue": "Bagful for a golfer",
+                "answer": "TEES",
+                "number": "4"
+            },
+            {
+                "clue": "Square between Connecticut Avenue and St. Charles Place on a Monopoly board",
+                "answer": "JAIL",
+                "number": "5"
+            }
+        ]
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "date": "Tuesday February 19, 2019",
+    "puzzle": [
+        [
+            null,
+            null,
+            [
+                "1",
+                "T"
+            ],
+            [
+                "2",
+                "E"
+            ],
+            [
+                "3",
+                "T"
+            ]
+        ],
+        [
+            [
+                "4",
+                "A"
+            ],
+            [
+                "5",
+                "L"
+            ],
+            [
+                "E"
+            ],
+            [
+                "X"
+            ],
+            [
+                "A"
+            ]
+        ],
+        [
+            [
+                "6",
+                "T"
+            ],
+            [
+                "A"
+            ],
+            [
+                "X"
+            ],
+            [
+                "E"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "7",
+                "O"
+            ],
+            [
+                "Z"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "K"
+            ]
+        ],
+        [
+            [
+                "8",
+                "Z"
+            ],
+            [
+                "E"
+            ],
+            [
+                "S"
+            ],
+            [
+                "T"
+            ],
+            [
+                "S"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Vietnamese New Year",
+                "answer": "TET",
+                "number": "1"
+            },
+            {
+                "clue": "Amazon's voice-controlled assistant",
+                "answer": "ALEXA",
+                "number": "4"
+            },
+            {
+                "clue": "What the I.R.S. collects",
+                "answer": "TAXES",
+                "number": "6"
+            },
+            {
+                "clue": "Netflix crime drama set in the Missouri mountains",
+                "answer": "OZARK",
+                "number": "7"
+            },
+            {
+                "clue": "Cocktail garnishes from citrus fruit",
+                "answer": "ZESTS",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "The Lone Star State",
+                "answer": "TEXAS",
+                "number": "1"
+            },
+            {
+                "clue": "Put forth, as energy",
+                "answer": "EXERT",
+                "number": "2"
+            },
+            {
+                "clue": "Items on a to-do list",
+                "answer": "TASKS",
+                "number": "3"
+            },
+            {
+                "clue": "Alphabet's range",
+                "answer": "ATOZ",
+                "number": "4"
+            },
+            {
+                "clue": "Chill around the house",
+                "answer": "LAZE",
+                "number": "5"
+            }
+        ]
+    }
+}

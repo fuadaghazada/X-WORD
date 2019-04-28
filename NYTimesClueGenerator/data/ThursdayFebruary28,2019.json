@@ -1,0 +1,147 @@
+{
+    "date": "Thursday February 28, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "E"
+            ],
+            [
+                "2",
+                "D"
+            ],
+            [
+                "3",
+                "G"
+            ],
+            [
+                "4",
+                "Y"
+            ],
+            null
+        ],
+        [
+            [
+                "5",
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "M"
+            ],
+            [
+                "A"
+            ],
+            null
+        ],
+        [
+            [
+                "6",
+                "G"
+            ],
+            [
+                "U"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "7",
+                "D"
+            ]
+        ],
+        [
+            null,
+            [
+                "8",
+                "S"
+            ],
+            [
+                "I"
+            ],
+            [
+                "D"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            null,
+            [
+                "9",
+                "E"
+            ],
+            [
+                "L"
+            ],
+            [
+                "S"
+            ],
+            [
+                "E"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Avant-garde",
+                "answer": "EDGY",
+                "number": "1"
+            },
+            {
+                "clue": "Movie for which Alfonso Cuarón recently won the Best Director Oscar",
+                "answer": "ROMA",
+                "number": "5"
+            },
+            {
+                "clue": "Keep safe",
+                "answer": "GUARD",
+                "number": "6"
+            },
+            {
+                "clue": "One of five for a pentagon",
+                "answer": "SIDE",
+                "number": "8"
+            },
+            {
+                "clue": "\"If all ___ fails ...\"",
+                "answer": "ELSE",
+                "number": "9"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Unit of work in physics",
+                "answer": "ERG",
+                "number": "1"
+            },
+            {
+                "clue": "Cover in water",
+                "answer": "DOUSE",
+                "number": "2"
+            },
+            {
+                "clue": "Tech service whose logo is a red-and-white envelope",
+                "answer": "GMAIL",
+                "number": "3"
+            },
+            {
+                "clue": "Football statistic",
+                "answer": "YARDS",
+                "number": "4"
+            },
+            {
+                "clue": "Letter after cee",
+                "answer": "DEE",
+                "number": "7"
+            }
+        ]
+    }
+}

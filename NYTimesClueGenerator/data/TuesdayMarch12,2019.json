@@ -1,0 +1,151 @@
+{
+    "date": "Tuesday March 12, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "B"
+            ],
+            [
+                "2",
+                "A"
+            ],
+            [
+                "3",
+                "N"
+            ],
+            [
+                "4",
+                "K"
+            ],
+            [
+                "5",
+                "S"
+            ]
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "V"
+            ],
+            [
+                "I"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ]
+        ],
+        [
+            [
+                "7",
+                "C"
+            ],
+            [
+                "O"
+            ],
+            [
+                "N"
+            ],
+            [
+                "G"
+            ],
+            [
+                "O"
+            ]
+        ],
+        [
+            [
+                "8",
+                "H"
+            ],
+            [
+                "I"
+            ],
+            [
+                "J"
+            ],
+            [
+                "A"
+            ],
+            [
+                "B"
+            ]
+        ],
+        [
+            null,
+            [
+                "9",
+                "D"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Bailout recipients during the 2008 financial crisis",
+                "answer": "BANKS",
+                "number": "1"
+            },
+            {
+                "clue": "Bird-related",
+                "answer": "AVIAN",
+                "number": "6"
+            },
+            {
+                "clue": "Democratic Republic of the ___",
+                "answer": "CONGO",
+                "number": "7"
+            },
+            {
+                "clue": "Religious headscarf",
+                "answer": "HIJAB",
+                "number": "8"
+            },
+            {
+                "clue": "Brown who wrote \"The Da Vinci Code\"",
+                "answer": "DAN",
+                "number": "9"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Beethoven called him \"the immortal god of harmony\"",
+                "answer": "BACH",
+                "number": "1"
+            },
+            {
+                "clue": "Stay away from",
+                "answer": "AVOID",
+                "number": "2"
+            },
+            {
+                "clue": "Skilled assassin",
+                "answer": "NINJA",
+                "number": "3"
+            },
+            {
+                "clue": "Supreme Court justice appointed between Sotomayor and Gorsuch",
+                "answer": "KAGAN",
+                "number": "4"
+            },
+            {
+                "clue": "Condescending sort",
+                "answer": "SNOB",
+                "number": "5"
+            }
+        ]
+    }
+}

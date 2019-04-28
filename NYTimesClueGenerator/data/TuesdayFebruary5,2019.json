@@ -1,0 +1,146 @@
+{
+    "date": "Tuesday February 5, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "S"
+            ],
+            [
+                "2",
+                "A"
+            ],
+            [
+                "3",
+                "L"
+            ],
+            [
+                "4",
+                "T"
+            ]
+        ],
+        [
+            null,
+            [
+                "5",
+                "P"
+            ],
+            [
+                "L"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ]
+        ],
+        [
+            [
+                "6",
+                "F"
+            ],
+            [
+                "I"
+            ],
+            [
+                "L"
+            ],
+            [
+                "E"
+            ],
+            [
+                "D"
+            ]
+        ],
+        [
+            [
+                "7",
+                "A"
+            ],
+            [
+                "C"
+            ],
+            [
+                "I"
+            ],
+            [
+                "D"
+            ],
+            null
+        ],
+        [
+            [
+                "8",
+                "T"
+            ],
+            [
+                "E"
+            ],
+            [
+                "N"
+            ],
+            [
+                "S"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "What cheese and soy sauce add to a dish",
+                "answer": "SALT",
+                "number": "1"
+            },
+            {
+                "clue": "Emotional request",
+                "answer": "PLEA",
+                "number": "5"
+            },
+            {
+                "clue": "Sent in, as one's taxes",
+                "answer": "FILED",
+                "number": "6"
+            },
+            {
+                "clue": "What lemon and vinegar add to a dish",
+                "answer": "ACID",
+                "number": "7"
+            },
+            {
+                "clue": "The \"place\" for \"1\" in 2019",
+                "answer": "TENS",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "What chili and ginger add to a dish",
+                "answer": "SPICE",
+                "number": "1"
+            },
+            {
+                "clue": "Max bet for a poker player",
+                "answer": "ALLIN",
+                "number": "2"
+            },
+            {
+                "clue": "English city near Manchester",
+                "answer": "LEEDS",
+                "number": "3"
+            },
+            {
+                "clue": "Slightest bit",
+                "answer": "TAD",
+                "number": "4"
+            },
+            {
+                "clue": "What olive oil and butter add to a dish",
+                "answer": "FAT",
+                "number": "6"
+            }
+        ]
+    }
+}

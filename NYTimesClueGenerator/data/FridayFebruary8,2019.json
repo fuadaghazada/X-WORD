@@ -1,0 +1,152 @@
+{
+    "date": "Friday February 8, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "C"
+            ],
+            [
+                "2",
+                "H"
+            ],
+            [
+                "3",
+                "O"
+            ],
+            [
+                "4",
+                "W"
+            ]
+        ],
+        [
+            [
+                "5",
+                "P"
+            ],
+            [
+                "O"
+            ],
+            [
+                "O"
+            ],
+            [
+                "C"
+            ],
+            [
+                "H"
+            ]
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "U"
+            ],
+            [
+                "N"
+            ],
+            [
+                "T"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "7",
+                "D"
+            ],
+            [
+                "R"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "M"
+            ]
+        ],
+        [
+            [
+                "8",
+                "S"
+            ],
+            [
+                "T"
+            ],
+            [
+                "Y"
+            ],
+            [
+                "L"
+            ],
+            [
+                "E"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Tear into some food, with \"down\"",
+                "answer": "CHOW",
+                "number": "1"
+            },
+            {
+                "clue": "Doggy",
+                "answer": "POOCH",
+                "number": "5"
+            },
+            {
+                "clue": "Nickname for mom's sister",
+                "answer": "AUNTY",
+                "number": "6"
+            },
+            {
+                "clue": "Free movie starring yourself, essentially",
+                "answer": "DREAM",
+                "number": "7"
+            },
+            {
+                "clue": "Art Deco, for New York's Chrysler Building",
+                "answer": "STYLE",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Workspace for a king ... or a Sacramento King",
+                "answer": "COURT",
+                "number": "1"
+            },
+            {
+                "clue": "Sweet additive to a cup of tea",
+                "answer": "HONEY",
+                "number": "2"
+            },
+            {
+                "clue": "In base 8",
+                "answer": "OCTAL",
+                "number": "3"
+            },
+            {
+                "clue": "Self-pitying question",
+                "answer": "WHYME",
+                "number": "4"
+            },
+            {
+                "clue": "Adds exaggerated information to, as a résumé",
+                "answer": "PADS",
+                "number": "5"
+            }
+        ]
+    }
+}

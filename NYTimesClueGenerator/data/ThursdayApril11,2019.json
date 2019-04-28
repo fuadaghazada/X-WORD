@@ -1,0 +1,150 @@
+{
+    "date": "Thursday April 11, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "L"
+            ],
+            [
+                "2",
+                "U"
+            ],
+            [
+                "3",
+                "L"
+            ],
+            [
+                "4",
+                "L"
+            ]
+        ],
+        [
+            [
+                "5",
+                "R"
+            ],
+            [
+                "U"
+            ],
+            [
+                "P"
+            ],
+            [
+                "E"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "6",
+                "O"
+            ],
+            [
+                "C"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ]
+        ],
+        [
+            [
+                "7",
+                "L"
+            ],
+            [
+                "I"
+            ],
+            [
+                "N"
+            ],
+            [
+                "K"
+            ],
+            [
+                "S"
+            ]
+        ],
+        [
+            [
+                "8",
+                "E"
+            ],
+            [
+                "D"
+            ],
+            [
+                "D"
+            ],
+            [
+                "Y"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Break in the action",
+                "answer": "LULL",
+                "number": "1"
+            },
+            {
+                "clue": "Monetary unit of India and Pakistan",
+                "answer": "RUPEE",
+                "number": "5"
+            },
+            {
+                "clue": "Where a hurricane forms",
+                "answer": "OCEAN",
+                "number": "6"
+            },
+            {
+                "clue": "Blue underlined words in an email",
+                "answer": "LINKS",
+                "number": "7"
+            },
+            {
+                "clue": "Swirl of water",
+                "answer": "EDDY",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Thinking clearly",
+                "answer": "LUCID",
+                "number": "1"
+            },
+            {
+                "clue": "Flip over",
+                "answer": "UPEND",
+                "number": "2"
+            },
+            {
+                "clue": "The ___ Cauldron, pub in the Harry Potter books",
+                "answer": "LEAKY",
+                "number": "3"
+            },
+            {
+                "clue": "Camera's eye",
+                "answer": "LENS",
+                "number": "4"
+            },
+            {
+                "clue": "Something filled by a casting director",
+                "answer": "ROLE",
+                "number": "5"
+            }
+        ]
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "date": "Friday February 22, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "O"
+            ],
+            [
+                "2",
+                "M"
+            ],
+            [
+                "3",
+                "I"
+            ],
+            [
+                "4",
+                "T"
+            ]
+        ],
+        [
+            null,
+            [
+                "5",
+                "M"
+            ],
+            [
+                "A"
+            ],
+            [
+                "T"
+            ],
+            [
+                "H"
+            ]
+        ],
+        [
+            [
+                "6",
+                "N"
+            ],
+            [
+                "A"
+            ],
+            [
+                "N"
+            ],
+            [
+                "C"
+            ],
+            [
+                "Y"
+            ]
+        ],
+        [
+            [
+                "7",
+                "U"
+            ],
+            [
+                "H"
+            ],
+            [
+                "O"
+            ],
+            [
+                "H"
+            ],
+            null
+        ],
+        [
+            [
+                "8",
+                "M"
+            ],
+            [
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "Y"
+            ],
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Leave out",
+                "answer": "OMIT",
+                "number": "1"
+            },
+            {
+                "clue": "It has its pluses and minuses",
+                "answer": "MATH",
+                "number": "5"
+            },
+            {
+                "clue": "Speaker Pelosi",
+                "answer": "NANCY",
+                "number": "6"
+            },
+            {
+                "clue": "\"This doesn't look good!\"",
+                "answer": "UHOH",
+                "number": "7"
+            },
+            {
+                "clue": "Biblical virgin",
+                "answer": "MARY",
+                "number": "8"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Largest city in Nebraska",
+                "answer": "OMAHA",
+                "number": "1"
+            },
+            {
+                "clue": "House for an English lord",
+                "answer": "MANOR",
+                "number": "2"
+            },
+            {
+                "clue": "Like mosquito bites and woolen sweaters",
+                "answer": "ITCHY",
+                "number": "3"
+            },
+            {
+                "clue": "\"Love ___ neighbor ...\"",
+                "answer": "THY",
+                "number": "4"
+            },
+            {
+                "clue": "___ Lock (keyboard button)",
+                "answer": "NUM",
+                "number": "6"
+            }
+        ]
+    }
+}

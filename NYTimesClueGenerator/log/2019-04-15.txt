@@ -1,0 +1,14 @@
+2019-04-15 09:17:42.196239: Log file is generated!
+2019-04-15 09:17:44.230841: Browser is opened and request is sent to the URL
+2019-04-15 09:17:44.230873: Page is loading
+2019-04-15 09:17:50.934988: Page is loaded
+2019-04-15 09:17:51.188811: Reveal Puzzle is clicked!
+2019-04-15 09:17:51.896939: Browser is closed and content of the page is returned
+2019-04-15 09:17:51.951800: Across clues are parsed from the page content
+2019-04-15 09:17:51.952160: Down clues are parsed from the page content
+2019-04-15 09:17:51.952697: Puzzle cells are parsed from the page content
+2019-04-15 09:17:51.953755: Puzzle data is written to the JSON file
+2019-04-15 09:17:52.032453: Window is constructed
+2019-04-15 09:17:52.111655: Title is rendered
+2019-04-15 09:17:52.118396: Grids are rendered
+2019-04-15 09:17:52.127131: Clues are rendered

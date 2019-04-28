@@ -1,0 +1,147 @@
+{
+    "date": "Thursday February 14, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "F"
+            ],
+            [
+                "2",
+                "L"
+            ],
+            [
+                "3",
+                "A"
+            ],
+            [
+                "4",
+                "P"
+            ],
+            null
+        ],
+        [
+            [
+                "5",
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "S"
+            ],
+            [
+                "E"
+            ],
+            null
+        ],
+        [
+            [
+                "6",
+                "A"
+            ],
+            [
+                "R"
+            ],
+            [
+                "T"
+            ],
+            [
+                "S"
+            ],
+            [
+                "7",
+                "Y"
+            ]
+        ],
+        [
+            null,
+            [
+                "8",
+                "D"
+            ],
+            [
+                "A"
+            ],
+            [
+                "T"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            null,
+            [
+                "9",
+                "E"
+            ],
+            [
+                "R"
+            ],
+            [
+                "O"
+            ],
+            [
+                "S"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Envelope part that's sealed",
+                "answer": "FLAP",
+                "number": "1"
+            },
+            {
+                "clue": "Valentine's Day flower",
+                "answer": "ROSE",
+                "number": "5"
+            },
+            {
+                "clue": "Hipsterish",
+                "answer": "ARTSY",
+                "number": "6"
+            },
+            {
+                "clue": "Valentine's Day event",
+                "answer": "DATE",
+                "number": "8"
+            },
+            {
+                "clue": "Love god whose name is aptly an anagram of 5-Across",
+                "answer": "EROS",
+                "number": "9"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Lobster ___ diavolo (Italian dish)",
+                "answer": "FRA",
+                "number": "1"
+            },
+            {
+                "clue": "Grammy-winning singer whose real name is Ella Marija Lani Yelich-O'Connor",
+                "answer": "LORDE",
+                "number": "2"
+            },
+            {
+                "clue": "\"___ Is Born\" (2018 Best Picture nominee)",
+                "answer": "ASTAR",
+                "number": "3"
+            },
+            {
+                "clue": "Green sauce",
+                "answer": "PESTO",
+                "number": "4"
+            },
+            {
+                "clue": "Hoped-for answer to \"Will you be my Valentine?\"",
+                "answer": "YES",
+                "number": "7"
+            }
+        ]
+    }
+}

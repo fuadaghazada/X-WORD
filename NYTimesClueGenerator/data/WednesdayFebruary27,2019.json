@@ -1,0 +1,155 @@
+{
+    "date": "Wednesday February 27, 2019",
+    "puzzle": [
+        [
+            [
+                "1",
+                "G"
+            ],
+            [
+                "2",
+                "R"
+            ],
+            [
+                "3",
+                "A"
+            ],
+            [
+                "4",
+                "I"
+            ],
+            [
+                "5",
+                "N"
+            ]
+        ],
+        [
+            [
+                "6",
+                "L"
+            ],
+            [
+                "A"
+            ],
+            [
+                "S"
+            ],
+            [
+                "S"
+            ],
+            [
+                "I"
+            ]
+        ],
+        [
+            [
+                "7",
+                "A"
+            ],
+            [
+                "I"
+            ],
+            [
+                "P"
+            ],
+            [
+                "A"
+            ],
+            [
+                "C"
+            ]
+        ],
+        [
+            [
+                "8",
+                "S"
+            ],
+            [
+                "N"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "K"
+            ]
+        ],
+        [
+            [
+                "9",
+                "S"
+            ],
+            [
+                "Y"
+            ],
+            [
+                "N"
+            ],
+            [
+                "C"
+            ],
+            [
+                "S"
+            ]
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Wood pattern",
+                "answer": "GRAIN",
+                "number": "1"
+            },
+            {
+                "clue": "Mango ___ (yogurt drink)",
+                "answer": "LASSI",
+                "number": "6"
+            },
+            {
+                "clue": "Major lobbying grp. that Benjamin Netanyahu will address in late March",
+                "answer": "AIPAC",
+                "number": "7"
+            },
+            {
+                "clue": "Tiptoe around",
+                "answer": "SNEAK",
+                "number": "8"
+            },
+            {
+                "clue": "Matches up, as smartphone and laptop files",
+                "answer": "SYNCS",
+                "number": "9"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Something that's half-full for an optimist",
+                "answer": "GLASS",
+                "number": "1"
+            },
+            {
+                "clue": "Like much Seattle weather",
+                "answer": "RAINY",
+                "number": "2"
+            },
+            {
+                "clue": "Tree whose colonies make up the largest organisms on Earth",
+                "answer": "ASPEN",
+                "number": "3"
+            },
+            {
+                "clue": "Science fiction author Asimov",
+                "answer": "ISAAC",
+                "number": "4"
+            },
+            {
+                "clue": "Small shaving cuts",
+                "answer": "NICKS",
+                "number": "5"
+            }
+        ]
+    }
+}

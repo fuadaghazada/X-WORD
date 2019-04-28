@@ -1,0 +1,234 @@
+{
+    "date": "Saturday April 13, 2019",
+    "puzzle": [
+        [
+            null,
+            [
+                "1",
+                "P"
+            ],
+            [
+                "2",
+                "R"
+            ],
+            [
+                "3",
+                "I"
+            ],
+            [
+                "4",
+                "N"
+            ],
+            [
+                "5",
+                "T"
+            ],
+            null
+        ],
+        [
+            null,
+            [
+                "6",
+                "L"
+            ],
+            [
+                "O"
+            ],
+            [
+                "N"
+            ],
+            [
+                "E"
+            ],
+            [
+                "R"
+            ],
+            null
+        ],
+        [
+            [
+                "7",
+                "H"
+            ],
+            [
+                "A"
+            ],
+            [
+                "L"
+            ],
+            [
+                "F"
+            ],
+            [
+                "W"
+            ],
+            [
+                "A"
+            ],
+            [
+                "8",
+                "Y"
+            ]
+        ],
+        [
+            [
+                "9",
+                "O"
+            ],
+            [
+                "N"
+            ],
+            [
+                "L"
+            ],
+            [
+                "E"
+            ],
+            [
+                "A"
+            ],
+            [
+                "V"
+            ],
+            [
+                "E"
+            ]
+        ],
+        [
+            [
+                "10",
+                "G"
+            ],
+            [
+                "E"
+            ],
+            [
+                "O"
+            ],
+            [
+                "R"
+            ],
+            [
+                "G"
+            ],
+            [
+                "I"
+            ],
+            [
+                "A"
+            ]
+        ],
+        [
+            null,
+            [
+                "11",
+                "T"
+            ],
+            [
+                "U"
+            ],
+            [
+                "N"
+            ],
+            [
+                "E"
+            ],
+            [
+                "S"
+            ],
+            null
+        ],
+        [
+            null,
+            null,
+            [
+                "12",
+                "T"
+            ],
+            [
+                "O"
+            ],
+            [
+                "Y"
+            ],
+            null,
+            null
+        ]
+    ],
+    "clues": {
+        "across": [
+            {
+                "clue": "Counterpart of digital",
+                "answer": "PRINT",
+                "number": "1"
+            },
+            {
+                "clue": "Introverted person",
+                "answer": "LONER",
+                "number": "6"
+            },
+            {
+                "clue": "Through 50% of something",
+                "answer": "HALFWAY",
+                "number": "7"
+            },
+            {
+                "clue": "Away from work for a while, as after a birth",
+                "answer": "ONLEAVE",
+                "number": "9"
+            },
+            {
+                "clue": "State where the Masters takes place",
+                "answer": "GEORGIA",
+                "number": "10"
+            },
+            {
+                "clue": "Songs",
+                "answer": "TUNES",
+                "number": "11"
+            },
+            {
+                "clue": "Kid's plaything",
+                "answer": "TOY",
+                "number": "12"
+            }
+        ],
+        "down": [
+            {
+                "clue": "Mars or Mercury",
+                "answer": "PLANET",
+                "number": "1"
+            },
+            {
+                "clue": "Unveiling of a policy initiative",
+                "answer": "ROLLOUT",
+                "number": "2"
+            },
+            {
+                "clue": "Part of Dante's \"Divine Comedy\" set in hell",
+                "answer": "INFERNO",
+                "number": "3"
+            },
+            {
+                "clue": "Like healing crystals and energy fields",
+                "answer": "NEWAGEY",
+                "number": "4"
+            },
+            {
+                "clue": "___ Kalanick, now-ousted C.E.O. and co-founder of Uber",
+                "answer": "TRAVIS",
+                "number": "5"
+            },
+            {
+                "clue": "Big pig",
+                "answer": "HOG",
+                "number": "7"
+            },
+            {
+                "clue": "Vote in favor",
+                "answer": "YEA",
+                "number": "8"
+            }
+        ]
+    }
+}
