@@ -27,7 +27,13 @@ else:
     sys.exit()
 
 # NEW CLUES
-data['generated_clues'] = changePuzzle(data['clues'])
+print("Generating clues for puzzle of ", data['date'])
+data['generated_clues'] = changePuzzle(data['clues'], trace=True)
+
+print("\nClue generation for puzzle of " + data['date'] + " has been finished!")
+print('---------------------------------\n')
+
+
 
 # GUI with data
 gui = GUI(l_gen)

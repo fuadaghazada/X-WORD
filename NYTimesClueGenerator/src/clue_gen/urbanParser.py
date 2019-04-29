@@ -10,7 +10,11 @@ URL = "http://api.urbandictionary.com/v0/define?term="
 '''
 
 
-def getWordFromUrban(word):
+def getWordFromUrban(word, trace = False):
+    # Trace
+    if trace is True:
+        print("\t\tChecking Urban dictionary for the word: \"" + word + "\"")
+
     url = URL + word
 
     defsMixed = []
@@ -35,6 +39,10 @@ def getWordFromUrban(word):
 
     except Exception as e:
         pass
+
+    # Trace
+    if trace is True and len(defsMixed) == 0 and len(exMixed) == 0:
+        print("\t\tNo results from Urban dictionary for the word: \"" + word + "\"\n")
 
     word = {
         "word": word,

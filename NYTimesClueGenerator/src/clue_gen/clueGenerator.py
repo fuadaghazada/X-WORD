@@ -7,7 +7,7 @@ from clue_gen.clueChanger import changeClue
 '''
 
 
-def changePuzzle(clues):
+def changePuzzle(clues, trace = False):
 	across_clues = clues['across']
 	down_clues = clues['down']
 
@@ -18,19 +18,27 @@ def changePuzzle(clues):
 		word = ac_clue['answer']
 		num = ac_clue['number']
 
-		print("Searching clue for \"" + str(word) + "\"")
+		print("\n----------------------------------")
+		print("*** Searching clue for \"" + str(word) + "\" ***\n")
 		found = False
 		for i in range(4):
-			new_clue = changeClue(word, clue, i)
+			if i == 0: print("\t---Looking for definitions---\n")
+			elif i == 1: print("\t---Looking for synonyms---\n")
+			elif i == 2: print("\t---Looking for antonyms---\n")
+			elif i == 3: print("\t---Looking for examples---\n")
+
+			new_clue = changeClue(word, clue, i, trace)
 			if new_clue['new_clue'] is not None:
-				print("New clue for \"" + str(word) + "\" is found from " + str(new_clue['source']) + "\n")
+				print("\n*** New clue for \"" + str(word) + "\" is found from " + str(new_clue['source']) + " ***")
 				changed_across_clues.append({'clue': new_clue['new_clue'], 'answer': word, 'number': num})
+				print("----------------------------------\n")
 				found = True
 				break
 
 		# No new clue cannot be found
 		if found is False:
-			print("No new clue cannot be found for \"" + str(word) + "\"\n")
+			print("\n*** No new clue can be found for \"" + str(word) + "\" ***")
+			print("----------------------------------\n")
 			changed_across_clues.append(ac_clue)
 
 	print("\n----Generating down clues----\n")
@@ -40,19 +48,27 @@ def changePuzzle(clues):
 		word = down_clue['answer']
 		num = down_clue['number']
 
-		print("Searching clue for \"" + str(word) + "\"")
+		print("\n----------------------------------")
+		print("*** Searching clue for \"" + str(word) + "\" ***\n")
 		found = False
 		for i in range(4):
-			new_clue = changeClue(word, clue, i)
+			if i == 0: print("\t---Looking for definitions---\n")
+			elif i == 1: print("\t---Looking for synonyms---\n")
+			elif i == 2: print("\t---Looking for antonyms---\n")
+			elif i == 3: print("\t---Looking for examples---\n")
+
+			new_clue = changeClue(word, clue, i, trace)
 			if new_clue['new_clue'] is not None:
-				print("New clue for \"" + str(word) + "\" is found from " + str(new_clue['source']) + "\n")
+				print("\n*** New clue for \"" + str(word) + "\" is found from " + str(new_clue['source']) + " ***")
+				print("----------------------------------\n")
 				changed_down_clues.append({'clue': new_clue['new_clue'], 'answer': word, 'number': num})
 				found = True
 				break
 
 		# No new clue cannot be found
 		if found is False:
-			print("No new clue cannot be found for \"" + str(word) + "\"\n")
+			print("\n*** No new clue can be found for \"" + str(word) + "\" ***")
+			print("----------------------------------\n")
 			changed_down_clues.append(down_clue)
 
 	# Returning

@@ -9,7 +9,11 @@ LANGUAGE = 'en'
 URL = 'https://od-api.oxforddictionaries.com:443/api/v2/entries/' + LANGUAGE + '/'
 
 
-def getWordFromOxford(word):
+def getWordFromOxford(word, trace = False):
+    # Trace
+    if trace is True:
+        print("\t\tChecking Oxford dictionary for the word: \"" + word + "\"")
+
     url = URL + word.lower()
 
     synsMixed = []
@@ -40,6 +44,10 @@ def getWordFromOxford(word):
         antsMixed = []
         exMixed = []
         defsMixed = []
+
+    # Trace
+    if trace is True and len(defsMixed) == 0 and len(exMixed) == 0:
+        print("\t\tNo results from Oxford dictionary for the word: \"" + word + "\"\n")
 
     # Returning word
     word = {

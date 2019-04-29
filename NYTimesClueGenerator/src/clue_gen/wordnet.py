@@ -12,7 +12,11 @@ from nltk.corpus import wordnet
 '''
 
 
-def search_wordnet(word):
+def search_wordnet(word, trace = False):
+	# Trace
+	if trace is True:
+		print("\t\tChecking Wordnet for the word: \"" + word + "\"")
+
 	# Synonym set of the word)
 	synset = wordnet.synsets(str(word))
 
@@ -32,6 +36,10 @@ def search_wordnet(word):
 	synonyms = list(set(synonyms))
 	if len(synonyms) != 0 and word.lower() in synonyms:
 		synonyms.remove(word.lower())
+
+	# Trace
+	if trace is True and len(synonyms) == 0 and len(antonyms) == 0 and len(definitions) == 0 and len(examples) == 0:
+		print("\t\tNo results from Wordnet for the word: \"" + word + "\"\n")
 
 	return {
 		"word": word,

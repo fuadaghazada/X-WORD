@@ -10,7 +10,11 @@ merriam_app_key = "5a8472e0-77c3-4e2f-867d-b1fa6f4965b0"
 '''
 
 
-def getWordFromMerriam(word):
+def getWordFromMerriam(word, trace = False):
+    # Trace
+    if trace is True:
+        print("\t\tChecking Merriam dictionary for the word: \"" + word + "\"")
+
     url = "https://dictionaryapi.com/api/v3/references/thesaurus/json/"+word+"?key="+merriam_app_key
     synsMixed = []
     antsMixed = []
@@ -47,6 +51,10 @@ def getWordFromMerriam(word):
         antsMixed = []
         exMixed = []
         defsMixed = []
+
+    # Trace
+    if trace is True and len(synsMixed) == 0  and len(antsMixed) == 0 and len(defsMixed) == 0 and len(exMixed) == 0:
+        print("\t\tNo results from Merriam dictionary for the word: \"" + word + "\"\n")
 
     # Returning word
     word = {

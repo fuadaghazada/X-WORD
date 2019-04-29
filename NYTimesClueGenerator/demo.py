@@ -5,19 +5,36 @@ import datetime
 import tkinter as tk
 from tkinter import ttk
 
+print("\n\n--Available resources for clue generation:")
+print("\t-Wordnet")
+print("\t-Merriam Dictionary")
+print("\t-Oxford Dictionary")
+print("\t-Urban Dictionary")
+print("\t-Google Dictionary")
+print("\t-Wikipedia")
+print('---------------------------------\n\n')
+
 '''
     Getting files from 'data' directory
 '''
 def get_old_puzzles():
     files = os.listdir('data')
 
+    print('---------------------------------')
+    print('Old puzzles are loading...\n')
+
     names = {}
     for file in files:
-        name = re.findall('[A-Z][^A-Z]*', file)[1].replace('.json', '')
-        names[str(name)] = file
+        if file != '.DS_Store':
+            name = re.findall('[A-Z][^A-Z]*', file)[1].replace('.json', '')
+            print("Puzzle: " + name + " has been loaded.")
+            names[str(name)] = file
 
     # Sorting dates
     names = sorted(names.items(), key = lambda x: datetime.datetime.strptime(x[0], '%B%d,%Y'))
+
+    print('\nAll old puzzles have been loaded')
+    print('---------------------------------')
 
     return names
 
@@ -85,3 +102,5 @@ tk.Button(right_pane, text = "Display puzzle", command = lambda: display_old_puz
 # Loop
 root.resizable(False, False)
 root.mainloop()
+
+print("\n\nBye")

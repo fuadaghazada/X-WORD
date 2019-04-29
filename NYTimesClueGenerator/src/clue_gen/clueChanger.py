@@ -10,13 +10,15 @@ from clue_gen.oxford import getWordFromOxford
 from clue_gen.urbanParser import getWordFromUrban
 from clue_gen.didyoumean import did_you_mean
 from clue_gen.wikipediaParser import search_wikipedia
+from clue_gen.googleDictionary import getWordFromGoogleDictionary
 
 # All resources to be searched
 RESOURCES = [{'name': 'Wikipedia', 'func': search_wikipedia},
 			 {'name': 'Wordnet', 'func': search_wordnet},
 			 {'name': 'Merriam', 'func': getWordFromMerriam},
 			 {'name': 'Oxford', 'func': getWordFromOxford},
-			 {'name': 'Urban', 'func': getWordFromUrban}]
+			 {'name': 'Urban', 'func': getWordFromUrban},
+			 {'name': 'Google Dict', 'func': getWordFromGoogleDictionary}]
 
 # For finding the stem (root) of the word
 ps = PorterStemmer()
@@ -36,10 +38,10 @@ ps = PorterStemmer()
 '''
 
 
-def changeClue(word, clue, replace_policy):
+def changeClue(word, clue, replace_policy, trace = False):
 
 	# Checking the word in Google's 'Did You Mean'
-	did_you_mean_result = did_you_mean(word)
+	did_you_mean_result = did_you_mean(word, trace)
 	if did_you_mean_result is not None:
 		word = did_you_mean_result
 
@@ -63,7 +65,7 @@ def changeClue(word, clue, replace_policy):
 
 	# Checking the resources
 	for resource in RESOURCES:
-		results = resource['func'](word)[replaced]
+		results = resource['func'](word, trace)[replaced]
 
 		if results is not None and len(results) != 0:
 			# If the original clue returned as a new clue
@@ -82,7 +84,7 @@ def changeClue(word, clue, replace_policy):
 					if word.lower() not in result.lower():
 						continue
 					else:
-						new_clue = result.lower().replace(word.lower(), '...').strip()
+						new_clue = result.lower().replace(word.lower(), '___').strip()
 						is_found = True
 						break
 				else:

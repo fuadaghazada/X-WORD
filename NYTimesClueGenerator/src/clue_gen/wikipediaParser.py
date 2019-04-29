@@ -10,9 +10,13 @@ from nltk.tokenize import sent_tokenize
 '''
 
 
-def search_wikipedia(word):
+def search_wikipedia(word, trace = False):
 	# To ignore module warnings
 	warnings.filterwarnings('ignore')
+
+	# Trace
+	if trace is True:
+		print("\t\tChecking Wikipedia for the word: \"" + word + "\"")
 
 	# Example sentences
 	sentences = []
@@ -28,6 +32,10 @@ def search_wikipedia(word):
 
 	except Exception as e:
 		pass
+
+	# Trace
+	if trace is True and len(sentences) == 0:
+		print("\t\tNo results from Wikipedia for the word: \"" + word + "\"\n")
 
 	return {
 		"word": word,

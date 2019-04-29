@@ -10,8 +10,12 @@ from googlesearch import get_page
 '''
 
 
-def did_you_mean(query):
+def did_you_mean(query, trace = False):
     try:
+        # Trace
+        if trace is True:
+            print("\t\t\"Did You Mean (from Google) check\" for the query: \"" + query + "\"")
+
         # query = str(query).strip()
         html = get_page('http://www.google.com/search?q=' + query)
         soup = BeautifulSoup(html, 'html.parser')
@@ -21,8 +25,18 @@ def did_you_mean(query):
         result = answer.find('i') if answer is not None else None
         result = result.text if result is not None else None
 
+        # Trace
+        if trace is True and result is None:
+            print("\t\tNo correction from \"Did You Mean check\" for the query: \"" + query + "\"\n")
+        else:
+            print("\t\t\"" + query + "\" is replaced with \"" + result +"\"\n")
+
         return result
     except Exception as e:
-        raise
+        pass
+
+    # Trace
+    if trace is True:
+        print("\t\tPassed \"Did You Mean check\" for the query: \"" + query + "\"\n")
 
     return None

@@ -33,7 +33,7 @@ class GUI:
 
         # LOG
         self.log_gen.write_to_file('Title is rendered')
-        print('Title is rendered')
+        print('\tTitle is rendered')
 
 
     '''
@@ -80,7 +80,7 @@ class GUI:
 
         # LOG
         self.log_gen.write_to_file('Grids are rendered')
-        print('Grids are rendered')
+        print('\tGrids are rendered')
 
 
     '''
@@ -121,7 +121,7 @@ class GUI:
 
         # LOG
         self.log_gen.write_to_file('Clues are rendered')
-        print('Clues are rendered')
+        print('\tClues are rendered')
 
 
     '''
@@ -135,8 +135,9 @@ class GUI:
         # self.__root.geometry('1000x1000')
 
         # LOG
+        print("---Showing the puzzle----\n")
         self.log_gen.write_to_file('Window is constructed')
-        print('Window is constructed')
+        print('\tWindow is constructed')
 
         if data is None or data['date'] is None or data['puzzle'] is None or data['clues'] is None:
             print("ERROR: Data is not in proper format!")

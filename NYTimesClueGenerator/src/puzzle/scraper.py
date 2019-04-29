@@ -69,8 +69,8 @@ class PuzzleScraper:
             outfile.write(w_data)
 
         # LOG
-        self.log_gen.write_to_file('Puzzle data is written to the JSON file')
-        print('Puzzle data is written to the JSON file')
+        self.log_gen.write_to_file('\tPuzzle data is written to the JSON file')
+        print('\tPuzzle data is written to the JSON file\n\n')
 
         return data
 
@@ -86,10 +86,11 @@ class PuzzleScraper:
             driver = webdriver.Chrome()
 
             # LOG
-            self.log_gen.write_to_file('Browser is opened and request is sent to the URL')
-            self.log_gen.write_to_file('Page is loading')
-            print('Browser is opened and request is sent to the URL')
-            print('Page is loading')
+            print("---Getting today's puzzle---\n")
+            self.log_gen.write_to_file('\tBrowser is opened and request is sent to the URL')
+            self.log_gen.write_to_file('\tPage is loading')
+            print('\tBrowser is opened and request is sent to the URL')
+            print('\tPage is loading')
 
             driver.get(self.URL)
 
@@ -99,8 +100,8 @@ class PuzzleScraper:
                 WebDriverWait(driver, timeout).until(modal)
 
                 # LOG
-                self.log_gen.write_to_file('Page is loaded')
-                print('Page is loaded')
+                self.log_gen.write_to_file('\tPage is loaded')
+                print('\tPage is loaded')
 
                 # CLicking to start btn
                 start_btn = driver.find_element_by_css_selector(".buttons-modalButton--1REsR")
@@ -119,8 +120,8 @@ class PuzzleScraper:
                 puzzle_btn.click()
 
                 # LOG
-                self.log_gen.write_to_file('Reveal Puzzle is clicked!')
-                print('Reveal Puzzle is clicked!')
+                self.log_gen.write_to_file('\tReveal Puzzle is clicked!')
+                print('\tReveal Puzzle is clicked!')
 
             except TimeoutException:
                 print("TIMEOUT")
@@ -137,8 +138,8 @@ class PuzzleScraper:
             driver.close()
 
             # LOG
-            self.log_gen.write_to_file('Browser is closed and content of the page is returned')
-            print('Browser is closed and content of the page is returned')
+            self.log_gen.write_to_file('\tBrowser is closed and content of the page is returned')
+            print('\tBrowser is closed and content of the page is returned')
 
         except Exception as e:
             p_source = None
@@ -172,8 +173,8 @@ class PuzzleScraper:
             })
 
         # LOG
-        self.log_gen.write_to_file('Across clues are parsed from the page content')
-        print('Across clues are parsed from the page content')
+        self.log_gen.write_to_file('\tAcross clues are parsed from the page content')
+        print('\tAcross clues are parsed from the page content')
 
         # Down
         down = divs[1].find('ol').find_all('li')
@@ -185,8 +186,8 @@ class PuzzleScraper:
             })
 
         # LOG
-        self.log_gen.write_to_file('Down clues are parsed from the page content')
-        print('Down clues are parsed from the page content')
+        self.log_gen.write_to_file('\tDown clues are parsed from the page content')
+        print('\tDown clues are parsed from the page content')
 
         # Returning whole data
         return {
@@ -229,8 +230,8 @@ class PuzzleScraper:
             j += 1
 
         # LOG
-        self.log_gen.write_to_file('Puzzle cells are parsed from the page content')
-        print('Puzzle cells are parsed from the page content')
+        self.log_gen.write_to_file('\tPuzzle cells are parsed from the page content')
+        print('\tPuzzle cells are parsed from the page content')
 
         return puzzle_data
 
