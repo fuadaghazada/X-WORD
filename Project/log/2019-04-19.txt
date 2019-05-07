@@ -1,5 +1,0 @@
-2019-04-19 09:45:01.100908: Log file is generated!
-2019-04-19 09:45:01.183874: Window is constructed
-2019-04-19 09:45:01.262749: Title is rendered
-2019-04-19 09:45:01.270561: Grids are rendered
-2019-04-19 09:45:01.278288: Clues are rendered
