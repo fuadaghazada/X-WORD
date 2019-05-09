@@ -1,5 +1,5 @@
 # X-WORD
-### Artificial Intelligence course (CS 461) Term Project
+### Artificial Intelligence course (CS 461) Term Project and Homework
 ---
 
 ##### Guideline
