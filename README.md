@@ -1,5 +1,6 @@
 # X-WORD
 ### Artificial Intelligence course (CS 461) Term Project and Homework
+
 X-WORD is a clue generator for New York Times' daily mini crossword puzzles. X-WORD checks the solution of the puzzle and generates a new puzzle with same solutions but new clues.
 ---
 
